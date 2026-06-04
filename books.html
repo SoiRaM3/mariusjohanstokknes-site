@@ -2,112 +2,533 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Books | Marius Johan Stokknes</title>
-<meta name="description" content="Books by Marius Johan Stokknes, including the Chaos series and related works on perception, power, identity, reality, information, faith, and modern life.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Books | Marius Johan Stokknes | Chaos & You Series</title>
+<meta name="description" content="Explore the Chaos & You series by M. J. Stokknes: philosophical books on power, love, time, reality, identity, information, faith, entropy, civilization, and the systems shaping modern life.">
+<meta name="author" content="Marius Johan Stokknes">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://mariusjohanstokknes.com/books.html">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Books | M. J. Stokknes">
+<meta property="og:description" content="The Chaos & You series: a philosophical anatomy of modern life.">
+<meta property="og:url" content="https://mariusjohanstokknes.com/books.html">
+<meta property="og:site_name" content="Marius Johan Stokknes">
+
 <style>
-body { font-family: Arial, sans-serif; max-width: 850px; margin: 40px auto; line-height: 1.7; padding: 0 20px; }
-h1 { font-size: 32px; }
-h2 { margin-top: 36px; }
-a { color: black; }
-.book { margin-bottom: 28px; }
-.book strong { font-size: 18px; }
-.series-link { margin: 24px 0 32px; font-weight: bold; }
+:root {
+  --bg: #0d0d0d;
+  --surface: #151515;
+  --surface-soft: #1a1a1a;
+  --text: #f0ece4;
+  --muted: #b7afa2;
+  --faint: #817970;
+  --border: #302d29;
+  --accent: #a4251d;
+  --accent-bright: #d13b30;
+  --max-width: 1120px;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.72;
+}
+
+a { color: inherit; }
+
+.container {
+  width: min(calc(100% - 40px), var(--max-width));
+  margin: 0 auto;
+}
+
+.site-header {
+  border-bottom: 1px solid var(--border);
+  background: rgba(13, 13, 13, 0.97);
+}
+
+.nav {
+  min-height: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.brand {
+  color: var(--text);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 18px;
+}
+
+.nav-links a {
+  color: var(--muted);
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.nav-links a:hover { color: var(--text); }
+
+.hero {
+  padding: 88px 0 72px;
+  border-bottom: 1px solid var(--border);
+  background:
+    radial-gradient(circle at 85% 15%, rgba(164, 37, 29, 0.17), transparent 30%),
+    linear-gradient(180deg, #111111 0%, #0d0d0d 100%);
+}
+
+.eyebrow,
+.section-label {
+  margin: 0 0 12px;
+  color: var(--accent-bright);
+  font-family: "Courier New", Courier, monospace;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+h1, h2, h3 { margin-top: 0; }
+
+h1 {
+  margin-bottom: 16px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(54px, 8vw, 92px);
+  font-weight: normal;
+  letter-spacing: -0.055em;
+  line-height: 0.98;
+}
+
+h2 {
+  margin-bottom: 15px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(34px, 5vw, 54px);
+  font-weight: normal;
+  letter-spacing: -0.035em;
+  line-height: 1.06;
+}
+
+h3 {
+  margin-bottom: 8px;
+  font-size: 22px;
+  line-height: 1.22;
+}
+
+.subtitle {
+  max-width: 870px;
+  margin: 0;
+  color: var(--muted);
+  font-size: 19px;
+}
+
+.lead {
+  max-width: 890px;
+  margin: 26px 0 0;
+  color: var(--text);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(22px, 3vw, 30px);
+  line-height: 1.42;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 28px;
+}
+
+.button {
+  display: inline-block;
+  padding: 12px 16px;
+  border: 1px solid var(--accent);
+  background: var(--accent);
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+
+.button:hover {
+  border-color: var(--accent-bright);
+  background: var(--accent-bright);
+}
+
+.button.secondary {
+  border-color: var(--border);
+  background: transparent;
+  color: var(--text);
+}
+
+.button.secondary:hover {
+  border-color: var(--muted);
+  background: var(--surface);
+}
+
+.section {
+  padding: 70px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.copy {
+  max-width: 880px;
+  margin: 0;
+  color: var(--muted);
+  font-size: 18px;
+}
+
+.books-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px;
+  margin-top: 30px;
+}
+
+.book-card {
+  display: grid;
+  grid-template-columns: 170px minmax(0, 1fr);
+  overflow: hidden;
+  border: 1px solid var(--border);
+  background: var(--surface);
+}
+
+.cover-wrap {
+  min-height: 100%;
+  background: #090909;
+}
+
+.cover-wrap img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 258px;
+  object-fit: cover;
+}
+
+.book-content {
+  padding: 20px;
+}
+
+.book-content p {
+  margin: 0 0 12px;
+  color: var(--muted);
+  font-size: 15px;
+}
+
+.promise {
+  color: var(--accent-bright) !important;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 12px !important;
+  font-weight: bold;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.book-link {
+  display: inline-block;
+  margin-top: 4px;
+  color: var(--text);
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.book-link:hover { color: var(--accent-bright); }
+
+.future-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 28px;
+}
+
+.future-card {
+  padding: 22px;
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--accent);
+  background: var(--surface);
+}
+
+.future-card p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.related {
+  max-width: 880px;
+  margin-top: 26px;
+  padding: 23px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+}
+
+.related p {
+  margin: 0 0 10px;
+  color: var(--muted);
+}
+
+.footer {
+  padding: 30px 0 38px;
+  color: var(--faint);
+  font-size: 14px;
+}
+
+@media (max-width: 920px) {
+  .books-grid { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 620px) {
+  .nav {
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 17px 0;
+  }
+
+  .nav-links {
+    justify-content: flex-start;
+    gap: 14px;
+  }
+
+  .hero { padding: 66px 0 60px; }
+  .section { padding: 54px 0; }
+
+  .book-card {
+    grid-template-columns: 118px minmax(0, 1fr);
+  }
+
+  .cover-wrap img { min-height: 218px; }
+  .book-content { padding: 15px; }
+  .book-content p { font-size: 14px; }
+  .future-grid { grid-template-columns: 1fr; }
+}
 </style>
 </head>
+
 <body>
 
-<h1>Books</h1>
-<p><strong>Marius Johan Stokknes</strong></p>
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="/">M. J. Stokknes</a>
 
-<p>
-The books form a connected body of work examining perception, power, identity, information, faith, intimacy, time, and the systems people mistake for reality. Each volume approaches a different pressure point of modern life. Together, they form a philosophical dissection of the human being inside the machinery of the world it has built.
-</p>
+    <nav class="nav-links" aria-label="Primary navigation">
+      <a href="/">Home</a>
+      <a href="/books.html">Books</a>
+      <a href="/start-here.html">Start Here</a>
+      <a href="/thesis.html">Framework</a>
+      <a href="/quotes.html">Fragments</a>
+      <a href="https://www.amazon.com/dp/B0FT5139MZ" target="_blank" rel="noopener noreferrer">Amazon</a>
+    </nav>
+  </div>
+</header>
 
-<p class="series-link">
-<a href="https://www.amazon.com/dp/B0FT5139MZ" target="_blank" rel="noopener noreferrer">View the Chaos &amp; You series on Amazon →</a>
-</p>
+<main>
 
-<h2>The Chaos Series</h2>
+<section class="hero">
+  <div class="container">
+    <p class="eyebrow">The Chaos &amp; You Series</p>
+    <h1>Books</h1>
 
-<div class="book">
-<strong>Power, Chaos &amp; You</strong><br>
-<p>
-A confrontation with invisible power, internalized obedience, social fear, spectacle, algorithms, conformity, and the quiet structures shaping modern behavior. The book examines how control becomes strongest when it no longer looks like control, when people begin carrying the prison inside themselves and mistake participation for freedom.
-</p>
-</div>
+    <p class="subtitle">
+      A connected body of philosophical work by Marius Johan Stokknes, writing as M. J. Stokknes.
+    </p>
 
-<div class="book">
-<strong>Love, Chaos &amp; You</strong><br>
-<p>
-An examination of intimacy in an age of endless comparison, emotional performance, digital connection, projection, loneliness, and exhaustion. The book explores what happens when the market enters the heart, when affection becomes measurable, availability becomes labor, and people begin confusing being seen with being known.
-</p>
-</div>
+    <p class="lead">
+      Each book opens a different part of the machinery: power, love, time, reality, identity, information, faith, entropy, and civilization. None of them promise rescue. They make the pressure visible.
+    </p>
 
-<div class="book">
-<strong>Time, Chaos &amp; You</strong><br>
-<p>
-A philosophical study of urgency, memory, aging, productivity, rest, deadlines, and the illusion of ordered experience. The book looks at how time becomes more than measurement: a quiet authority shaping guilt, ambition, fatigue, and the strange modern belief that every moment must justify itself.
-</p>
-</div>
+    <div class="actions">
+      <a class="button" href="https://www.amazon.com/dp/B0FT5139MZ" target="_blank" rel="noopener noreferrer">View the series on Amazon</a>
+      <a class="button secondary" href="/start-here.html">Find your entry point</a>
+    </div>
+  </div>
+</section>
 
-<div class="book">
-<strong>Entropy, Chaos &amp; You</strong><br>
-<p>
-A descent into disorder, fragmentation, decay, collapse, and the slow erosion of coherence. The book approaches entropy not only as a physical principle, but as something lived through the body, the mind, relationships, institutions, and every structure people build in the hope that something might remain stable.
-</p>
-</div>
+<section class="section">
+  <div class="container">
+    <p class="section-label">Published Volumes</p>
+    <h2>Begin with the pressure you recognize.</h2>
 
-<div class="book">
-<strong>Reality, Chaos &amp; You</strong><br>
-<p>
-An examination of perception, interpretation, biology, trauma, addiction, cognitive limits, and the conditions people cannot simply think their way out of. The book confronts the uncomfortable fact that understanding does not always create leverage, that reality does not respond, and that the organism still has limits no matter how clearly the machinery is seen.
-</p>
-</div>
+    <p class="copy">
+      The books can be read independently. Together, they form a philosophical anatomy of the modern human condition: the human organism living inside systems it built, inherited, internalized, and frequently mistakes for reality itself.
+    </p>
 
-<div class="book">
-<strong>Identity, Chaos &amp; You</strong><br>
-<p>
-A psychological and philosophical autopsy of selfhood, masks, memory, trauma, algorithms, dopamine loops, social performance, neurodivergence, and internal conflict. The book rejects the idea of a stable, singular self and instead examines identity as a survival strategy: a negotiated system built from pressure, habit, fear, and the stories used to hold the whole structure together.
-</p>
-</div>
+    <div class="books-grid">
 
-<div class="book">
-<strong>Information, Chaos &amp; You</strong><br>
-<p>
-A study of information overload, media saturation, attention erosion, short-form content, misinformation, selective truth, language, context, algorithms, and the collapse of proportion. The book asks how humanity became more informed than ever while often becoming less capable of deciding what deserves belief, what deserves attention, and what any of it actually means.
-</p>
-</div>
+      <article class="book-card">
+        <div class="cover-wrap">
+          <img src="/assets/covers/power-chaos-and-you.webp" alt="Cover of Power, Chaos & You by M. J. Stokknes" loading="lazy">
+        </div>
+        <div class="book-content">
+          <h3>Power, Chaos &amp; You</h3>
+          <p>
+            A confrontation with invisible power, internalized obedience, social fear, spectacle, algorithms, conformity, and the quiet structures shaping modern behavior. The book examines how control becomes strongest when it no longer looks like control, when people begin carrying the prison inside themselves and mistake participation for freedom.
+          </p>
+          <p class="promise">This book will not save you.</p>
+          <a class="book-link" href="https://www.amazon.com/dp/B0FT5139MZ" target="_blank" rel="noopener noreferrer">Explore the series on Amazon →</a>
+        </div>
+      </article>
 
-<div class="book">
-<strong>Civilization, Chaos &amp; You</strong><br>
-<p>
-An examination of institutions, infrastructure, collective dependency, order, spectacle, memory, collapse, and the systems holding modern life together. The book approaches civilization not as the opposite of chaos, but as one of the ways chaos temporarily organizes itself before people begin mistaking the arrangement for permanence.
-</p>
-</div>
+      <article class="book-card">
+        <div class="cover-wrap">
+          <img src="/assets/covers/love-chaos-and-you.webp" alt="Cover of Love, Chaos & You by M. J. Stokknes" loading="lazy">
+        </div>
+        <div class="book-content">
+          <h3>Love, Chaos &amp; You</h3>
+          <p>
+            An examination of intimacy in an age of endless comparison, emotional performance, digital connection, projection, loneliness, and exhaustion. The book explores what happens when the market enters the heart, when affection becomes measurable, availability becomes labor, and people begin confusing being seen with being known.
+          </p>
+          <p class="promise">This book will not save your relationship.</p>
+          <a class="book-link" href="https://www.amazon.com/dp/B0FT5139MZ" target="_blank" rel="noopener noreferrer">Explore the series on Amazon →</a>
+        </div>
+      </article>
 
-<div class="book">
-<strong>Faith, Chaos &amp; You</strong><br>
-<p>
-A philosophical examination of belief after traditional certainty begins to weaken. The book explores ritual, surrender, meaning, technology, metrics, productivity, performance, and the persistent human need to feel witnessed by something larger than the self. It asks whether faith disappeared, or simply adapted to a world of screens, systems, and constant measurement.
-</p>
-</div>
+      <article class="book-card">
+        <div class="cover-wrap">
+          <img src="/assets/covers/time-chaos-and-you.webp" alt="Cover of Time, Chaos & You by M. J. Stokknes" loading="lazy">
+        </div>
+        <div class="book-content">
+          <h3>Time, Chaos &amp; You</h3>
+          <p>
+            A philosophical study of urgency, memory, aging, productivity, rest, deadlines, and the illusion of ordered experience. The book looks at how time becomes more than measurement: a quiet authority shaping guilt, ambition, fatigue, and the strange modern belief that every moment must justify itself.
+          </p>
+          <p class="promise">This book will not save your schedule.</p>
+          <a class="book-link" href="https://www.amazon.com/dp/B0FT5139MZ" target="_blank" rel="noopener noreferrer">Explore the series on Amazon →</a>
+        </div>
+      </article>
 
-<h2>Related Works</h2>
+      <article class="book-card">
+        <div class="cover-wrap">
+          <img src="/assets/covers/reality-chaos-and-you.webp" alt="Cover of Reality, Chaos & You by M. J. Stokknes" loading="lazy">
+        </div>
+        <div class="book-content">
+          <h3>Reality, Chaos &amp; You</h3>
+          <p>
+            An examination of perception, interpretation, biology, trauma, addiction, cognitive limits, and the conditions people cannot simply think their way out of. The book confronts the uncomfortable fact that understanding does not always create leverage, that reality does not respond, and that the organism still has limits no matter how clearly the machinery is seen.
+          </p>
+          <p class="promise">This book will not make your reality — or help you escape it.</p>
+          <a class="book-link" href="https://www.amazon.com/dp/B0FT5139MZ" target="_blank" rel="noopener noreferrer">Explore the series on Amazon →</a>
+        </div>
+      </article>
 
-<div class="book">
-<strong>The Lie That Someone Knows</strong><br>
-<p>
-A book about conspiracy, hidden order, certainty, exhaustion, and the human need to believe that someone, somewhere, understands what is happening. When reality becomes too complicated to tolerate, the idea of a secret plan may feel more comforting than the possibility that chaos is ordinary, distributed, and often unmanaged.
-</p>
-</div>
+      <article class="book-card">
+        <div class="cover-wrap">
+          <img src="/assets/covers/identity-chaos-and-you.webp" alt="Cover of Identity, Chaos & You by M. J. Stokknes" loading="lazy">
+        </div>
+        <div class="book-content">
+          <h3>Identity, Chaos &amp; You</h3>
+          <p>
+            A psychological and philosophical autopsy of selfhood, masks, memory, trauma, algorithms, dopamine loops, social performance, neurodivergence, and internal conflict. The book rejects the idea of a stable, singular self and examines identity as a survival strategy built from pressure, habit, fear, and the stories used to hold the structure together.
+          </p>
+          <p class="promise">This book will not tell you who you are.</p>
+          <a class="book-link" href="https://www.amazon.com/dp/B0FT5139MZ" target="_blank" rel="noopener noreferrer">Explore the series on Amazon →</a>
+        </div>
+      </article>
 
-<p class="series-link">
-<a href="https://www.amazon.com/dp/B0FT5139MZ" target="_blank" rel="noopener noreferrer">Explore the Chaos &amp; You series on Amazon →</a>
-</p>
+      <article class="book-card">
+        <div class="cover-wrap">
+          <img src="/assets/covers/information-chaos-and-you.webp" alt="Cover of Information, Chaos & You by M. J. Stokknes" loading="lazy">
+        </div>
+        <div class="book-content">
+          <h3>Information, Chaos &amp; You</h3>
+          <p>
+            A study of information overload, media saturation, attention erosion, short-form content, misinformation, selective truth, language, context, algorithms, and the collapse of proportion. The book asks how humanity became more informed than ever while becoming less capable of deciding what deserves belief, attention, or meaning.
+          </p>
+          <p class="promise">This book will not teach you which information is correct.</p>
+          <a class="book-link" href="https://www.amazon.com/dp/B0FT5139MZ" target="_blank" rel="noopener noreferrer">Explore the series on Amazon →</a>
+        </div>
+      </article>
 
-<p>
-<a href="/">← Back to main</a>
-</p>
+      <article class="book-card">
+        <div class="cover-wrap">
+          <img src="/assets/covers/faith-chaos-and-you.webp" alt="Cover of Faith, Chaos & You by M. J. Stokknes" loading="lazy">
+        </div>
+        <div class="book-content">
+          <h3>Faith, Chaos &amp; You</h3>
+          <p>
+            A philosophical examination of belief after traditional certainty begins to weaken. The book explores ritual, surrender, meaning, technology, metrics, productivity, performance, and the persistent human need to feel witnessed by something larger than the self. It asks whether faith disappeared, or simply adapted.
+          </p>
+          <p class="promise">This book will not save your faith.</p>
+          <a class="book-link" href="https://www.amazon.com/dp/B0FT5139MZ" target="_blank" rel="noopener noreferrer">Explore the series on Amazon →</a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <p class="section-label">Wider Series</p>
+    <h2>The machinery does not stop at the published shelf.</h2>
+
+    <p class="copy">
+      The wider Chaos Series extends the same framework into additional domains. These books continue the larger examination of systems, decay, collective dependency, and the temporary structures people mistake for permanence.
+    </p>
+
+    <div class="future-grid">
+      <article class="future-card">
+        <h3>Entropy, Chaos &amp; You</h3>
+        <p>
+          A descent into disorder, fragmentation, decay, collapse, and the slow erosion of coherence across bodies, minds, relationships, and institutions.
+        </p>
+      </article>
+
+      <article class="future-card">
+        <h3>Civilization, Chaos &amp; You</h3>
+        <p>
+          An examination of institutions, infrastructure, collective dependency, order, spectacle, memory, collapse, and the systems holding modern life together temporarily.
+        </p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <p class="section-label">Related Work</p>
+    <h2>The need for hidden order.</h2>
+
+    <div class="related">
+      <h3>The Lie That Someone Knows</h3>
+      <p>
+        A book about conspiracy, certainty, exhaustion, hidden order, and the human need to believe that someone, somewhere, understands what is happening.
+      </p>
+      <p>
+        When reality becomes too complicated to tolerate, the idea of a secret plan may feel more merciful than the possibility that chaos is ordinary, distributed, and often unmanaged.
+      </p>
+    </div>
+
+    <div class="actions">
+      <a class="button" href="/start-here.html">Find your entry point</a>
+      <a class="button secondary" href="/quotes.html">Read selected fragments</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    Official site of Marius Johan Stokknes, writing as M. J. Stokknes.
+  </div>
+</footer>
 
 </body>
 </html>
