@@ -2,71 +2,843 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>The Chaos Framework | Marius Johan Stokknes</title>
-<meta name="description" content="The Chaos Framework by Marius Johan Stokknes — an examination of perception, power, and systemic illusion.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>The Stokknes Chaos Framework | Marius Johan Stokknes</title>
+<meta name="description" content="The Stokknes Chaos Framework by Marius Johan Stokknes: a philosophical system examining how reality becomes mediated through perception, information, power, identity, and systems of reinforcement.">
+<meta name="author" content="Marius Johan Stokknes">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://mariusjohanstokknes.com/thesis.html">
+
+<meta property="og:type" content="article">
+<meta property="og:title" content="The Stokknes Chaos Framework | Marius Johan Stokknes">
+<meta property="og:description" content="A philosophical framework examining perception, information overload, identity, power, coherence, and systemic illusion.">
+<meta property="og:url" content="https://mariusjohanstokknes.com/thesis.html">
+<meta property="og:site_name" content="Marius Johan Stokknes">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="The Stokknes Chaos Framework">
+<meta name="twitter:description" content="Reality did not disappear. It fractured. You are inside it.">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "The Stokknes Chaos Framework",
+  "author": {
+    "@type": "Person",
+    "name": "Marius Johan Stokknes",
+    "alternateName": "M. J. Stokknes",
+    "url": "https://mariusjohanstokknes.com/"
+  },
+  "mainEntityOfPage": "https://mariusjohanstokknes.com/thesis.html",
+  "description": "A philosophical framework examining how reality becomes mediated through perception, information, identity, power, and external systems of reinforcement."
+}
+</script>
+
 <style>
-body { font-family: Arial, sans-serif; max-width: 800px; margin: 40px auto; line-height: 1.6; }
-h1 { font-size: 32px; }
-a { color: black; }
+:root {
+  --bg: #0d0d0d;
+  --surface: #151515;
+  --surface-soft: #1b1b1b;
+  --surface-deep: #101010;
+  --text: #f0ece4;
+  --muted: #b8b0a4;
+  --faint: #817970;
+  --border: #302d29;
+  --accent: #a4251d;
+  --accent-bright: #d13b30;
+  --max-width: 1040px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.72;
+}
+
+a {
+  color: inherit;
+}
+
+.container {
+  width: min(calc(100% - 40px), var(--max-width));
+  margin: 0 auto;
+}
+
+.site-header {
+  border-bottom: 1px solid var(--border);
+  background: rgba(13, 13, 13, 0.97);
+}
+
+.nav {
+  min-height: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.brand {
+  color: var(--text);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 18px;
+}
+
+.nav-links a {
+  color: var(--muted);
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  color: var(--text);
+}
+
+.hero {
+  padding: 88px 0 74px;
+  border-bottom: 1px solid var(--border);
+  background:
+    radial-gradient(circle at 84% 17%, rgba(164, 37, 29, 0.17), transparent 30%),
+    linear-gradient(180deg, #111111 0%, #0d0d0d 100%);
+}
+
+.eyebrow,
+.section-label {
+  margin: 0 0 12px;
+  color: var(--accent-bright);
+  font-family: "Courier New", Courier, monospace;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 0;
+}
+
+h1 {
+  max-width: 900px;
+  margin-bottom: 16px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(51px, 8vw, 91px);
+  font-weight: normal;
+  letter-spacing: -0.055em;
+  line-height: 0.98;
+}
+
+h2 {
+  margin-bottom: 16px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(34px, 5vw, 54px);
+  font-weight: normal;
+  letter-spacing: -0.035em;
+  line-height: 1.07;
+}
+
+h3 {
+  margin-bottom: 8px;
+  font-size: 20px;
+  line-height: 1.25;
+}
+
+.subtitle {
+  max-width: 820px;
+  margin: 0;
+  color: var(--muted);
+  font-size: 19px;
+}
+
+.lead {
+  max-width: 870px;
+  margin: 27px 0 0;
+  color: var(--text);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(22px, 3.5vw, 31px);
+  line-height: 1.4;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 28px;
+}
+
+.button {
+  display: inline-block;
+  padding: 12px 16px;
+  border: 1px solid var(--accent);
+  background: var(--accent);
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+
+.button:hover {
+  border-color: var(--accent-bright);
+  background: var(--accent-bright);
+}
+
+.button.secondary {
+  border-color: var(--border);
+  background: transparent;
+  color: var(--text);
+}
+
+.button.secondary:hover {
+  border-color: var(--muted);
+  background: var(--surface);
+}
+
+.section {
+  padding: 72px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.copy {
+  max-width: 880px;
+  margin: 0 0 18px;
+  color: var(--muted);
+  font-size: 18px;
+}
+
+.copy strong {
+  color: var(--text);
+}
+
+.quote {
+  max-width: 900px;
+  margin: 28px 0 0;
+  padding: 0 0 0 18px;
+  border-left: 3px solid var(--accent);
+  color: var(--text);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(23px, 3vw, 31px);
+  line-height: 1.42;
+}
+
+.pipeline {
+  margin: 26px 0 0;
+  padding: 20px 22px;
+  border: 1px solid var(--border);
+  background: var(--surface-deep);
+  color: var(--text);
+  font-family: "Courier New", Courier, monospace;
+  font-size: clamp(15px, 2.2vw, 19px);
+  line-height: 1.6;
+}
+
+.grid-3,
+.grid-2,
+.domain-grid {
+  display: grid;
+  gap: 16px;
+  margin-top: 28px;
+}
+
+.grid-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.grid-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.domain-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.card {
+  padding: 22px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+}
+
+.card span {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--accent-bright);
+  font-family: "Courier New", Courier, monospace;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.card p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.loop {
+  margin-top: 28px;
+  padding: 20px 22px;
+  border-left: 4px solid var(--accent);
+  background: var(--surface);
+}
+
+.loop p {
+  margin: 0 0 10px;
+  color: var(--muted);
+}
+
+.loop p:last-child {
+  margin-bottom: 0;
+}
+
+.loop strong {
+  color: var(--text);
+}
+
+.list {
+  max-width: 880px;
+  margin: 18px 0 0;
+  padding-left: 22px;
+  color: var(--muted);
+}
+
+.list li {
+  margin-bottom: 10px;
+}
+
+.list strong {
+  color: var(--text);
+}
+
+.document-links {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 26px;
+}
+
+.document-link {
+  display: block;
+  padding: 18px 20px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  text-decoration: none;
+}
+
+.document-link:hover {
+  border-color: var(--accent);
+  background: var(--surface-soft);
+}
+
+.document-link strong {
+  display: block;
+  margin-bottom: 4px;
+  color: var(--text);
+}
+
+.document-link span {
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.callout {
+  margin-top: 25px;
+  padding: 22px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--muted);
+}
+
+.callout strong {
+  color: var(--text);
+}
+
+.footer {
+  padding: 30px 0 38px;
+  color: var(--faint);
+  font-size: 14px;
+}
+
+@media (max-width: 760px) {
+  .nav {
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 17px 0;
+  }
+
+  .nav-links {
+    justify-content: flex-start;
+    gap: 14px;
+  }
+
+  .hero {
+    padding: 66px 0 60px;
+  }
+
+  .section {
+    padding: 56px 0;
+  }
+
+  .grid-3,
+  .grid-2,
+  .domain-grid,
+  .document-links {
+    grid-template-columns: 1fr;
+  }
+}
 </style>
 </head>
+
 <body>
 
-<h1>The Chaos Framework</h1>
-<p><strong>By Marius Johan Stokknes</strong></p>
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="/">M. J. Stokknes</a>
 
-<p>
-The work of Marius Johan Stokknes is based on a recurring structural pattern:
-individuals do not interact with reality directly.
-They interact with interpretations shaped by memory, emotion, and external systems of reinforcement.
-</p>
+    <nav class="nav-links" aria-label="Primary navigation">
+      <a href="/">Home</a>
+      <a href="/books.html">Books</a>
+      <a href="https://github.com/SoiRaM3/chaos-framework" target="_blank" rel="noopener noreferrer">GitHub Framework</a>
+      <a href="https://www.amazon.com/dp/B0FT5139MZ" target="_blank" rel="noopener noreferrer">Amazon</a>
+    </nav>
+  </div>
+</header>
 
-<p>
-Across domains — identity, time, power, and information — the same structure appears:
-</p>
+<main>
 
-<ul>
-<li>Perception is incomplete</li>
-<li>Interpretation fills the gaps</li>
-<li>Systems reinforce the interpretation</li>
-<li>The individual mistakes the result for reality</li>
-</ul>
+<section class="hero">
+  <div class="container">
+    <p class="eyebrow">Core Thesis · Marius Johan Stokknes</p>
+    <h1>The Stokknes Chaos Framework</h1>
 
-<p>
-This creates a closed loop in which:
-</p>
+    <p class="subtitle">
+      A philosophical framework for examining how reality becomes mediated, reinforced, fragmented, and defended under modern conditions.
+    </p>
 
-<ul>
-<li>Illusion stabilizes itself</li>
-<li>Contradictions are absorbed rather than resolved</li>
-<li>Understanding becomes performance rather than clarity</li>
-</ul>
+    <p class="lead">
+      Reality has not vanished. It has been filtered, framed, distributed, reinforced, and monetized until perception no longer behaves like a passive window. It behaves like pressure.
+    </p>
 
-<p>
-The Chaos series does not attempt to resolve this structure.
-It isolates it, traces it, and makes it visible.
-</p>
+    <div class="actions">
+      <a class="button" href="https://github.com/SoiRaM3/chaos-framework" target="_blank" rel="noopener noreferrer">Read the framework on GitHub</a>
+      <a class="button secondary" href="/books.html">Explore the Chaos Series</a>
+    </div>
+  </div>
+</section>
 
-<h2>Domains</h2>
+<section class="section" id="core-thesis">
+  <div class="container">
+    <p class="section-label">01 · Core Proposition</p>
+    <h2>Human beings do not interact with reality directly.</h2>
 
-<p>The framework operates across multiple domains:</p>
+    <p class="copy">
+      The framework begins with a recurring structural pattern: individuals do not encounter reality in a pure, untouched form. They encounter interpretations. Those interpretations are shaped by the body, memory, emotion, language, information, culture, institutional pressure, and systems of reinforcement.
+    </p>
 
-<ul>
-<li>Reality</li>
-<li>Time</li>
-<li>Identity</li>
-<li>Information</li>
-<li>Love</li>
-<li>Philosophy</li>
-<li>Entropy</li>
-<li>Civilization</li>
-<li>Faith</li>
-<li>Power</li>
-</ul>
+    <p class="copy">
+      This does not mean that reality is fictional. It means that the human relationship to reality is mediated. The world remains real. The interface is unstable.
+    </p>
 
-<p>
-<a href="/">← Back to main</a>
-</p>
+    <blockquote class="quote">
+      “Reality did not disappear. It fractured. You are inside it.”
+    </blockquote>
+  </div>
+</section>
+
+<section class="section" id="loop">
+  <div class="container">
+    <p class="section-label">02 · The Recursive Loop</p>
+    <h2>Interpretation fills the gap. Reinforcement stabilizes the interpretation.</h2>
+
+    <p class="copy">
+      Perception is incomplete. Interpretation fills what perception cannot hold. External systems then reward, repeat, amplify, or punish particular interpretations. Once reinforced often enough, the interpretation begins to feel less like interpretation and more like reality itself.
+    </p>
+
+    <div class="grid-3">
+      <div class="card">
+        <span>Perception</span>
+        <h3>The organism receives fragments.</h3>
+        <p>
+          Sensory input is partial, embodied, selective, and already shaped by memory, expectation, fatigue, and survival.
+        </p>
+      </div>
+
+      <div class="card">
+        <span>Interpretation</span>
+        <h3>The mind builds coherence.</h3>
+        <p>
+          Narrative, language, identity, and prior belief connect fragments into something stable enough to function within.
+        </p>
+      </div>
+
+      <div class="card">
+        <span>Reinforcement</span>
+        <h3>The environment rewards the pattern.</h3>
+        <p>
+          Institutions, markets, social approval, algorithms, incentives, and repetition strengthen particular constructions of reality.
+        </p>
+      </div>
+    </div>
+
+    <div class="loop">
+      <p><strong>The closed loop:</strong></p>
+      <p>Perception is incomplete.</p>
+      <p>Interpretation fills the gaps.</p>
+      <p>Systems reinforce the interpretation.</p>
+      <p>The individual mistakes the reinforced result for reality.</p>
+      <p>Contradictions are absorbed, reframed, or dismissed rather than resolved.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="realities">
+  <div class="container">
+    <p class="section-label">03 · The Three Realities</p>
+    <h2>One world. Three unstable interfaces.</h2>
+
+    <p class="copy">
+      The framework separates reality into three practical layers. These layers overlap, but they are not identical. Confusion begins when one layer is treated as if it completely explains the others.
+    </p>
+
+    <div class="grid-3">
+      <div class="card">
+        <span>Observable Reality</span>
+        <h3>What the body encounters.</h3>
+        <p>
+          Sensory, immediate, lived reality. It is direct in experience but never neutral: memory, emotion, fatigue, trauma, and expectation influence what becomes visible.
+        </p>
+      </div>
+
+      <div class="card">
+        <span>Measurable Reality</span>
+        <h3>What systems can quantify.</h3>
+        <p>
+          Data, metrics, models, institutional reporting, analytics, categories, and dashboards. Measurement can describe reality until measurement begins controlling it.
+        </p>
+      </div>
+
+      <div class="card">
+        <span>Constructed Reality</span>
+        <h3>What interpretation organizes.</h3>
+        <p>
+          Identity, ideology, narrative, belief, reputation, status, and social meaning. People frequently defend constructions more fiercely than observable conditions.
+        </p>
+      </div>
+    </div>
+
+    <blockquote class="quote">
+      “Metrics describe reality until they start controlling it.”
+    </blockquote>
+  </div>
+</section>
+
+<section class="section" id="collapse">
+  <div class="container">
+    <p class="section-label">04 · Collapse Mechanism</p>
+    <h2>Systems collapse faster than meaning can be rebuilt.</h2>
+
+    <p class="copy">
+      Chaos emerges when the observable, measurable, and constructed layers no longer align. The measurable system may continue reporting stability while lived reality deteriorates. A constructed narrative may remain dominant even after the conditions supporting it have changed. The human mind then searches for a simpler structure capable of restoring coherence quickly.
+    </p>
+
+    <div class="pipeline">
+      Information → Overload → Anxiety → Simplification → Certainty
+    </div>
+
+    <p class="copy" style="margin-top: 22px;">
+      Certainty under stable conditions can be useful. Certainty under instability often becomes distortion. When complexity exceeds available cognitive capacity, the nervous system does not necessarily seek accuracy. It seeks a structure it can still carry.
+    </p>
+
+    <div class="grid-2">
+      <div class="card">
+        <span>Mismatch</span>
+        <h3>Observable ≠ Measurable</h3>
+        <p>
+          The reported system says one thing. The body, household, workplace, relationship, or community experiences another.
+        </p>
+      </div>
+
+      <div class="card">
+        <span>Capture</span>
+        <h3>Constructed dominates perception.</h3>
+        <p>
+          The narrative becomes so strong that contradictory evidence is treated as interference rather than information.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="modern-cave">
+  <div class="container">
+    <p class="section-label">05 · The Modern Cave</p>
+    <h2>You are not chained. You are engaged.</h2>
+
+    <p class="copy">
+      Plato’s cave depended on visible captivity. The modern cave is recursive. The individual participates voluntarily, reacts continuously, and helps train the environment shaping future perception. The system does not always need belief. It needs reaction.
+    </p>
+
+    <div class="grid-2">
+      <div class="card">
+        <span>Old Power</span>
+        <h3>Command</h3>
+        <p>
+          Visible authority, direct instruction, restriction, punishment, censorship, and clearly identifiable gatekeepers.
+        </p>
+      </div>
+
+      <div class="card">
+        <span>Modern Power</span>
+        <h3>Environment</h3>
+        <p>
+          Visibility, attention, incentives, friction, repetition, ranking, recommendation, social approval, and exhaustion.
+        </p>
+      </div>
+    </div>
+
+    <blockquote class="quote">
+      “The system does not need to convince you. It needs to exhaust you.”
+    </blockquote>
+  </div>
+</section>
+
+<section class="section" id="identity">
+  <div class="container">
+    <p class="section-label">06 · Identity Fragmentation</p>
+    <h2>Modern identity is not discovered. It is assembled.</h2>
+
+    <p class="copy">
+      Identity becomes unstable when the human being must remain legible across too many systems at once. The self is pressured to be authentic, optimized, unique, searchable, employable, relatable, visible, coherent, and constantly available for interpretation.
+    </p>
+
+    <div class="grid-3">
+      <div class="card">
+        <span>Demand 01</span>
+        <h3>Be authentic.</h3>
+        <p>
+          But make authenticity recognizable, publishable, and easy for the surrounding system to classify.
+        </p>
+      </div>
+
+      <div class="card">
+        <span>Demand 02</span>
+        <h3>Be unique.</h3>
+        <p>
+          But remain searchable, socially legible, and compatible with existing categories of approval.
+        </p>
+      </div>
+
+      <div class="card">
+        <span>Demand 03</span>
+        <h3>Be human.</h3>
+        <p>
+          But continue functioning as though the organism has no limits, no need for silence, and no cost of adaptation.
+        </p>
+      </div>
+    </div>
+
+    <p class="copy" style="margin-top: 22px;">
+      The result is adaptive performance: a self constructed partly for survival, partly for belonging, and partly for systems measuring behavior from the outside.
+    </p>
+  </div>
+</section>
+
+<section class="section" id="coherence">
+  <div class="container">
+    <p class="section-label">07 · Coherence Hunger</p>
+    <h2>When reality destabilizes, the human mind searches for structure.</h2>
+
+    <p class="copy">
+      Human beings do not tolerate fragmentation indefinitely. When observable conditions, measurable systems, and constructed narratives stop aligning, the mind begins searching for a pattern capable of restoring coherence. This search can produce philosophy, faith, political conviction, ideological capture, or conspiracy.
+    </p>
+
+    <div class="grid-2">
+      <div class="card">
+        <span>Coherence as Construction</span>
+        <h3>Meaning becomes necessary.</h3>
+        <p>
+          The human being needs a story large enough to organize information, suffering, memory, identity, and uncertainty into something survivable.
+        </p>
+      </div>
+
+      <div class="card">
+        <span>Coherence as Capture</span>
+        <h3>Simplicity becomes dangerous.</h3>
+        <p>
+          A structure may feel true because it reduces pressure efficiently, not because it explains reality accurately.
+        </p>
+      </div>
+    </div>
+
+    <blockquote class="quote">
+      “Conspiracy is failed coherence under pressure.”
+    </blockquote>
+  </div>
+</section>
+
+<section class="section" id="domains">
+  <div class="container">
+    <p class="section-label">08 · Domains</p>
+    <h2>The same structure appears across different parts of life.</h2>
+
+    <p class="copy">
+      The Chaos Framework is not limited to one topic. The books apply the same structural question across multiple domains: where does the individual encounter pressure, how is the pressure interpreted, which systems reinforce the interpretation, and what happens when coherence collapses?
+    </p>
+
+    <div class="domain-grid">
+      <div class="card">
+        <span>Reality</span>
+        <h3>Perception and constraint</h3>
+        <p>What remains when interpretation collides with biology, material conditions, and the limits of the organism.</p>
+      </div>
+
+      <div class="card">
+        <span>Time</span>
+        <h3>Urgency and control</h3>
+        <p>How schedules, deadlines, productivity, memory, and acceleration reshape the lived experience of existence.</p>
+      </div>
+
+      <div class="card">
+        <span>Identity</span>
+        <h3>The unstable self</h3>
+        <p>How trauma, reinforcement, memory, social performance, and adaptive behavior construct a temporary individual.</p>
+      </div>
+
+      <div class="card">
+        <span>Information</span>
+        <h3>Signal and overload</h3>
+        <p>How abundance, speed, compression, selective truth, and attention capture destabilize the conditions required for understanding.</p>
+      </div>
+
+      <div class="card">
+        <span>Love</span>
+        <h3>Intimacy under pressure</h3>
+        <p>How attachment, projection, market logic, digital performance, emotional labor, and loneliness enter relationships.</p>
+      </div>
+
+      <div class="card">
+        <span>Power</span>
+        <h3>Environment instead of command</h3>
+        <p>How spectacle, conformity, incentives, visibility, and internalized discipline replace some older forms of overt control.</p>
+      </div>
+
+      <div class="card">
+        <span>Entropy</span>
+        <h3>Disorder and decay</h3>
+        <p>How coherence erodes across systems, institutions, bodies, narratives, and every structure mistaken for permanent.</p>
+      </div>
+
+      <div class="card">
+        <span>Civilization</span>
+        <h3>Collective dependency</h3>
+        <p>How institutions hold complexity together temporarily, then become invisible precisely because they appear stable.</p>
+      </div>
+
+      <div class="card">
+        <span>Faith</span>
+        <h3>Belief after certainty</h3>
+        <p>How ritual, meaning, surrender, technology, metrics, and the hunger to be witnessed survive even after traditional belief weakens.</p>
+      </div>
+
+      <div class="card">
+        <span>Philosophy</span>
+        <h3>The examination itself</h3>
+        <p>How a human being can remain conscious inside contradiction without replacing one absolute system with another.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="scope">
+  <div class="container">
+    <p class="section-label">09 · Scope and Limits</p>
+    <h2>This is a philosophical framework, not a claim of final authority.</h2>
+
+    <p class="copy">
+      The framework does not attempt to become another closed system demanding obedience. It does not claim that every problem has one cause. It does not reduce lived experience to algorithms alone. It does not pretend the observer can stand fully outside the systems being examined.
+    </p>
+
+    <ul class="list">
+      <li><strong>It isolates patterns</strong> without pretending that patterns explain every individual case.</li>
+      <li><strong>It traces pressure</strong> across domains without claiming that all domains are identical.</li>
+      <li><strong>It treats interpretation seriously</strong> without claiming that external reality is merely subjective.</li>
+      <li><strong>It examines power</strong> without assuming that every outcome requires a single hidden architect.</li>
+      <li><strong>It refuses easy rescue</strong> because the promise of total rescue often becomes another form of capture.</li>
+    </ul>
+
+    <div class="callout">
+      <strong>The task is not to eliminate chaos.</strong><br>
+      The task is to hold multiple realities simultaneously, avoid capture by single systems, and maintain perception under pressure.
+    </div>
+  </div>
+</section>
+
+<section class="section" id="documents">
+  <div class="container">
+    <p class="section-label">10 · Read Further</p>
+    <h2>Core framework documents.</h2>
+
+    <p class="copy">
+      The public repository contains the shorter structural documents behind the framework and selected material from the wider body of work.
+    </p>
+
+    <div class="document-links">
+      <a class="document-link" href="https://github.com/SoiRaM3/chaos-framework" target="_blank" rel="noopener noreferrer">
+        <strong>Repository Overview</strong>
+        <span>The Chaos Framework: Why Reality No Longer Holds</span>
+      </a>
+
+      <a class="document-link" href="https://github.com/SoiRaM3/chaos-framework/blob/main/FRAMEWORK.md" target="_blank" rel="noopener noreferrer">
+        <strong>Framework Overview</strong>
+        <span>Structural model, domains, pressure systems, and collapse mechanics</span>
+      </a>
+
+      <a class="document-link" href="https://github.com/SoiRaM3/chaos-framework/blob/main/information-collapse.md" target="_blank" rel="noopener noreferrer">
+        <strong>Information Collapse</strong>
+        <span>How overload destabilizes comprehension and rewards simplification</span>
+      </a>
+
+      <a class="document-link" href="https://github.com/SoiRaM3/chaos-framework/blob/main/QUOTES.md" target="_blank" rel="noopener noreferrer">
+        <strong>Selected Quotes</strong>
+        <span>Condensed principles and recurring lines from the framework</span>
+      </a>
+    </div>
+
+    <div class="actions">
+      <a class="button" href="/books.html">Explore the Chaos Series</a>
+      <a class="button secondary" href="/">Return to the main page</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    Official site of Marius Johan Stokknes, writing as M. J. Stokknes.
+  </div>
+</footer>
 
 </body>
 </html>
