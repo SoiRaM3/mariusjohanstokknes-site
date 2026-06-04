@@ -2,112 +2,636 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Books | Marius Johan Stokknes</title>
-<meta name="description" content="Books by Marius Johan Stokknes, including the Chaos series and related works on perception, power, identity, reality, information, faith, and modern life.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Marius Johan Stokknes | M. J. Stokknes | Author of the Chaos Series</title>
+<meta name="description" content="Official site of Marius Johan Stokknes, writing as M. J. Stokknes. Author of the Chaos Series and the Stokknes Chaos Framework: philosophical work on power, perception, identity, information, faith, entropy, civilization, and reality.">
+<meta name="author" content="Marius Johan Stokknes">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://mariusjohanstokknes.com/">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Marius Johan Stokknes | Author of the Chaos Series">
+<meta property="og:description" content="Philosophical work on power, perception, identity, information, faith, entropy, civilization, and the systems people mistake for reality.">
+<meta property="og:url" content="https://mariusjohanstokknes.com/">
+<meta property="og:site_name" content="Marius Johan Stokknes">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Marius Johan Stokknes | Author of the Chaos Series">
+<meta name="twitter:description" content="Author of the Chaos Series and the Stokknes Chaos Framework.">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Marius Johan Stokknes",
+  "alternateName": "M. J. Stokknes",
+  "url": "https://mariusjohanstokknes.com/",
+  "sameAs": [
+    "https://github.com/SoiRaM3",
+    "https://www.goodreads.com/author/show/52486157.Marius_Johan_Stokknes",
+    "https://www.amazon.com/dp/B0FT5139MZ"
+  ],
+  "description": "Author of the Chaos Series and the Stokknes Chaos Framework."
+}
+</script>
+
 <style>
-body { font-family: Arial, sans-serif; max-width: 850px; margin: 40px auto; line-height: 1.7; padding: 0 20px; }
-h1 { font-size: 32px; }
-h2 { margin-top: 36px; }
-a { color: black; }
-.book { margin-bottom: 28px; }
-.book strong { font-size: 18px; }
-.series-link { margin: 24px 0 32px; font-weight: bold; }
+:root {
+  --bg: #0d0d0d;
+  --surface: #151515;
+  --surface-soft: #1a1a1a;
+  --text: #f0ece4;
+  --muted: #b7afa2;
+  --faint: #7f776e;
+  --border: #302d29;
+  --accent: #a4251d;
+  --accent-bright: #d13b30;
+  --max-width: 1080px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.7;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  color: var(--text);
+}
+
+.container {
+  width: min(calc(100% - 40px), var(--max-width));
+  margin: 0 auto;
+}
+
+.site-header {
+  border-bottom: 1px solid var(--border);
+  background: rgba(13, 13, 13, 0.96);
+}
+
+.nav {
+  min-height: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.brand {
+  color: var(--text);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+}
+
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 18px;
+}
+
+.nav-links a {
+  color: var(--muted);
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  color: var(--text);
+}
+
+.hero {
+  padding: 92px 0 82px;
+  border-bottom: 1px solid var(--border);
+  background:
+    radial-gradient(circle at 85% 20%, rgba(164, 37, 29, 0.16), transparent 30%),
+    linear-gradient(180deg, #101010 0%, #0d0d0d 100%);
+}
+
+.eyebrow,
+.section-label {
+  margin: 0 0 12px;
+  color: var(--accent-bright);
+  font-family: "Courier New", Courier, monospace;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 0;
+}
+
+h1 {
+  max-width: 860px;
+  margin-bottom: 18px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(52px, 9vw, 96px);
+  font-weight: normal;
+  letter-spacing: -0.055em;
+  line-height: 0.98;
+}
+
+h2 {
+  margin-bottom: 16px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(34px, 5vw, 54px);
+  font-weight: normal;
+  letter-spacing: -0.035em;
+  line-height: 1.05;
+}
+
+h3 {
+  margin-bottom: 8px;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.subtitle {
+  max-width: 780px;
+  margin: 0 0 12px;
+  color: var(--text);
+  font-size: 22px;
+}
+
+.hero-copy {
+  max-width: 830px;
+  margin: 26px 0 0;
+  color: var(--muted);
+  font-size: 18px;
+}
+
+.hero-quote {
+  max-width: 760px;
+  margin: 34px 0 0;
+  padding-left: 18px;
+  border-left: 3px solid var(--accent);
+  color: var(--text);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 23px;
+  line-height: 1.45;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 32px;
+}
+
+.button {
+  display: inline-block;
+  padding: 12px 17px;
+  border: 1px solid var(--accent);
+  background: var(--accent);
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+
+.button:hover {
+  border-color: var(--accent-bright);
+  background: var(--accent-bright);
+  color: #ffffff;
+}
+
+.button.secondary {
+  border-color: var(--border);
+  background: transparent;
+  color: var(--text);
+}
+
+.button.secondary:hover {
+  border-color: var(--muted);
+  background: var(--surface);
+}
+
+.section {
+  padding: 74px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.section-copy {
+  max-width: 850px;
+  margin: 0;
+  color: var(--muted);
+  font-size: 18px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 30px;
+}
+
+.card {
+  padding: 23px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+}
+
+.card p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.card .small-link {
+  display: inline-block;
+  margin-top: 15px;
+  color: var(--text);
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.card .small-link:hover {
+  color: var(--accent-bright);
+}
+
+.series-note {
+  max-width: 910px;
+  margin-top: 24px;
+  padding: 22px 23px;
+  border-left: 4px solid var(--accent);
+  background: var(--surface);
+  color: var(--muted);
+}
+
+.series-note strong {
+  color: var(--text);
+}
+
+.framework-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 28px;
+}
+
+.framework-step {
+  padding: 22px;
+  border: 1px solid var(--border);
+  background: var(--surface-soft);
+}
+
+.framework-step span {
+  display: block;
+  margin-bottom: 9px;
+  color: var(--accent-bright);
+  font-family: "Courier New", Courier, monospace;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+
+.framework-step p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.pipeline {
+  margin-top: 24px;
+  padding: 18px 20px;
+  border: 1px solid var(--border);
+  background: #101010;
+  color: var(--text);
+  font-family: "Courier New", Courier, monospace;
+  font-size: clamp(14px, 2.3vw, 18px);
+  line-height: 1.6;
+}
+
+.documents {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 28px;
+}
+
+.document-link {
+  display: block;
+  padding: 18px 20px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  text-decoration: none;
+}
+
+.document-link:hover {
+  border-color: var(--accent);
+  background: var(--surface-soft);
+}
+
+.document-link strong {
+  display: block;
+  margin-bottom: 4px;
+  color: var(--text);
+}
+
+.document-link span {
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.pullquote {
+  max-width: 900px;
+  margin: 0;
+  color: var(--text);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(29px, 5vw, 49px);
+  letter-spacing: -0.03em;
+  line-height: 1.15;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.links a {
+  display: inline-block;
+  padding: 11px 14px;
+  border: 1px solid var(--border);
+  color: var(--text);
+  text-decoration: none;
+}
+
+.links a:hover {
+  border-color: var(--accent);
+  background: var(--surface);
+}
+
+footer {
+  padding: 30px 0 38px;
+  color: var(--faint);
+  font-size: 14px;
+}
+
+@media (max-width: 760px) {
+  .nav {
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 17px 0;
+  }
+
+  .nav-links {
+    justify-content: flex-start;
+    gap: 14px;
+  }
+
+  .hero {
+    padding: 68px 0 62px;
+  }
+
+  .section {
+    padding: 58px 0;
+  }
+
+  .cards,
+  .framework-grid,
+  .documents {
+    grid-template-columns: 1fr;
+  }
+}
 </style>
 </head>
+
 <body>
 
-<h1>Books</h1>
-<p><strong>Marius Johan Stokknes</strong></p>
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="/">M. J. Stokknes</a>
 
-<p>
-The books form a connected body of work examining perception, power, identity, information, faith, intimacy, time, and the systems people mistake for reality. Each volume approaches a different pressure point of modern life. Together, they form a philosophical dissection of the human being inside the machinery of the world it has built.
-</p>
+    <nav class="nav-links" aria-label="Primary navigation">
+      <a href="/books.html">Books</a>
+      <a href="/thesis.html">Framework</a>
+      <a href="https://github.com/SoiRaM3/chaos-framework" target="_blank" rel="noopener noreferrer">Documents</a>
+      <a href="https://www.amazon.com/dp/B0FT5139MZ" target="_blank" rel="noopener noreferrer">Amazon</a>
+    </nav>
+  </div>
+</header>
 
-<p class="series-link">
-<a href="https://www.amazon.com/dp/B0FT5139MZ" target="_blank" rel="noopener noreferrer">View the Chaos &amp; You series on Amazon →</a>
-</p>
+<main>
 
-<h2>The Chaos Series</h2>
+<section class="hero">
+  <div class="container">
+    <p class="eyebrow">Author · Philosophical Work · Systems of Meaning</p>
 
-<div class="book">
-<strong>Power, Chaos &amp; You</strong><br>
-<p>
-A confrontation with invisible power, internalized obedience, social fear, spectacle, algorithms, conformity, and the quiet structures shaping modern behavior. The book examines how control becomes strongest when it no longer looks like control, when people begin carrying the prison inside themselves and mistake participation for freedom.
-</p>
-</div>
+    <h1>Marius Johan Stokknes</h1>
 
-<div class="book">
-<strong>Love, Chaos &amp; You</strong><br>
-<p>
-An examination of intimacy in an age of endless comparison, emotional performance, digital connection, projection, loneliness, and exhaustion. The book explores what happens when the market enters the heart, when affection becomes measurable, availability becomes labor, and people begin confusing being seen with being known.
-</p>
-</div>
+    <p class="subtitle">
+      Writing as <strong>M. J. Stokknes</strong>
+    </p>
 
-<div class="book">
-<strong>Time, Chaos &amp; You</strong><br>
-<p>
-A philosophical study of urgency, memory, aging, productivity, rest, deadlines, and the illusion of ordered experience. The book looks at how time becomes more than measurement: a quiet authority shaping guilt, ambition, fatigue, and the strange modern belief that every moment must justify itself.
-</p>
-</div>
+    <p class="subtitle">
+      Author of the <strong>Chaos Series</strong> and the <strong>Stokknes Chaos Framework</strong>.
+    </p>
 
-<div class="book">
-<strong>Entropy, Chaos &amp; You</strong><br>
-<p>
-A descent into disorder, fragmentation, decay, collapse, and the slow erosion of coherence. The book approaches entropy not only as a physical principle, but as something lived through the body, the mind, relationships, institutions, and every structure people build in the hope that something might remain stable.
-</p>
-</div>
+    <p class="hero-copy">
+      Writing on power, perception, identity, information, faith, entropy, civilization, and the systems people mistake for reality.
+    </p>
 
-<div class="book">
-<strong>Reality, Chaos &amp; You</strong><br>
-<p>
-An examination of perception, interpretation, biology, trauma, addiction, cognitive limits, and the conditions people cannot simply think their way out of. The book confronts the uncomfortable fact that understanding does not always create leverage, that reality does not respond, and that the organism still has limits no matter how clearly the machinery is seen.
-</p>
-</div>
+    <p class="hero-copy">
+      The work examines how human beings construct reality through incomplete information, emotional bias, institutional pressure, and systems of reinforcement.
+    </p>
 
-<div class="book">
-<strong>Identity, Chaos &amp; You</strong><br>
-<p>
-A psychological and philosophical autopsy of selfhood, masks, memory, trauma, algorithms, dopamine loops, social performance, neurodivergence, and internal conflict. The book rejects the idea of a stable, singular self and instead examines identity as a survival strategy: a negotiated system built from pressure, habit, fear, and the stories used to hold the whole structure together.
-</p>
-</div>
+    <p class="hero-quote">
+      This work does not attempt to comfort what it exposes.
+    </p>
 
-<div class="book">
-<strong>Information, Chaos &amp; You</strong><br>
-<p>
-A study of information overload, media saturation, attention erosion, short-form content, misinformation, selective truth, language, context, algorithms, and the collapse of proportion. The book asks how humanity became more informed than ever while often becoming less capable of deciding what deserves belief, what deserves attention, and what any of it actually means.
-</p>
-</div>
+    <div class="actions">
+      <a class="button" href="/books.html">Explore the books</a>
+      <a class="button secondary" href="https://www.amazon.com/dp/B0FT5139MZ" target="_blank" rel="noopener noreferrer">View the series on Amazon</a>
+    </div>
+  </div>
+</section>
 
-<div class="book">
-<strong>Civilization, Chaos &amp; You</strong><br>
-<p>
-An examination of institutions, infrastructure, collective dependency, order, spectacle, memory, collapse, and the systems holding modern life together. The book approaches civilization not as the opposite of chaos, but as one of the ways chaos temporarily organizes itself before people begin mistaking the arrangement for permanence.
-</p>
-</div>
+<section class="section" id="series">
+  <div class="container">
+    <p class="section-label">The Chaos Series</p>
+    <h2>A philosophical anatomy of modern life.</h2>
 
-<div class="book">
-<strong>Faith, Chaos &amp; You</strong><br>
-<p>
-A philosophical examination of belief after traditional certainty begins to weaken. The book explores ritual, surrender, meaning, technology, metrics, productivity, performance, and the persistent human need to feel witnessed by something larger than the self. It asks whether faith disappeared, or simply adapted to a world of screens, systems, and constant measurement.
-</p>
-</div>
+    <p class="section-copy">
+      The Chaos Series is a connected body of philosophical work examining the unstable relationship between perception, meaning, power, identity, and systemic illusion. Each volume isolates a different pressure point. Together, they form a broader study of the human being inside systems that are increasingly difficult to see clearly from within.
+    </p>
 
-<h2>Related Works</h2>
+    <div class="cards">
+      <article class="card">
+        <h3>Power, Chaos &amp; You</h3>
+        <p>
+          On invisible power, internalized obedience, algorithms, conformity, spectacle, and the quiet structures shaping modern behavior.
+        </p>
+      </article>
 
-<div class="book">
-<strong>The Lie That Someone Knows</strong><br>
-<p>
-A book about conspiracy, hidden order, certainty, exhaustion, and the human need to believe that someone, somewhere, understands what is happening. When reality becomes too complicated to tolerate, the idea of a secret plan may feel more comforting than the possibility that chaos is ordinary, distributed, and often unmanaged.
-</p>
-</div>
+      <article class="card">
+        <h3>Identity, Chaos &amp; You</h3>
+        <p>
+          On selfhood, trauma, masks, memory, social performance, dopamine loops, and the unstable machinery used to construct the individual.
+        </p>
+      </article>
 
-<p class="series-link">
-<a href="https://www.amazon.com/dp/B0FT5139MZ" target="_blank" rel="noopener noreferrer">Explore the Chaos &amp; You series on Amazon →</a>
-</p>
+      <article class="card">
+        <h3>Faith, Chaos &amp; You</h3>
+        <p>
+          On belief after certainty weakens: ritual, surrender, metrics, productivity, performance, meaning, and the gods modern systems manufacture.
+        </p>
+      </article>
 
-<p>
-<a href="/">← Back to main</a>
-</p>
+      <article class="card">
+        <h3>Information, Chaos &amp; You</h3>
+        <p>
+          On signal, noise, overload, attention erosion, selective truth, media saturation, and the strange instability created by access to everything.
+        </p>
+      </article>
+    </div>
+
+    <div class="series-note">
+      <strong>The series extends across multiple domains:</strong>
+      power, love, time, entropy, reality, identity, information, civilization, and faith. Each book can be read independently. Together, they form the wider system.
+    </div>
+
+    <div class="actions">
+      <a class="button" href="/books.html">View all books</a>
+      <a class="button secondary" href="https://www.amazon.com/dp/B0FT5139MZ" target="_blank" rel="noopener noreferrer">Browse the Amazon series page</a>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="framework">
+  <div class="container">
+    <p class="section-label">The Stokknes Chaos Framework</p>
+    <h2>Reality is not gone. It is mediated.</h2>
+
+    <p class="section-copy">
+      The framework begins with a simple structural problem: individuals do not interact with reality directly. They interact with interpretations shaped by memory, emotion, information, and external systems of reinforcement. Under modern conditions, these systems can collapse faster than meaning can stabilize.
+    </p>
+
+    <div class="framework-grid">
+      <div class="framework-step">
+        <span>01 · Observable Reality</span>
+        <p>
+          Sensory input, lived experience, and the immediate world as encountered through a biased human organism.
+        </p>
+      </div>
+
+      <div class="framework-step">
+        <span>02 · Measurable Reality</span>
+        <p>
+          Data, metrics, institutional reporting, and the systems used to quantify what appears to be happening.
+        </p>
+      </div>
+
+      <div class="framework-step">
+        <span>03 · Constructed Reality</span>
+        <p>
+          Narrative, identity, ideology, and belief: the interpretive structures people defend once reality becomes unstable.
+        </p>
+      </div>
+    </div>
+
+    <div class="pipeline">
+      Information → Overload → Anxiety → Simplification → Certainty
+    </div>
+
+    <p class="series-note">
+      <strong>The framework does not attempt to eliminate chaos.</strong>
+      It isolates fragmentation, traces its pressure across domains, and asks how coherence can be rebuilt consciously without surrendering perception to a single system.
+    </p>
+
+    <div class="actions">
+      <a class="button" href="/thesis.html">Read the core thesis</a>
+      <a class="button secondary" href="https://github.com/SoiRaM3/chaos-framework" target="_blank" rel="noopener noreferrer">View the framework on GitHub</a>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="documents">
+  <div class="container">
+    <p class="section-label">Selected Documents</p>
+    <h2>Framework documents and working texts.</h2>
+
+    <p class="section-copy">
+      The public documents isolate the core structural ideas behind the books: mediation, overload, fragmentation, adaptive identity, modern power, and the search for coherence under pressure.
+    </p>
+
+    <div class="documents">
+      <a class="document-link" href="https://github.com/SoiRaM3/chaos-framework" target="_blank" rel="noopener noreferrer">
+        <strong>The Chaos Framework</strong>
+        <span>Core thesis and repository overview</span>
+      </a>
+
+      <a class="document-link" href="https://github.com/SoiRaM3/chaos-framework/blob/main/information-collapse.md" target="_blank" rel="noopener noreferrer">
+        <strong>Information Collapse</strong>
+        <span>Why abundance of information destabilizes the human mind</span>
+      </a>
+
+      <a class="document-link" href="https://github.com/SoiRaM3/chaos-framework/blob/main/FRAMEWORK.md" target="_blank" rel="noopener noreferrer">
+        <strong>Structural Overview</strong>
+        <span>The framework, domains, pressure systems, and failure modes</span>
+      </a>
+
+      <a class="document-link" href="https://github.com/SoiRaM3/chaos-framework/blob/main/QUOTES.md" target="_blank" rel="noopener noreferrer">
+        <strong>Selected Quotes</strong>
+        <span>Condensed principles from the Chaos Framework</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <p class="section-label">Selected Principle</p>
+    <blockquote class="pullquote">
+      “The system does not need to convince you. It needs to exhaust you.”
+    </blockquote>
+  </div>
+</section>
+
+<section class="section" id="links">
+  <div class="container">
+    <p class="section-label">Author Links</p>
+    <h2>Books, documents, and public profiles.</h2>
+
+    <div class="links">
+      <a href="https://www.amazon.com/dp/B0FT5139MZ" target="_blank" rel="noopener noreferrer">Chaos Series on Amazon</a>
+      <a href="https://github.com/SoiRaM3" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="https://github.com/SoiRaM3/chaos-framework" target="_blank" rel="noopener noreferrer">Chaos Framework Repository</a>
+      <a href="https://www.goodreads.com/author/show/52486157.Marius_Johan_Stokknes" target="_blank" rel="noopener noreferrer">Goodreads Author Page</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="container">
+    Official site of Marius Johan Stokknes, writing as M. J. Stokknes.
+  </div>
+</footer>
 
 </body>
 </html>
