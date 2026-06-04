@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Where to Begin | M. J. Stokknes | Chaos & You Series</title>
+<meta name="description" content="Find your entry point into the Chaos & You series by M. J. Stokknes. Begin with the pressure you recognize most clearly.">
+<meta name="author" content="Marius Johan Stokknes">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://mariusjohanstokknes.com/start-here.html">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Where to Begin | Chaos & You Series">
+<meta property="og:description" content="Begin with the pressure you recognize most clearly.">
+<meta property="og:url" content="https://mariusjohanstokknes.com/start-here.html">
+<meta property="og:site_name" content="Marius Johan Stokknes">
+
+<style>
+:root {
+  --bg: #0d0d0d;
+  --surface: #151515;
+  --surface-soft: #1a1a1a;
+  --text: #f0ece4;
+  --muted: #b7afa2;
+  --faint: #817970;
+  --border: #302d29;
+  --accent: #a4251d;
+  --accent-bright: #d13b30;
+  --max-width: 1060px;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.72;
+}
+
+a { color: inherit; }
+
+.container {
+  width: min(calc(100% - 40px), var(--max-width));
+  margin: 0 auto;
+}
+
+.site-header {
+  border-bottom: 1px solid var(--border);
+  background: rgba(13,13,13,0.97);
+}
+
+.nav {
+  min-height: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.brand {
+  color: var(--text);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 18px;
+}
+
+.nav-links a {
+  color: var(--muted);
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.nav-links a:hover { color: var(--text); }
+
+.hero {
+  padding: 88px 0 72px;
+  border-bottom: 1px solid var(--border);
+  background:
+    radial-gradient(circle at 83% 15%, rgba(164,37,29,0.17), transparent 30%),
+    linear-gradient(180deg, #111111 0%, #0d0d0d 100%);
+}
+
+.eyebrow,
+.section-label {
+  margin: 0 0 12px;
+  color: var(--accent-bright);
+  font-family: "Courier New", Courier, monospace;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+h1, h2, h3 { margin-top: 0; }
+
+h1 {
+  max-width: 890px;
+  margin-bottom: 15px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(52px, 8vw, 92px);
+  font-weight: normal;
+  letter-spacing: -0.055em;
+  line-height: 0.98;
+}
+
+h2 {
+  margin-bottom: 15px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(33px, 5vw, 53px);
+  font-weight: normal;
+  letter-spacing: -0.035em;
+  line-height: 1.06;
+}
+
+h3 {
+  margin-bottom: 8px;
+  font-size: 21px;
+  line-height: 1.22;
+}
+
+.subtitle {
+  max-width: 860px;
+  margin: 0;
+  color: var(--muted);
+  font-size: 19px;
+}
+
+.lead {
+  max-width: 890px;
+  margin: 26px 0 0;
+  color: var(--text);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(22px, 3vw, 30px);
+  line-height: 1.42;
+}
+
+.section {
+  padding: 68px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.copy {
+  max-width: 880px;
+  margin: 0;
+  color: var(--muted);
+  font-size: 18px;
+}
+
+.paths {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0,1fr));
+  gap: 16px;
+  margin-top: 28px;
+}
+
+.path {
+  padding: 22px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+}
+
+.path:hover {
+  border-color: var(--accent);
+  background: var(--surface-soft);
+}
+
+.path .question {
+  margin: 0 0 10px;
+  color: var(--accent-bright);
+  font-family: "Courier New", Courier, monospace;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.path p {
+  margin: 0 0 13px;
+  color: var(--muted);
+}
+
+.path a {
+  color: var(--text);
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.path a:hover { color: var(--accent-bright); }
+
+.sequence {
+  display: grid;
+  gap: 10px;
+  margin-top: 25px;
+}
+
+.sequence div {
+  padding: 16px 18px;
+  border-left: 4px solid var(--accent);
+  background: var(--surface);
+  color: var(--muted);
+}
+
+.sequence strong { color: var(--text); }
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 28px;
+}
+
+.button {
+  display: inline-block;
+  padding: 12px 16px;
+  border: 1px solid var(--accent);
+  background: var(--accent);
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+
+.button:hover {
+  border-color: var(--accent-bright);
+  background: var(--accent-bright);
+}
+
+.button.secondary {
+  border-color: var(--border);
+  background: transparent;
+  color: var(--text);
+}
+
+.button.secondary:hover {
+  border-color: var(--muted);
+  background: var(--surface);
+}
+
+.footer {
+  padding: 30px 0 38px;
+  color: var(--faint);
+  font-size: 14px;
+}
+
+@media (max-width: 760px) {
+  .nav {
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 17px 0;
+  }
+
+  .nav-links {
+    justify-content: flex-start;
+    gap: 14px;
+  }
+
+  .hero { padding: 66px 0 60px; }
+  .section { padding: 54px 0; }
+  .paths { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+
+<body>
+
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="/">M. J. Stokknes</a>
+    <nav class="nav-links" aria-label="Primary navigation">
+      <a href="/">Home</a>
+      <a href="/books.html">Books</a>
+      <a href="/start-here.html">Start Here</a>
+      <a href="/thesis.html">Framework</a>
+      <a href="/quotes.html">Fragments</a>
+      <a href="https://www.amazon.com/dp/B0FT5139MZ" target="_blank" rel="noopener noreferrer">Amazon</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<section class="hero">
+  <div class="container">
+    <p class="eyebrow">Where to Begin</p>
+    <h1>Begin with the pressure you recognize.</h1>
+    <p class="subtitle">
+      The Chaos &amp; You books form a connected system, but there is no required entrance. Choose the fracture already visible in your own life.
+    </p>
+    <p class="lead">
+      You do not need to understand the entire machinery before opening the first door. Start where the system has already left a mark.
+    </p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <p class="section-label">Choose an Entry Point</p>
+    <h2>What is pressing on you?</h2>
+
+    <div class="paths">
+      <article class="path">
+        <p class="question">Do you feel controlled without seeing the controller?</p>
+        <h3>Begin with Power.</h3>
+        <p>
+          Algorithms, spectacle, social fear, internalized obedience, conformity, and the invisible cage carried inside the self.
+        </p>
+        <a href="/books.html">Read about Power, Chaos &amp; You →</a>
+      </article>
+
+      <article class="path">
+        <p class="question">Do you feel visible but not known?</p>
+        <h3>Begin with Love.</h3>
+        <p>
+          Intimacy, emotional performance, projection, loneliness, comparison, and the market logic entering the heart.
+        </p>
+        <a href="/books.html">Read about Love, Chaos &amp; You →</a>
+      </article>
+
+      <article class="path">
+        <p class="question">Do you feel late even when nothing is happening?</p>
+        <h3>Begin with Time.</h3>
+        <p>
+          Urgency, deadlines, rest, guilt, aging, memory, productivity, and the quiet authority of the schedule.
+        </p>
+        <a href="/books.html">Read about Time, Chaos &amp; You →</a>
+      </article>
+
+      <article class="path">
+        <p class="question">Do you understand the problem but remain trapped inside it?</p>
+        <h3>Begin with Reality.</h3>
+        <p>
+          Biology, trauma, addiction, cognitive limits, material conditions, and the fact that insight does not always create leverage.
+        </p>
+        <a href="/books.html">Read about Reality, Chaos &amp; You →</a>
+      </article>
+
+      <article class="path">
+        <p class="question">Do you no longer know which version of you is speaking?</p>
+        <h3>Begin with Identity.</h3>
+        <p>
+          Masks, memory, trauma, dopamine, algorithms, performance, internal conflict, and the unstable construction of the self.
+        </p>
+        <a href="/books.html">Read about Identity, Chaos &amp; You →</a>
+      </article>
+
+      <article class="path">
+        <p class="question">Do you feel informed, exhausted, and less certain than before?</p>
+        <h3>Begin with Information.</h3>
+        <p>
+          Signal, noise, selective truth, short-form content, overload, attention erosion, language, and the collapse of proportion.
+        </p>
+        <a href="/books.html">Read about Information, Chaos &amp; You →</a>
+      </article>
+
+      <article class="path">
+        <p class="question">Do you suspect belief survived after religion weakened?</p>
+        <h3>Begin with Faith.</h3>
+        <p>
+          Ritual, surrender, meaning, metrics, productivity, visibility, technology, and the gods modern systems manufacture.
+        </p>
+        <a href="/books.html">Read about Faith, Chaos &amp; You →</a>
+      </article>
+
+      <article class="path">
+        <p class="question">Do you want the system before the individual books?</p>
+        <h3>Begin with the Framework.</h3>
+        <p>
+          Perception, interpretation, reinforcement, observable reality, measurable reality, constructed reality, and coherence under pressure.
+        </p>
+        <a href="/thesis.html">Read the Stokknes Chaos Framework →</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <p class="section-label">Suggested Reading Paths</p>
+    <h2>There is no correct sequence. There are useful ones.</h2>
+
+    <p class="copy">
+      The series can be approached by pressure rather than publication order. These routes create different descents into the same wider structure.
+    </p>
+
+    <div class="sequence">
+      <div>
+        <strong>The clean everyday descent:</strong> Time → Information → Reality
+      </div>
+      <div>
+        <strong>The internal descent:</strong> Identity → Love → Reality
+      </div>
+      <div>
+        <strong>The social descent:</strong> Power → Information → Faith
+      </div>
+      <div>
+        <strong>The full cathedral:</strong> Power → Identity → Time → Reality → Faith → Information
+      </div>
+    </div>
+
+    <div class="actions">
+      <a class="button" href="/books.html">Explore the books</a>
+      <a class="button secondary" href="https://www.amazon.com/dp/B0FT5139MZ" target="_blank" rel="noopener noreferrer">View the series on Amazon</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    Official site of Marius Johan Stokknes, writing as M. J. Stokknes.
+  </div>
+</footer>
+
+</body>
+</html>
