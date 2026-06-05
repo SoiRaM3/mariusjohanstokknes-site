@@ -5,20 +5,25 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>Marius Johan Stokknes | M. J. Stokknes | Author of the Chaos Series</title>
-<meta name="description" content="Official site of Marius Johan Stokknes, writing as M. J. Stokknes. Author of the Chaos Series and the Stokknes Chaos Framework: philosophical work on power, perception, identity, information, faith, entropy, civilization, and reality.">
+
+<meta name="description" content="Official site of Marius Johan Stokknes, writing as M. J. Stokknes. Author of the Chaos Series and the Stokknes Chaos Theory Compendium: philosophical work on power, perception, identity, information, faith, entropy, civilization, philosophy, time, love, and reality.">
+
 <meta name="author" content="Marius Johan Stokknes">
 <meta name="robots" content="index, follow">
+
 <link rel="canonical" href="https://mariusjohanstokknes.com/">
 
 <meta property="og:type" content="website">
 <meta property="og:title" content="Marius Johan Stokknes | Author of the Chaos Series">
-<meta property="og:description" content="Philosophical work on power, perception, identity, information, faith, entropy, civilization, and the systems people mistake for reality.">
+<meta property="og:description" content="Philosophical work on power, perception, identity, information, faith, entropy, civilization, philosophy, and the systems people mistake for reality.">
 <meta property="og:url" content="https://mariusjohanstokknes.com/">
 <meta property="og:site_name" content="Marius Johan Stokknes">
+<meta property="og:image" content="https://mariusjohanstokknes.com/Civilization-Chaos-You.png">
 
-<meta name="twitter:card" content="summary">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Marius Johan Stokknes | Author of the Chaos Series">
-<meta name="twitter:description" content="Author of the Chaos Series and the Stokknes Chaos Framework.">
+<meta name="twitter:description" content="Author of the Chaos Series and the Stokknes Chaos Theory Compendium.">
+<meta name="twitter:image" content="https://mariusjohanstokknes.com/Civilization-Chaos-You.png">
 
 <script type="application/ld+json">
 {
@@ -32,7 +37,7 @@
     "https://www.goodreads.com/author/show/52486157.Marius_Johan_Stokknes",
     "https://www.amazon.com/dp/B0FT5139MZ"
   ],
-  "description": "Author of the Chaos Series and the Stokknes Chaos Framework."
+  "description": "Author of the Chaos Series and the Stokknes Chaos Theory Compendium."
 }
 </script>
 
@@ -47,7 +52,8 @@
   --border: #302d29;
   --accent: #a4251d;
   --accent-bright: #d13b30;
-  --max-width: 1080px;
+  --gold: #c59b54;
+  --max-width: 1180px;
 }
 
 * {
@@ -74,14 +80,23 @@ a:hover {
   color: var(--text);
 }
 
+img {
+  display: block;
+  max-width: 100%;
+}
+
 .container {
   width: min(calc(100% - 40px), var(--max-width));
   margin: 0 auto;
 }
 
 .site-header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
   border-bottom: 1px solid var(--border);
   background: rgba(13, 13, 13, 0.96);
+  backdrop-filter: blur(12px);
 }
 
 .nav {
@@ -97,8 +112,8 @@ a:hover {
   font-family: Georgia, "Times New Roman", serif;
   font-size: 20px;
   font-weight: bold;
-  text-decoration: none;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .nav-links {
@@ -119,11 +134,12 @@ a:hover {
 }
 
 .hero {
-  padding: 92px 0 82px;
+  padding: 96px 0 86px;
   border-bottom: 1px solid var(--border);
   background:
-    radial-gradient(circle at 85% 20%, rgba(164, 37, 29, 0.16), transparent 30%),
-    linear-gradient(180deg, #101010 0%, #0d0d0d 100%);
+    radial-gradient(circle at 84% 18%, rgba(164, 37, 29, 0.2), transparent 31%),
+    radial-gradient(circle at 76% 72%, rgba(197, 155, 84, 0.08), transparent 28%),
+    linear-gradient(180deg, #111111 0%, #0d0d0d 100%);
 }
 
 .eyebrow,
@@ -144,22 +160,22 @@ h3 {
 }
 
 h1 {
-  max-width: 860px;
+  max-width: 900px;
   margin-bottom: 18px;
   font-family: Georgia, "Times New Roman", serif;
-  font-size: clamp(52px, 9vw, 96px);
+  font-size: clamp(52px, 9vw, 102px);
   font-weight: normal;
-  letter-spacing: -0.055em;
-  line-height: 0.98;
+  letter-spacing: -0.06em;
+  line-height: 0.96;
 }
 
 h2 {
   margin-bottom: 16px;
   font-family: Georgia, "Times New Roman", serif;
-  font-size: clamp(34px, 5vw, 54px);
+  font-size: clamp(34px, 5vw, 56px);
   font-weight: normal;
-  letter-spacing: -0.035em;
-  line-height: 1.05;
+  letter-spacing: -0.04em;
+  line-height: 1.04;
 }
 
 h3 {
@@ -169,28 +185,28 @@ h3 {
 }
 
 .subtitle {
-  max-width: 780px;
+  max-width: 800px;
   margin: 0 0 12px;
   color: var(--text);
   font-size: 22px;
 }
 
 .hero-copy {
-  max-width: 830px;
+  max-width: 850px;
   margin: 26px 0 0;
   color: var(--muted);
   font-size: 18px;
 }
 
 .hero-quote {
-  max-width: 760px;
-  margin: 34px 0 0;
-  padding-left: 18px;
+  max-width: 820px;
+  margin: 38px 0 0;
+  padding-left: 19px;
   border-left: 3px solid var(--accent);
   color: var(--text);
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 23px;
-  line-height: 1.45;
+  font-size: clamp(23px, 4vw, 34px);
+  line-height: 1.35;
 }
 
 .actions {
@@ -230,51 +246,89 @@ h3 {
 }
 
 .section {
-  padding: 74px 0;
+  padding: 76px 0;
   border-bottom: 1px solid var(--border);
 }
 
 .section-copy {
-  max-width: 850px;
+  max-width: 880px;
   margin: 0;
   color: var(--muted);
   font-size: 18px;
 }
 
-.cards {
+.latest-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 16px;
+  grid-template-columns: minmax(0, 0.72fr) minmax(0, 1.28fr);
+  gap: 38px;
+  align-items: center;
   margin-top: 30px;
 }
 
-.card {
-  padding: 23px;
+.latest-cover {
+  max-width: 390px;
+  border: 1px solid var(--border);
+  box-shadow: 0 20px 48px rgba(0, 0, 0, 0.45);
+}
+
+.latest-copy p {
+  color: var(--muted);
+  font-size: 18px;
+}
+
+.tagline {
+  margin: 22px 0;
+  padding-left: 16px;
+  border-left: 3px solid var(--accent);
+  color: var(--text) !important;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 23px !important;
+}
+
+.book-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 32px;
+}
+
+.book-card {
+  overflow: hidden;
   border: 1px solid var(--border);
   background: var(--surface);
+  transition: transform 0.2s ease, border-color 0.2s ease;
 }
 
-.card p {
+.book-card:hover {
+  border-color: var(--accent);
+  transform: translateY(-4px);
+}
+
+.book-card img {
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+}
+
+.book-card-body {
+  padding: 14px;
+}
+
+.book-card h3 {
   margin: 0;
+  font-size: 16px;
+}
+
+.book-card p {
+  margin: 7px 0 0;
   color: var(--muted);
-}
-
-.card .small-link {
-  display: inline-block;
-  margin-top: 15px;
-  color: var(--text);
-  font-size: 14px;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.card .small-link:hover {
-  color: var(--accent-bright);
+  font-size: 13px;
+  line-height: 1.5;
 }
 
 .series-note {
-  max-width: 910px;
-  margin-top: 24px;
+  max-width: 950px;
+  margin-top: 26px;
   padding: 22px 23px;
   border-left: 4px solid var(--accent);
   background: var(--surface);
@@ -283,6 +337,22 @@ h3 {
 
 .series-note strong {
   color: var(--text);
+}
+
+.framework-feature {
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(260px, 0.75fr);
+  gap: 36px;
+  align-items: center;
+  margin-top: 28px;
+}
+
+.framework-cover {
+  width: 100%;
+  max-width: 360px;
+  justify-self: end;
+  border: 1px solid var(--border);
+  box-shadow: 0 20px 48px rgba(0, 0, 0, 0.42);
 }
 
 .framework-grid {
@@ -356,13 +426,13 @@ h3 {
 }
 
 .pullquote {
-  max-width: 900px;
+  max-width: 930px;
   margin: 0;
   color: var(--text);
   font-family: Georgia, "Times New Roman", serif;
-  font-size: clamp(29px, 5vw, 49px);
+  font-size: clamp(29px, 5vw, 52px);
   letter-spacing: -0.03em;
-  line-height: 1.15;
+  line-height: 1.14;
 }
 
 .links {
@@ -391,6 +461,21 @@ footer {
   font-size: 14px;
 }
 
+@media (max-width: 980px) {
+  .book-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .latest-grid,
+  .framework-feature {
+    grid-template-columns: 1fr;
+  }
+
+  .framework-cover {
+    justify-self: start;
+  }
+}
+
 @media (max-width: 760px) {
   .nav {
     align-items: flex-start;
@@ -411,10 +496,13 @@ footer {
     padding: 58px 0;
   }
 
-  .cards,
   .framework-grid,
   .documents {
     grid-template-columns: 1fr;
+  }
+
+  .book-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 </style>
@@ -430,6 +518,7 @@ footer {
       <a href="/books.html">Books</a>
       <a href="/start-here.html">Start Here</a>
       <a href="/thesis.html">Framework</a>
+      <a href="/quotes.html">Fragments</a>
       <a href="https://github.com/SoiRaM3/chaos-framework" target="_blank" rel="noopener noreferrer">Documents</a>
       <a href="https://www.amazon.com/dp/B0FT5139MZ" target="_blank" rel="noopener noreferrer">Amazon</a>
     </nav>
@@ -449,24 +538,71 @@ footer {
     </p>
 
     <p class="subtitle">
-      Author of the <strong>Chaos Series</strong> and the <strong>Stokknes Chaos Framework</strong>.
+      Author of the <strong>Chaos Series</strong> and the <strong>Stokknes Chaos Theory Compendium</strong>.
     </p>
 
     <p class="hero-copy">
-      Writing on power, perception, identity, information, faith, entropy, civilization, and the systems people mistake for reality.
+      Writing on power, perception, identity, information, faith, entropy, civilization, philosophy, time, love, and the systems people mistake for reality.
     </p>
 
     <p class="hero-copy">
-      The work examines how human beings construct reality through incomplete information, emotional bias, institutional pressure, and systems of reinforcement.
+      The work examines how human beings construct reality through incomplete information, emotional bias, institutional pressure, inherited stories, and systems of reinforcement.
     </p>
 
-    <p class="hero-quote">
-      This work does not attempt to comfort what it exposes.
-    </p>
+    <blockquote class="hero-quote">
+      “You used to pray for rain. Now you pray for signal.”
+    </blockquote>
 
     <div class="actions">
       <a class="button" href="/books.html">Explore the books</a>
-      <a class="button secondary" href="https://www.amazon.com/dp/B0FT5139MZ" target="_blank" rel="noopener noreferrer">View the series on Amazon</a>
+      <a class="button secondary" href="/start-here.html">Where should I begin?</a>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="latest">
+  <div class="container">
+    <p class="section-label">Latest Work</p>
+    <h2>Civilization, Chaos &amp; You</h2>
+
+    <div class="latest-grid">
+      <img
+        class="latest-cover"
+        src="/Civilization-Chaos-You.png"
+        alt="Cover of Civilization, Chaos and You by M. J. Stokknes"
+        loading="lazy"
+      >
+
+      <div class="latest-copy">
+        <p class="tagline">
+          “This book will not fix civilization.”
+        </p>
+
+        <p>
+          Civilization is not a masterpiece.
+        </p>
+
+        <p>
+          It is a frightened animal wearing infrastructure.
+        </p>
+
+        <p>
+          Built from roads, borders, laws, markets, institutions, algorithms, inherited wounds, and billions of nervous systems attempting to survive one another, civilization likes to present itself as rational.
+        </p>
+
+        <p>
+          It is not.
+        </p>
+
+        <p>
+          <em>Civilization, Chaos &amp; You</em> dissects the machinery beneath ordinary life: the panic beneath bureaucracy, the mythology beneath nations, the appetite beneath markets, the metric behind the person, and the algorithm learning the rhythm of the hand holding the screen.
+        </p>
+
+        <div class="actions">
+          <a class="button" href="/books.html">Read about the book</a>
+          <a class="button secondary" href="https://www.amazon.com/dp/B0FT5139MZ" target="_blank" rel="noopener noreferrer">View the series on Amazon</a>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -474,62 +610,142 @@ footer {
 <section class="section" id="series">
   <div class="container">
     <p class="section-label">The Chaos Series</p>
-    <h2>A philosophical anatomy of modern life.</h2>
+    <h2>Ten domains. One unstable system.</h2>
 
     <p class="section-copy">
-      The Chaos Series is a connected body of philosophical work examining the unstable relationship between perception, meaning, power, identity, and systemic illusion. Each volume isolates a different pressure point. Together, they form a broader study of the human being inside systems that are increasingly difficult to see clearly from within.
+      The Chaos Series is a connected body of philosophical and psychological work examining the pressure systems surrounding ordinary human life. Each volume isolates one domain. Together, they form a wider anatomy of perception, meaning, identity, collapse, and the human being inside systems increasingly difficult to see clearly from within.
     </p>
 
-    <div class="cards">
-      <article class="card">
-        <h3>Power, Chaos &amp; You</h3>
-        <p>
-          On invisible power, internalized obedience, algorithms, conformity, spectacle, and the quiet structures shaping modern behavior.
-        </p>
+    <div class="book-grid">
+
+      <article class="book-card">
+        <img src="/Civilization-Chaos-You.png" alt="Civilization, Chaos and You book cover" loading="lazy">
+        <div class="book-card-body">
+          <h3>Civilization</h3>
+          <p>The frightened animal wearing infrastructure.</p>
+        </div>
       </article>
 
-      <article class="card">
-        <h3>Identity, Chaos &amp; You</h3>
-        <p>
-          On selfhood, trauma, masks, memory, social performance, dopamine loops, and the unstable machinery used to construct the individual.
-        </p>
+      <article class="book-card">
+        <img src="/Entropy-Chaos-You.png" alt="Entropy, Chaos and You book cover" loading="lazy">
+        <div class="book-card-body">
+          <h3>Entropy</h3>
+          <p>Everything decays. Including what you call stable.</p>
+        </div>
       </article>
 
-      <article class="card">
-        <h3>Faith, Chaos &amp; You</h3>
-        <p>
-          On belief after certainty weakens: ritual, surrender, metrics, productivity, performance, meaning, and the gods modern systems manufacture.
-        </p>
+      <article class="book-card">
+        <img src="/Faith-Chaos-You.png" alt="Faith, Chaos and You book cover" loading="lazy">
+        <div class="book-card-body">
+          <h3>Faith</h3>
+          <p>What remains after certainty weakens.</p>
+        </div>
       </article>
 
-      <article class="card">
-        <h3>Information, Chaos &amp; You</h3>
-        <p>
-          On signal, noise, overload, attention erosion, selective truth, media saturation, and the strange instability created by access to everything.
-        </p>
+      <article class="book-card">
+        <img src="/Power-Chaos-You.png" alt="Power, Chaos and You book cover" loading="lazy">
+        <div class="book-card-body">
+          <h3>Power</h3>
+          <p>The architecture of invisible permission.</p>
+        </div>
       </article>
+
+      <article class="book-card">
+        <img src="/Identity-Chaos-You.png" alt="Identity, Chaos and You book cover" loading="lazy">
+        <div class="book-card-body">
+          <h3>Identity</h3>
+          <p>The self assembled under pressure.</p>
+        </div>
+      </article>
+
+      <article class="book-card">
+        <img src="/Information-Chaos-You.png" alt="Information, Chaos and You book cover" loading="lazy">
+        <div class="book-card-body">
+          <h3>Information</h3>
+          <p>The signal exceeds the nervous system.</p>
+        </div>
+      </article>
+
+      <article class="book-card">
+        <img src="/Love-Chaos-You.png" alt="Love, Chaos and You book cover" loading="lazy">
+        <div class="book-card-body">
+          <h3>Love</h3>
+          <p>Entropy management performed in duet.</p>
+        </div>
+      </article>
+
+      <article class="book-card">
+        <img src="/Philosopy-Chaos-You.png" alt="Philosophy, Chaos and You book cover" loading="lazy">
+        <div class="book-card-body">
+          <h3>Philosophy</h3>
+          <p>Structured confusion with sharp edges.</p>
+        </div>
+      </article>
+
+      <article class="book-card">
+        <img src="/Time-chaos-you.png" alt="Time, Chaos and You book cover" loading="lazy">
+        <div class="book-card-body">
+          <h3>Time</h3>
+          <p>The thing that never stops billing you.</p>
+        </div>
+      </article>
+
+      <article class="book-card">
+        <img src="/Reality-Chaos-You.png" alt="Reality, Chaos and You book cover" loading="lazy">
+        <div class="book-card-body">
+          <h3>Reality</h3>
+          <p>The hallucination your nervous system can afford.</p>
+        </div>
+      </article>
+
     </div>
 
     <div class="series-note">
-      <strong>The series extends across multiple domains:</strong>
-      power, love, time, entropy, reality, identity, information, civilization, and faith. Each book can be read independently. Together, they form the wider system.
+      <strong>Each volume can be read independently.</strong>
+      Together, the books form a wider system: civilization, entropy, faith, power, identity, information, love, philosophy, time, and reality.
     </div>
 
     <div class="actions">
-      <a class="button" href="/books.html">View all books</a>
-      <a class="button secondary" href="https://www.amazon.com/dp/B0FT5139MZ" target="_blank" rel="noopener noreferrer">Browse the Amazon series page</a>
+      <a class="button" href="/books.html">View the complete catalogue</a>
+      <a class="button secondary" href="/start-here.html">Find your entry point</a>
     </div>
   </div>
 </section>
 
 <section class="section" id="framework">
   <div class="container">
-    <p class="section-label">The Stokknes Chaos Framework</p>
-    <h2>Reality is not gone. It is mediated.</h2>
+    <p class="section-label">The Stokknes Chaos Theory Compendium</p>
+    <h2>A mythic-analytical framework for understanding human collapse.</h2>
 
-    <p class="section-copy">
-      The framework begins with a simple structural problem: individuals do not interact with reality directly. They interact with interpretations shaped by memory, emotion, information, and external systems of reinforcement. Under modern conditions, these systems can collapse faster than meaning can stabilize.
-    </p>
+    <div class="framework-feature">
+
+      <div>
+        <p class="section-copy">
+          The framework begins with a simple structural problem: human beings do not interact with reality directly. They interact with interpretations shaped by memory, emotion, information, identity, and external systems of reinforcement.
+        </p>
+
+        <p class="section-copy" style="margin-top: 18px;">
+          Under modern conditions, these systems can collapse faster than meaning can stabilize.
+        </p>
+
+        <div class="pipeline">
+          Information → Overload → Anxiety → Simplification → Certainty
+        </div>
+
+        <div class="actions">
+          <a class="button" href="/thesis.html">Read the core thesis</a>
+          <a class="button secondary" href="https://github.com/SoiRaM3/chaos-framework" target="_blank" rel="noopener noreferrer">Explore the public documents</a>
+        </div>
+      </div>
+
+      <img
+        class="framework-cover"
+        src="/Stokknes-Framework.png"
+        alt="The Stokknes Chaos Theory Compendium cover"
+        loading="lazy"
+      >
+
+    </div>
 
     <div class="framework-grid">
       <div class="framework-step">
@@ -542,30 +758,16 @@ footer {
       <div class="framework-step">
         <span>02 · Measurable Reality</span>
         <p>
-          Data, metrics, institutional reporting, and the systems used to quantify what appears to be happening.
+          Data, metrics, institutional reporting, dashboards, and the systems used to quantify what appears to be happening.
         </p>
       </div>
 
       <div class="framework-step">
         <span>03 · Constructed Reality</span>
         <p>
-          Narrative, identity, ideology, and belief: the interpretive structures people defend once reality becomes unstable.
+          Narrative, identity, ideology, and belief: the structures people defend once reality becomes unstable.
         </p>
       </div>
-    </div>
-
-    <div class="pipeline">
-      Information → Overload → Anxiety → Simplification → Certainty
-    </div>
-
-    <p class="series-note">
-      <strong>The framework does not attempt to eliminate chaos.</strong>
-      It isolates fragmentation, traces its pressure across domains, and asks how coherence can be rebuilt consciously without surrendering perception to a single system.
-    </p>
-
-    <div class="actions">
-      <a class="button" href="/thesis.html">Read the core thesis</a>
-      <a class="button secondary" href="https://github.com/SoiRaM3/chaos-framework" target="_blank" rel="noopener noreferrer">View the framework on GitHub</a>
     </div>
   </div>
 </section>
@@ -576,13 +778,18 @@ footer {
     <h2>Framework documents and working texts.</h2>
 
     <p class="section-copy">
-      The public documents isolate the core structural ideas behind the books: mediation, overload, fragmentation, adaptive identity, modern power, and the search for coherence under pressure.
+      The public repository isolates the structural ideas beneath the books: mediation, overload, fragmentation, adaptive identity, invisible power, entropy, and the search for coherence under pressure.
     </p>
 
     <div class="documents">
       <a class="document-link" href="https://github.com/SoiRaM3/chaos-framework" target="_blank" rel="noopener noreferrer">
         <strong>The Chaos Framework</strong>
-        <span>Core thesis and repository overview</span>
+        <span>Repository overview and public documents</span>
+      </a>
+
+      <a class="document-link" href="https://github.com/SoiRaM3/chaos-framework/blob/main/FRAMEWORK.md" target="_blank" rel="noopener noreferrer">
+        <strong>Structural Overview</strong>
+        <span>The ten domains, pressure systems, and failure modes</span>
       </a>
 
       <a class="document-link" href="https://github.com/SoiRaM3/chaos-framework/blob/main/information-collapse.md" target="_blank" rel="noopener noreferrer">
@@ -590,14 +797,9 @@ footer {
         <span>Why abundance of information destabilizes the human mind</span>
       </a>
 
-      <a class="document-link" href="https://github.com/SoiRaM3/chaos-framework/blob/main/FRAMEWORK.md" target="_blank" rel="noopener noreferrer">
-        <strong>Structural Overview</strong>
-        <span>The framework, domains, pressure systems, and failure modes</span>
-      </a>
-
       <a class="document-link" href="https://github.com/SoiRaM3/chaos-framework/blob/main/QUOTES.md" target="_blank" rel="noopener noreferrer">
         <strong>Selected Quotes</strong>
-        <span>Condensed principles from the Chaos Framework</span>
+        <span>Condensed principles from the wider body of work</span>
       </a>
     </div>
   </div>
@@ -606,6 +808,7 @@ footer {
 <section class="section">
   <div class="container">
     <p class="section-label">Selected Principle</p>
+
     <blockquote class="pullquote">
       “The system does not need to convince you. It needs to exhaust you.”
     </blockquote>
@@ -619,9 +822,9 @@ footer {
 
     <div class="links">
       <a href="https://www.amazon.com/dp/B0FT5139MZ" target="_blank" rel="noopener noreferrer">Chaos Series on Amazon</a>
+      <a href="https://www.goodreads.com/author/show/52486157.Marius_Johan_Stokknes" target="_blank" rel="noopener noreferrer">Goodreads Author Page</a>
       <a href="https://github.com/SoiRaM3" target="_blank" rel="noopener noreferrer">GitHub</a>
       <a href="https://github.com/SoiRaM3/chaos-framework" target="_blank" rel="noopener noreferrer">Chaos Framework Repository</a>
-      <a href="https://www.goodreads.com/author/show/52486157.Marius_Johan_Stokknes" target="_blank" rel="noopener noreferrer">Goodreads Author Page</a>
     </div>
   </div>
 </section>
