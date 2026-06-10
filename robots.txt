@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mariusjohanstokknes.com/sitemap.xml
