@@ -1,0 +1,78 @@
+{
+  "site_name": "M. J. Stokknes",
+  "domain": "https://mariusjohanstokknes.com",
+  "tagline": "Independent books written between work, nights, heat, and whatever else kept happening.",
+  "description": "Books, fiction, fragments, and independent publishing by M. J. Stokknes.",
+  "author": "M. J. Stokknes",
+  "legal_name": "Marius Johan Stokknes",
+  "location": "Andalucía, Spain",
+  "github_repo": "https://github.com/SoiRaM3/mariusjohanstokknes-site",
+  "github_profile": "https://github.com/SoiRaM3",
+  "goodreads": "https://www.goodreads.com/stokknes",
+  "amazon": "https://www.amazon.com/s?k=M.+J.+Stokknes&i=stripbooks-intl-ship",
+  "instagram": "",
+  "youtube": "",
+  "contact_user": "mjstokknes",
+  "contact_domain": "gmail.com",
+  "copyright_year": 2026,
+  "navigation": [
+    [
+      "Home",
+      "index.html"
+    ],
+    [
+      "Books",
+      "books.html"
+    ],
+    [
+      "Fiction",
+      "fiction.html"
+    ],
+    [
+      "Fragments",
+      "fragments.html"
+    ],
+    [
+      "Framework",
+      "framework.html"
+    ],
+    [
+      "Notes",
+      "notes.html"
+    ],
+    [
+      "About",
+      "about.html"
+    ],
+    [
+      "Contact",
+      "contact.html"
+    ]
+  ],
+  "imprint_name": "Stokknes Publishing House",
+  "imprint_tagline": "Independent Books // Noir Fiction // Essays // Notes from the Edge",
+  "imprint_line": "Built for books that think too much and sleep too little.",
+  "publishing_house_page": "publishing-house.html",
+  "brand": {
+    "header_mark": "assets/icons/stokknes-emblem.png",
+    "banner_desktop": "assets/brand/publishing-house-banner.webp",
+    "banner_mobile": "assets/brand/publishing-house-banner-mobile.webp",
+    "hero_desktop": "assets/images/editorial/hero-balcony-web.webp",
+    "hero_fallback": "assets/images/editorial/hero-balcony-web.jpg",
+    "hero_mobile": "assets/images/editorial/hero-balcony-mobile.webp",
+    "og_default": "assets/images/social/og-author.jpg",
+    "og_publishing_house": "assets/images/social/og-publishing-house.jpg",
+    "zorro_desktop": "assets/images/editorial/zorro-strip.jpg",
+    "zorro_mobile": "assets/images/editorial/zorro-mobile.webp",
+    "zorro_profile": "assets/images/editorial/zorro.jpg",
+    "editorial_library": {
+      "about": "assets/images/editorial/author-study-sunset.jpg",
+      "start_here": "assets/images/editorial/andalucia-lantern-path.jpg",
+      "framework": "assets/images/editorial/andalucia-chapel-sunset.jpg",
+      "fragments": "assets/images/editorial/andalucia-stone-door-dusk.jpg",
+      "notes": "assets/images/editorial/andalucia-moon-road.jpg",
+      "contact": "assets/images/editorial/andalucia-night-plaza.jpg",
+      "reserve": "assets/images/editorial/andalucia-field-sunset.jpg"
+    }
+  }
+}

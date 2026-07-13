@@ -1,0 +1,30 @@
+{
+  "generated": "2026-07-13",
+  "rules": {
+    "publication_truth": "KDP format data supplied by the author",
+    "editorial_copy": "Current public site plus confirmed manuscript/project canon",
+    "public_name": "M. J. Stokknes",
+    "formal_name": "Marius Johan Stokknes",
+    "synapse_project": "removed",
+    "synapse_connect": "retained only as the fictional company inside The Quiet Floor",
+    "terms_classification": "A novella; Varden is the setting, not the series",
+    "violence_classification": "Jonas Ravn series"
+  },
+  "counts": {
+    "all_records": 29,
+    "public_records": 24,
+    "english_published_or_partial": 16,
+    "spanish_editions": 6,
+    "public_current_work": 2,
+    "hidden_private_records": 5
+  },
+  "known_actions": [
+    "Verify La Planta Silenciosa paperback currency.",
+    "Decide whether Identity Kindle should be completed.",
+    "Decide whether Civilization hardcover should be completed.",
+    "Decide whether Philosophy hardcover should be created.",
+    "Replace typographic placeholder art for The Quiet Floor and the Compendium with final cover files.",
+    "Correct KDP subtitle spelling for Entropy and BUY THIS BOOK. where KDP permits.",
+    "Audit prices before presenting the catalogue as a unified premium line."
+  ]
+}

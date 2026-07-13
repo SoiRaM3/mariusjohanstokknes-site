@@ -1,0 +1,3 @@
+Contact: mailto:mjstokknes@gmail.com
+Canonical: https://mariusjohanstokknes.com/.well-known/security.txt
+Expires: 2027-07-13T00:00:00Z

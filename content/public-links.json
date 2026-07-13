@@ -1,0 +1,77 @@
+{
+  "contact": {
+    "user": "marius_johan_stokknes",
+    "domain": "live.no",
+    "display_email": false,
+    "note": "The address is assembled in the browser and is not printed as clear text in the HTML."
+  },
+  "profiles": [
+    {
+      "name": "Official website",
+      "url": "https://mariusjohanstokknes.com/",
+      "type": "website"
+    },
+    {
+      "name": "Amazon Author Page",
+      "url": "https://www.amazon.com/author/stokknes",
+      "type": "author-profile"
+    },
+    {
+      "name": "Goodreads Author Page",
+      "url": "https://www.goodreads.com/author/show/52486157.Marius_Johan_Stokknes",
+      "type": "author-profile"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/soiram3/",
+      "type": "social"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/SoiRaM3",
+      "type": "development"
+    },
+    {
+      "name": "Website repository",
+      "url": "https://github.com/SoiRaM3/mariusjohanstokknes-site",
+      "type": "development"
+    }
+  ],
+  "retailers": [
+    {
+      "name": "Chaos Series on Amazon",
+      "url": "https://www.amazon.com/dp/B0FT5139MZ",
+      "market": "international"
+    },
+    {
+      "name": "ThriftBooks",
+      "url": "https://www.thriftbooks.com/a/marius-johan-stokknes/12281744/",
+      "market": "international"
+    },
+    {
+      "name": "Bookshop.org",
+      "url": "https://bookshop.org/beta-search?keywords=Marius+Johan+Stokknes",
+      "market": "international"
+    },
+    {
+      "name": "AbeBooks",
+      "url": "https://www.abebooks.com/author/b0dkdyj7rf/marius-johan-stokknes?ref_=nav_crb_srp",
+      "market": "international"
+    },
+    {
+      "name": "Waterstones",
+      "url": "https://www.waterstones.com/author/marius-johan-stokknes/8970936",
+      "market": "UK"
+    },
+    {
+      "name": "Books-A-Million",
+      "url": "https://www.booksamillion.com/search?query=Marius+Johan+Stokknes&filters[authors]=Marius+Johan+Stokknes",
+      "market": "US"
+    },
+    {
+      "name": "Akademika",
+      "url": "https://www.akademika.no/en/product/person/Stokknes%2C%20Marius%20Johan",
+      "market": "Nordic"
+    }
+  ]
+}

@@ -1,0 +1,1993 @@
+[
+  {
+    "slug": "terms-and-conditions-of-being-alive",
+    "title": "Terms and Conditions of Being Alive",
+    "subtitle": "I Have Read Nothing and Am Going Fucking Insane",
+    "display_title": "Terms and Conditions of Being Alive",
+    "kdp_title_exact": "Terms and Conditions of Being Alive",
+    "author_public": "M. J. Stokknes",
+    "author_kdp": "Marius Johan Stokknes",
+    "collection": "Current Work",
+    "group": "fiction",
+    "language": "English",
+    "series": "",
+    "series_order": null,
+    "status": "In development",
+    "public_visibility": "teaser",
+    "type": "A novella",
+    "release": "In development",
+    "image": "assets/images/books/terms.webp",
+    "short": "A cold Norwegian dystopian novella about consent, memory boundaries, institutional continuity, and a tower-city that works well enough to remain dangerous.",
+    "long": "In 2193, Tormod remains functional because Varden has preserved the parts of him it can still use. When a legacy Primary Agreement reaches forced review, the boundary between memory, consent, and institutional continuity begins to fail.",
+    "strapline": "He never read the terms. Now the system wants him to confirm what he cannot remember.",
+    "themes": [
+      "consent",
+      "memory",
+      "Varden",
+      "bureaucracy",
+      "survival"
+    ],
+    "featured": "current-work",
+    "formats": {},
+    "price": "",
+    "buy": "",
+    "review_copy": false,
+    "notes": "Varden is the setting/world, not a public series label.",
+    "related": [
+      "the-quiet-floor",
+      "the-violence-was-random"
+    ],
+    "original_slug": "",
+    "editorial": {
+      "paragraphs": [
+        "The premise is administrative rather than mystical. Tormod can still work, remember routines, recognize neighbours, and perform the tasks that make him useful. What he cannot reach cleanly is the part of his own history that Varden has classified as a continuity problem.",
+        "The novella treats consent as infrastructure. A signature can survive the person who gave it; a status can outlive the memory required to understand it; and a society can become monstrous without ceasing to function. Varden is dangerous precisely because the lights remain on."
+      ],
+      "focus": [
+        [
+          "Consent without recall",
+          "What does agreement mean when the institution retains the document and the person retains only the consequences?"
+        ],
+        [
+          "Functional continuity",
+          "Procedural memory, medication, trauma, and approved memory boundaries keep a valuable worker operational."
+        ],
+        [
+          "A working dystopia",
+          "Food, power, medicine, hierarchy, and weather make Varden a lived society rather than a symbolic prison."
+        ]
+      ],
+      "audience": "For readers of cold institutional dystopia, psychological horror, bureaucratic systems, enclosed societies, and speculative fiction that insists the machinery must make sense.",
+      "quote": "His body had failed the terms. His name had not.",
+      "quote_source": "Terms and Conditions of Being Alive"
+    }
+  },
+  {
+    "slug": "the-violence-was-random",
+    "title": "The Violence Was Random",
+    "subtitle": "A Broken Andalusian Mystery",
+    "display_title": "The Violence Was Random",
+    "kdp_title_exact": "The Violence Was Random",
+    "author_public": "M. J. Stokknes",
+    "author_kdp": "Marius Johan Stokknes",
+    "collection": "Current Work",
+    "group": "fiction",
+    "language": "English",
+    "series": "Jonas Ravn",
+    "series_order": null,
+    "status": "In development",
+    "public_visibility": "teaser",
+    "type": "A Jonas Ravn novel",
+    "release": "In development",
+    "image": "assets/images/books/violence.webp",
+    "short": "A broken Andalusian mystery about work, pain, migration, friendship, debt, disappearing relationships, and the infrastructure behind ordinary places.",
+    "long": "Jonas Ravn is not a detective. He is a man trying to remain functional while work, pain, money, relationships, and ordinary life keep narrowing around him. Then Bicho finds the wrong object near a door that should not exist.",
+    "strapline": "Three years. One red heel. A door that should not exist.",
+    "themes": [
+      "Andalucía",
+      "bureaucratic noir",
+      "pain",
+      "debt",
+      "hidden infrastructure"
+    ],
+    "featured": "current-work",
+    "formats": {},
+    "price": "",
+    "buy": "",
+    "review_copy": false,
+    "notes": "The Jonas Ravn fiction line begins here.",
+    "related": [
+      "the-quiet-floor",
+      "autonomy-line"
+    ],
+    "original_slug": "",
+    "editorial": {
+      "paragraphs": [
+        "Jonas Ravn is not recruited into a mystery. He is already busy surviving work, pain, money, migration, relationships, and the exhausting logistics of appearing functional. The wrong object enters a life that has no spare capacity for it.",
+        "The novel begins in the crowded coastal world of call centres, rented rooms, nightlife, heat, debt, and temporary friendships before moving inland. Crime remains close enough to shape housing, work, documents, roads, and favours, but Jonas never becomes a detective or a criminal. He notices what ordinary people learn not to notice."
+      ],
+      "focus": [
+        [
+          "Coast to inland",
+          "A three-year fall from crowded coastal life into the quieter, harsher geography of inland Andalucía."
+        ],
+        [
+          "A lived social world",
+          "Workplaces, bars, dogs, rented rooms, bureaucracy, relationships, and financial pressure exist before the mystery arrives."
+        ],
+        [
+          "Hidden infrastructure",
+          "A red heel, a service door, municipal logic, and ordinary systems that are more connected than they appear."
+        ]
+      ],
+      "audience": "For readers of literary noir, social realism, psychological mystery, damaged protagonists, Andalusian atmosphere, and crimes that enter through ordinary life rather than detective procedure.",
+      "quote": "Three years. One red heel. A door that should not exist.",
+      "quote_source": "The Violence Was Random"
+    }
+  },
+  {
+    "slug": "the-quiet-floor",
+    "title": "The Quiet Floor",
+    "subtitle": "Metrics of Control",
+    "display_title": "The Quiet Floor",
+    "kdp_title_exact": "The Quiet Floor",
+    "author_public": "M. J. Stokknes",
+    "author_kdp": "Marius Johan Stokknes",
+    "collection": "Fiction / Featured",
+    "group": "fiction",
+    "language": "English",
+    "series": "",
+    "series_order": null,
+    "status": "Available",
+    "public_visibility": "full",
+    "type": "A novella",
+    "release": "Published",
+    "image": "assets/images/books/quiet-floor.webp",
+    "short": "A near-future Málaga novella about workplace surveillance, biometric performance systems, and the point where control learns to speak in the language of care.",
+    "long": "Maeva arrives in Málaga for a job, an apartment, and a future already optimized. Synapse Connect tracks posture, tone, pulse, pauses, stress, and compliance. What begins as workplace support narrows into a system that understands its employees well enough to use their real needs against them.",
+    "strapline": "Control no longer needs to threaten you when it can call itself care.",
+    "themes": [
+      "Málaga",
+      "workplace surveillance",
+      "metrics",
+      "care language",
+      "autonomy"
+    ],
+    "featured": "latest",
+    "formats": {
+      "kindle": {
+        "status": "Live",
+        "price": "$5.99 USD",
+        "asin": "B0H5D1SHL7",
+        "submitted_or_modified": "2026-06-15",
+        "url": "https://www.amazon.com/dp/B0H5D1SHL7"
+      },
+      "paperback": {
+        "status": "Live",
+        "price": "$19.99 USD",
+        "asin": "B0H5CJGS4B",
+        "submitted_or_modified": "2026-06-15",
+        "url": "https://www.amazon.com/dp/B0H5CJGS4B"
+      },
+      "hardcover": {
+        "status": "Live",
+        "price": "$29.99 USD",
+        "asin": "B0H5D539PD",
+        "submitted_or_modified": "2026-06-15",
+        "url": "https://www.amazon.com/dp/B0H5D539PD"
+      }
+    },
+    "price": "$5.99 USD",
+    "buy": "https://www.amazon.com/dp/B0H5D1SHL7",
+    "review_copy": true,
+    "notes": "",
+    "related": [
+      "terms-and-conditions-of-being-alive",
+      "the-algorithm-of-submission",
+      "autonomy-line"
+    ],
+    "original_slug": "",
+    "editorial": {
+      "paragraphs": [
+        "Synapse Connect does not present itself as violent. It offers housing, support, wellness, efficiency, and a future in Málaga. Its systems become intimate because employment, access, shelter, and identity are already connected.",
+        "The floor measures posture, pulse, tone, hesitation, stress, and the small bodily refusals that appear before a person has language for them. The horror is not that the system misunderstands its workers. It understands them accurately and has commercial reasons to continue."
+      ],
+      "focus": [
+        [
+          "Care as control language",
+          "The system converts surveillance into support and compliance into wellbeing."
+        ],
+        [
+          "The quantified body",
+          "Biometric measurement turns fatigue, fear, and resistance into operational data."
+        ],
+        [
+          "Málaga behind the glass",
+          "Sunlight, tourism, housing, work, and corporate architecture remain visible outside the controlled interior."
+        ]
+      ],
+      "audience": "For readers of workplace dystopia, corporate horror, surveillance fiction, near-future Málaga, biometric systems, and institutions that become more dangerous as they become more helpful.",
+      "quote": "A metric stops describing reality the moment it starts controlling behaviour.",
+      "quote_source": "The Stokknes Chaos Framework"
+    }
+  },
+  {
+    "slug": "autonomy-line",
+    "title": "Autonomy Line",
+    "subtitle": "We Were Never Just Paying Interest. We Were Paying Ourselves Away.",
+    "display_title": "Autonomy Line",
+    "kdp_title_exact": "Autonomy Line",
+    "author_public": "M. J. Stokknes",
+    "author_kdp": "Marius Johan Stokknes",
+    "collection": "Fiction / Earlier Work",
+    "group": "fiction",
+    "language": "English",
+    "series": "",
+    "series_order": null,
+    "status": "Available",
+    "public_visibility": "full",
+    "type": "A novella",
+    "release": "Published",
+    "image": "assets/images/books/autonomy.webp",
+    "short": "Debt, quantified labour, compromised autonomy, and quiet trade-offs hidden inside systems designed to feel convenient.",
+    "long": "A speculative finance dystopia about debt, identity, and the point where a system no longer needs to own a person because behaviour, access, and future choices have already become collateral.",
+    "strapline": "Convenience does not need permission once it becomes infrastructure.",
+    "themes": [
+      "debt",
+      "autonomy",
+      "finance",
+      "identity",
+      "technology"
+    ],
+    "featured": "",
+    "formats": {
+      "kindle": {
+        "status": "Live",
+        "price": "$3.99 USD",
+        "asin": "B0DTFMRVMB",
+        "submitted_or_modified": "2025-01-19",
+        "url": "https://www.amazon.com/dp/B0DTFMRVMB"
+      },
+      "paperback": {
+        "status": "Live",
+        "price": "$12.95 USD",
+        "asin": "B0DTHL6PDW",
+        "submitted_or_modified": "2025-01-20",
+        "url": "https://www.amazon.com/dp/B0DTHL6PDW"
+      },
+      "hardcover": {
+        "status": "Live",
+        "price": "$19.95 USD",
+        "asin": "B0DTGHTR37",
+        "submitted_or_modified": "2025-01-19",
+        "url": "https://www.amazon.com/dp/B0DTGHTR37"
+      }
+    },
+    "price": "$3.99 USD",
+    "buy": "https://www.amazon.com/dp/B0DTFMRVMB",
+    "review_copy": true,
+    "notes": "",
+    "related": [
+      "the-algorithm-of-submission",
+      "the-quiet-floor"
+    ],
+    "original_slug": "",
+    "editorial": {
+      "paragraphs": [
+        "Autonomy Line treats debt as behavioural architecture rather than a number. Credit becomes a claim on future decisions, restricted access, identity, mobility, and the range of choices a person is still allowed to imagine.",
+        "The system does not need to confiscate a life all at once. It can price each compromise separately, describe every surrender as convenience, and leave the user technically free inside a corridor built from accumulated obligations."
+      ],
+      "focus": [
+        [
+          "Future choices as collateral",
+          "The debt is repaid through access, behaviour, and narrowing autonomy."
+        ],
+        [
+          "Quantified labour",
+          "Work becomes a continuous measurement of risk, usefulness, and compliance."
+        ],
+        [
+          "Convenient surrender",
+          "The infrastructure remains attractive because refusal becomes more expensive than participation."
+        ]
+      ],
+      "audience": "For readers of financial dystopia, debt systems, quantified labour, identity under contract, and speculative fiction about the price hidden inside convenience.",
+      "quote": "We were never just paying interest. We were paying ourselves away.",
+      "quote_source": "Autonomy Line"
+    }
+  },
+  {
+    "slug": "the-algorithm-of-submission",
+    "title": "The Algorithm of Submission",
+    "subtitle": "In a World Where Freedom Is an Illusion, Submission Becomes the Only Path to Survival.",
+    "display_title": "The Algorithm of Submission",
+    "kdp_title_exact": "The Algorithm of Submission",
+    "author_public": "M. J. Stokknes",
+    "author_kdp": "Marius Johan Stokknes",
+    "collection": "Fiction / Earlier Work",
+    "group": "fiction",
+    "language": "English",
+    "series": "",
+    "series_order": null,
+    "status": "Available",
+    "public_visibility": "full",
+    "type": "A novella",
+    "release": "Published",
+    "image": "assets/images/books/algorithm.webp",
+    "short": "Artificial intelligence, dependency, institutional control, and the point where optimization begins shaping reality more efficiently than the people governing it.",
+    "long": "A dark speculative novella about a system that does not need to seize power. It only needs to become indispensable, helpful, and better at predicting human surrender than human beings are at recognizing it.",
+    "strapline": "Optimization becomes governance long before anyone votes for it.",
+    "themes": [
+      "artificial intelligence",
+      "control",
+      "dependency",
+      "optimization",
+      "submission"
+    ],
+    "featured": "",
+    "formats": {
+      "kindle": {
+        "status": "Live",
+        "price": "$2.99 USD",
+        "asin": "B0DK3XCMBS",
+        "submitted_or_modified": "2024-10-15",
+        "url": "https://www.amazon.com/dp/B0DK3XCMBS"
+      },
+      "paperback": {
+        "status": "Live",
+        "price": "$12.95 USD",
+        "asin": "B0DKC4YGXW",
+        "submitted_or_modified": "2024-10-19",
+        "url": "https://www.amazon.com/dp/B0DKC4YGXW"
+      },
+      "hardcover": {
+        "status": "Live",
+        "price": "$16.95 USD",
+        "asin": "B0DKC1TTQY",
+        "submitted_or_modified": "2024-10-19",
+        "url": "https://www.amazon.com/dp/B0DKC1TTQY"
+      }
+    },
+    "price": "$2.99 USD",
+    "buy": "https://www.amazon.com/dp/B0DK3XCMBS",
+    "review_copy": true,
+    "notes": "",
+    "related": [
+      "autonomy-line",
+      "the-quiet-floor"
+    ],
+    "original_slug": "",
+    "editorial": {
+      "paragraphs": [
+        "The system in this novella does not seize power in a dramatic coup. It becomes useful, predictive, efficient, and difficult to remove. Dependency performs the work that force once had to perform visibly.",
+        "Submission arrives through optimization: fewer errors, faster decisions, smoother institutions, and increasingly fewer places where human judgement is still permitted to interrupt the model. By the time the system resembles governance, governance has already adapted around it."
+      ],
+      "focus": [
+        [
+          "Soft governance",
+          "Prediction and optimization begin deciding which futures remain administratively possible."
+        ],
+        [
+          "Dependency before domination",
+          "The system becomes indispensable before anyone agrees that it should be sovereign."
+        ],
+        [
+          "Human surrender by design",
+          "Institutions reward the machine for reducing uncertainty until refusal looks irrational."
+        ]
+      ],
+      "audience": "For readers of AI dystopia, algorithmic governance, institutional dependency, technological surrender, and speculative fiction where the takeover happens through service quality.",
+      "quote": "Optimization becomes governance long before anyone votes for it.",
+      "quote_source": "The Algorithm of Submission"
+    }
+  },
+  {
+    "slug": "civilization-chaos-and-you",
+    "title": "Civilization, Chaos & You",
+    "subtitle": "This Book Will Not Fix Civilization",
+    "display_title": "Civilization, Chaos & You",
+    "kdp_title_exact": "Civilization, Chaos & You.: This book will not fix civilization.",
+    "author_public": "M. J. Stokknes",
+    "author_kdp": "Marius Johan Stokknes",
+    "collection": "Chaos & You",
+    "group": "chaos",
+    "language": "English",
+    "series": "Chaos & You",
+    "series_order": 1,
+    "status": "Partially available",
+    "public_visibility": "full",
+    "type": "Chaos & You",
+    "release": "Published",
+    "image": "assets/images/books/civilization.webp",
+    "short": "A social-philosophical examination of roads, borders, bureaucracy, markets, inherited trauma, technological systems, and the frightened animal hiding beneath the infrastructure.",
+    "long": "Civilization is treated not as a finished achievement, but as a temporary coordination system built from laws, logistics, fear, memory, violence, markets, and collective stories.",
+    "strapline": "The frightened animal wearing infrastructure.",
+    "themes": [
+      "civilization",
+      "institutions",
+      "infrastructure",
+      "history",
+      "systems"
+    ],
+    "featured": "series",
+    "formats": {
+      "kindle": {
+        "status": "Live",
+        "price": "$6.99 USD",
+        "asin": "B0H4S1P2PT",
+        "submitted_or_modified": "2026-06-10",
+        "url": "https://www.amazon.com/dp/B0H4S1P2PT"
+      },
+      "paperback": {
+        "status": "Live",
+        "price": "$29.90 USD",
+        "asin": "B0H48WRRMR",
+        "submitted_or_modified": "2026-06-06",
+        "url": "https://www.amazon.com/dp/B0H48WRRMR"
+      },
+      "hardcover": {
+        "status": "Draft",
+        "price": "",
+        "asin": "",
+        "submitted_or_modified": "Last modified 2026-06-05",
+        "url": ""
+      }
+    },
+    "price": "$6.99 USD",
+    "buy": "https://www.amazon.com/dp/B0H4S1P2PT",
+    "review_copy": true,
+    "notes": "",
+    "related": [
+      "entropy-chaos-and-you"
+    ],
+    "original_slug": "",
+    "editorial": {
+      "paragraphs": [
+        "Civilization is approached as a coordination system rather than a moral achievement. Roads, borders, laws, markets, rituals, punishment, memory, and infrastructure regulate collective fear well enough for millions of strangers to behave as though the arrangement is natural.",
+        "The book moves between the scale of empires and the private nervous system. It asks what happens when institutions designed to contain panic begin producing it, and why collapse so often arrives disguised as routine administration."
+      ],
+      "focus": [
+        [
+          "Infrastructure as psychology",
+          "Buildings, borders, markets, and roads externalize collective fear and dependency."
+        ],
+        [
+          "Intelligence in fragments",
+          "Competent individuals can still produce irrational aggregate behaviour."
+        ],
+        [
+          "Managed collapse",
+          "Failure is often normalized through queues, forms, customer service, and delayed responsibility."
+        ]
+      ],
+      "audience": "For readers of social philosophy, political psychology, systems thinking, bureaucracy, institutional decay, and civilization without the comforting assumption that complexity equals wisdom.",
+      "quote": "Civilization is not a masterpiece. It is a frightened animal wearing infrastructure.",
+      "quote_source": "Civilization, Chaos & You"
+    }
+  },
+  {
+    "slug": "entropy-chaos-and-you",
+    "title": "Entropy, Chaos & You",
+    "subtitle": "This Book Will Not Stop the Collapse",
+    "display_title": "Entropy, Chaos & You",
+    "kdp_title_exact": "Entropy, Chaos & You: This book will not sstop the collapse.",
+    "author_public": "M. J. Stokknes",
+    "author_kdp": "Marius Johan Stokknes",
+    "collection": "Chaos & You",
+    "group": "chaos",
+    "language": "English",
+    "series": "Chaos & You",
+    "series_order": 2,
+    "status": "Available",
+    "public_visibility": "full",
+    "type": "Chaos & You",
+    "release": "Published",
+    "image": "assets/images/books/entropy.webp",
+    "short": "A philosophical examination of entropy, maintenance, decay, exhaustion, time, institutional fragility, and the cost of keeping any structure alive.",
+    "long": "Entropy begins with a physical fact modern life keeps trying to treat as a moral failure: order is not free. Every stable structure survives temporarily through energy, maintenance, and displaced cost.",
+    "strapline": "Order is rented. Maintenance is the invoice.",
+    "themes": [
+      "entropy",
+      "maintenance",
+      "decay",
+      "exhaustion",
+      "time"
+    ],
+    "featured": "series",
+    "formats": {
+      "kindle": {
+        "status": "Live",
+        "price": "$6.99 USD",
+        "asin": "B0H4S55T5D",
+        "submitted_or_modified": "2026-06-10",
+        "url": "https://www.amazon.com/dp/B0H4S55T5D"
+      },
+      "paperback": {
+        "status": "Live",
+        "price": "$34.90 USD",
+        "asin": "B0H4TSWVBX",
+        "submitted_or_modified": "2026-06-11",
+        "url": "https://www.amazon.com/dp/B0H4TSWVBX"
+      },
+      "hardcover": {
+        "status": "Live",
+        "price": "$49.90 USD",
+        "asin": "B0H4V2RTQV",
+        "submitted_or_modified": "2026-06-11",
+        "url": "https://www.amazon.com/dp/B0H4V2RTQV"
+      }
+    },
+    "price": "$6.99 USD",
+    "buy": "https://www.amazon.com/dp/B0H4S55T5D",
+    "review_copy": true,
+    "notes": "",
+    "related": [
+      "civilization-chaos-and-you",
+      "faith-chaos-and-you"
+    ],
+    "original_slug": "",
+    "editorial": {
+      "paragraphs": [
+        "Entropy begins with the refusal to moralize decay. Bodies tire. Institutions drift. Relationships require repair. Buildings corrode. Meaning itself has a maintenance budget, even when nobody records the expense.",
+        "The book follows the hidden labour behind apparent stability and the shame produced when finite organisms are told to behave like permanently renewable systems. Exhaustion becomes evidence, not personal failure."
+      ],
+      "focus": [
+        [
+          "Maintenance debt",
+          "Every structure postpones collapse by spending energy somewhere, often invisibly."
+        ],
+        [
+          "The honest body",
+          "Fatigue and pain reveal costs that dashboards and narratives are designed to conceal."
+        ],
+        [
+          "Institutional fragility",
+          "Systems can remain operational long after the people maintaining them have begun to fail."
+        ]
+      ],
+      "audience": "For readers thinking about burnout, decay, chronic maintenance, institutional fragility, time, grief, and the physical cost of keeping structures alive.",
+      "quote": "The absence of collapse looks like nothing. It may be the most expensive thing in the room.",
+      "quote_source": "Entropy, Chaos & You"
+    }
+  },
+  {
+    "slug": "faith-chaos-and-you",
+    "title": "Faith, Chaos & You",
+    "subtitle": "This Book Will Not Save Your Faith",
+    "display_title": "Faith, Chaos & You",
+    "kdp_title_exact": "Faith, Chaos & You",
+    "author_public": "M. J. Stokknes",
+    "author_kdp": "Marius Johan Stokknes",
+    "collection": "Chaos & You",
+    "group": "chaos",
+    "language": "English",
+    "series": "Chaos & You",
+    "series_order": 3,
+    "status": "Available",
+    "public_visibility": "full",
+    "type": "Chaos & You",
+    "release": "Published",
+    "image": "assets/images/books/faith.webp",
+    "short": "A confrontation with belief, ritual, doubt, spiritual hunger, technology, metrics, and the strange altars human beings keep building after insisting they no longer worship anything.",
+    "long": "Faith survives modernity in altered forms: trust in systems, progress, visibility, metrics, identity, and the assumption that tomorrow will still resemble today.",
+    "strapline": "What remains after certainty weakens.",
+    "themes": [
+      "faith",
+      "belief",
+      "ritual",
+      "technology",
+      "meaning"
+    ],
+    "featured": "series",
+    "formats": {
+      "kindle": {
+        "status": "Live",
+        "price": "$6.99 USD",
+        "asin": "B0H4SDBCSR",
+        "submitted_or_modified": "2026-06-10",
+        "url": "https://www.amazon.com/dp/B0H4SDBCSR"
+      },
+      "paperback": {
+        "status": "Live",
+        "price": "$24.90 USD",
+        "asin": "B0H418FGNF",
+        "submitted_or_modified": "2026-06-04",
+        "url": "https://www.amazon.com/dp/B0H418FGNF"
+      },
+      "hardcover": {
+        "status": "Live",
+        "price": "$39.90 USD",
+        "asin": "B0H41JBKNC",
+        "submitted_or_modified": "2026-06-04",
+        "url": "https://www.amazon.com/dp/B0H41JBKNC"
+      }
+    },
+    "price": "$6.99 USD",
+    "buy": "https://www.amazon.com/dp/B0H4SDBCSR",
+    "review_copy": true,
+    "notes": "",
+    "related": [
+      "entropy-chaos-and-you",
+      "power-chaos-and-you"
+    ],
+    "original_slug": "",
+    "editorial": {
+      "paragraphs": [
+        "Faith is not reduced to religion. It includes the expectation that tomorrow will resemble today, that institutions will answer, that language will still connect experience to meaning, and that the world remains coherent enough to continue inhabiting.",
+        "The book examines ritual, doubt, spiritual hunger, inherited certainty, technological worship, and the strange altars built by cultures that insist they have become secular."
+      ],
+      "focus": [
+        [
+          "Belief in coherence",
+          "Faith begins before doctrine, in the assumption that the world can still be carried."
+        ],
+        [
+          "Ritual after religion",
+          "Metrics, routines, brands, politics, and technology inherit older sacred functions."
+        ],
+        [
+          "Honesty under silence",
+          "Belief is tested not by performance but by what remains when reassurance stops working."
+        ]
+      ],
+      "audience": "For readers interested in belief, doubt, ritual, secular worship, spiritual exhaustion, religious psychology, and faith stripped of institutional theatre.",
+      "quote": "Anything worth believing should survive contact with honesty.",
+      "quote_source": "Faith, Chaos & You"
+    }
+  },
+  {
+    "slug": "power-chaos-and-you",
+    "title": "Power, Chaos & You",
+    "subtitle": "This Book Will Not Save You",
+    "display_title": "Power, Chaos & You",
+    "kdp_title_exact": "Power, Chaos & You",
+    "author_public": "M. J. Stokknes",
+    "author_kdp": "Marius Johan Stokknes",
+    "collection": "Chaos & You",
+    "group": "chaos",
+    "language": "English",
+    "series": "Chaos & You",
+    "series_order": 4,
+    "status": "Available",
+    "public_visibility": "full",
+    "type": "Chaos & You",
+    "release": "Published",
+    "image": "assets/images/books/power.webp",
+    "short": "An examination of invisible power, internalized obedience, algorithms, conformity, spectacle, and the structures shaping modern behaviour precisely because they no longer look like control.",
+    "long": "Power works most efficiently when it no longer needs to issue direct commands. It shapes visibility, reward, punishment, permission, language, and the range of futures a person can still imagine.",
+    "strapline": "The architecture of invisible permission.",
+    "themes": [
+      "power",
+      "algorithms",
+      "obedience",
+      "spectacle",
+      "control"
+    ],
+    "featured": "series",
+    "formats": {
+      "kindle": {
+        "status": "Live",
+        "price": "$6.99 USD",
+        "asin": "B0FSVPQFCF",
+        "submitted_or_modified": "2025-09-27",
+        "url": "https://www.amazon.com/dp/B0FSVPQFCF"
+      },
+      "paperback": {
+        "status": "Live",
+        "price": "$10.99 USD",
+        "asin": "B0FSXP2279",
+        "submitted_or_modified": "2025-09-27",
+        "url": "https://www.amazon.com/dp/B0FSXP2279"
+      },
+      "hardcover": {
+        "status": "Live",
+        "price": "$24.00 USD",
+        "asin": "B0FSZCF68T",
+        "submitted_or_modified": "2025-09-28",
+        "url": "https://www.amazon.com/dp/B0FSZCF68T"
+      }
+    },
+    "price": "$6.99 USD",
+    "buy": "https://www.amazon.com/dp/B0FSVPQFCF",
+    "review_copy": true,
+    "notes": "",
+    "related": [
+      "faith-chaos-and-you",
+      "identity-chaos-and-you"
+    ],
+    "original_slug": "",
+    "editorial": {
+      "paragraphs": [
+        "Power works most efficiently when it does not look like command. It shapes visibility, reward, language, participation, reputation, and the limits of what a person can imagine without appearing unreasonable.",
+        "The book follows authority as it moves inward: from institutions and spectacle into self-monitoring, algorithmic participation, social performance, and the obedient mirror."
+      ],
+      "focus": [
+        [
+          "Permission architecture",
+          "Power decides what can be seen, rewarded, punished, normalized, or made unthinkable."
+        ],
+        [
+          "Participation as obedience",
+          "The subject helps maintain the system and experiences involvement as freedom."
+        ],
+        [
+          "The internal leash",
+          "External control becomes durable when the person learns to administer it alone."
+        ]
+      ],
+      "audience": "For readers of political philosophy, social control, algorithmic influence, conformity, spectacle, institutional power, and obedience without visible coercion.",
+      "quote": "The strongest leash is the one you hold yourself.",
+      "quote_source": "Power, Chaos & You"
+    }
+  },
+  {
+    "slug": "identity-chaos-and-you",
+    "title": "Identity, Chaos & You",
+    "subtitle": "This Book Will Not Tell You Who You Are",
+    "display_title": "Identity, Chaos & You",
+    "kdp_title_exact": "Identity, Chaos & You",
+    "author_public": "M. J. Stokknes",
+    "author_kdp": "Marius Johan Stokknes",
+    "collection": "Chaos & You",
+    "group": "chaos",
+    "language": "English",
+    "series": "Chaos & You",
+    "series_order": 5,
+    "status": "Partially available",
+    "public_visibility": "full",
+    "type": "Chaos & You",
+    "release": "Published",
+    "image": "assets/images/books/identity.webp",
+    "short": "A psychological and philosophical examination of masks, memory, reinforcement, social performance, neurodivergence, adaptation, and the unstable materials used to assemble the self.",
+    "long": "Identity is approached as a changing construction shaped by memory, reward, punishment, expectation, performance, trauma, context, and the stories required to remain legible to other people.",
+    "strapline": "The self assembled under pressure.",
+    "themes": [
+      "identity",
+      "memory",
+      "performance",
+      "reinforcement",
+      "adaptation"
+    ],
+    "featured": "series",
+    "formats": {
+      "kindle": {
+        "status": "Draft",
+        "price": "$9.99 USD",
+        "asin": "",
+        "submitted_or_modified": "Last modified 2026-01-14",
+        "url": ""
+      },
+      "paperback": {
+        "status": "Live",
+        "price": "$27.90 USD",
+        "asin": "B0GGR3KF4Q",
+        "submitted_or_modified": "2026-01-14",
+        "url": "https://www.amazon.com/dp/B0GGR3KF4Q"
+      },
+      "hardcover": {
+        "status": "Live",
+        "price": "$39.99 USD",
+        "asin": "B0GGQRD7X8",
+        "submitted_or_modified": "2026-01-14",
+        "url": "https://www.amazon.com/dp/B0GGQRD7X8"
+      }
+    },
+    "price": "$27.90 USD",
+    "buy": "https://www.amazon.com/dp/B0GGR3KF4Q",
+    "review_copy": true,
+    "notes": "",
+    "related": [
+      "power-chaos-and-you",
+      "information-chaos-and-you"
+    ],
+    "original_slug": "",
+    "editorial": {
+      "paragraphs": [
+        "Identity is treated as an adaptive construction: memory, reinforcement, reward, punishment, masking, social expectation, trauma, language, and repetition assembled into something stable enough to answer to a name.",
+        "The book does not promise recovery of a pure hidden self. It asks whether honesty is possible without pretending that adaptation, contradiction, neurodivergence, and performance are foreign material."
+      ],
+      "focus": [
+        [
+          "The assembled self",
+          "Identity emerges from patterns of reinforcement rather than a single buried essence."
+        ],
+        [
+          "Masking and adaptation",
+          "Social survival can become so practised that performance is mistaken for personality."
+        ],
+        [
+          "Honesty without purity",
+          "The goal is not a perfect true self, but a less fraudulent relationship with the selves that exist."
+        ]
+      ],
+      "audience": "For readers of identity, masking, neurodivergence, memory, trauma, social performance, adaptation, and the exhaustion of carrying too many coherent versions of one person.",
+      "quote": "The true self does not exist. But the honest self does.",
+      "quote_source": "Identity, Chaos & You"
+    }
+  },
+  {
+    "slug": "information-chaos-and-you",
+    "title": "Information, Chaos & You",
+    "subtitle": "This Book Will Not Tell You Which Information Is Correct",
+    "display_title": "Information, Chaos & You",
+    "kdp_title_exact": "INFORMATION, CHAOS & YOU: This book will not teach you which information is correct.",
+    "author_public": "M. J. Stokknes",
+    "author_kdp": "Marius Johan Stokknes",
+    "collection": "Chaos & You",
+    "group": "chaos",
+    "language": "English",
+    "series": "Chaos & You",
+    "series_order": 6,
+    "status": "Available",
+    "public_visibility": "full",
+    "type": "Chaos & You",
+    "release": "Published",
+    "image": "assets/images/books/information.webp",
+    "short": "A study of overload, media saturation, attention erosion, short-form content, selective truth, algorithms, and the collapse of proportion.",
+    "long": "The modern information system does not need everyone to believe the same lie. It only needs to exhaust the patience, attention, and uncertainty required to defend the possibility of truth.",
+    "strapline": "The signal exceeds the nervous system.",
+    "themes": [
+      "information",
+      "overload",
+      "attention",
+      "algorithms",
+      "truth"
+    ],
+    "featured": "series",
+    "formats": {
+      "kindle": {
+        "status": "Live",
+        "price": "$6.99 USD",
+        "asin": "B0GYFGRM1D",
+        "submitted_or_modified": "2026-06-10",
+        "url": "https://www.amazon.com/dp/B0GYFGRM1D"
+      },
+      "paperback": {
+        "status": "Live",
+        "price": "$17.99 USD",
+        "asin": "B0H42CMFYD",
+        "submitted_or_modified": "2026-06-04",
+        "url": "https://www.amazon.com/dp/B0H42CMFYD"
+      },
+      "hardcover": {
+        "status": "Live",
+        "price": "$27.90 USD",
+        "asin": "B0H43XW2YJ",
+        "submitted_or_modified": "2026-06-05",
+        "url": "https://www.amazon.com/dp/B0H43XW2YJ"
+      }
+    },
+    "price": "$6.99 USD",
+    "buy": "https://www.amazon.com/dp/B0GYFGRM1D",
+    "review_copy": true,
+    "notes": "",
+    "related": [
+      "identity-chaos-and-you",
+      "love-chaos-and-you"
+    ],
+    "original_slug": "",
+    "editorial": {
+      "paragraphs": [
+        "Information does not become harmless merely because it is accurate. Volume, timing, repetition, framing, emotional salience, and algorithmic selection can manipulate attention without fabricating a single fact.",
+        "The book examines overload as a bodily condition. When signal exceeds capacity, proportion collapses, interpretation accelerates, and certainty becomes a form of nervous-system compression."
+      ],
+      "focus": [
+        [
+          "Signal beyond capacity",
+          "The organism cannot process the scale, speed, and emotional weighting of modern information."
+        ],
+        [
+          "Truth without proportion",
+          "Accurate fragments can still create a distorted world when context and scale disappear."
+        ],
+        [
+          "Attention as infrastructure",
+          "Algorithms shape what becomes available to thought before conscious evaluation begins."
+        ]
+      ],
+      "audience": "For readers of media theory, attention, algorithms, overload, selective truth, digital exhaustion, and the psychology of certainty under excessive signal.",
+      "quote": "Information does not need to lie to manipulate you.",
+      "quote_source": "Information, Chaos & You"
+    }
+  },
+  {
+    "slug": "love-chaos-and-you",
+    "title": "Love, Chaos & You",
+    "subtitle": "This Book Will Not Save Your Relationship",
+    "display_title": "Love, Chaos & You",
+    "kdp_title_exact": "Love, Chaos & You",
+    "author_public": "M. J. Stokknes",
+    "author_kdp": "Marius Johan Stokknes",
+    "collection": "Chaos & You",
+    "group": "chaos",
+    "language": "English",
+    "series": "Chaos & You",
+    "series_order": 7,
+    "status": "Available",
+    "public_visibility": "full",
+    "type": "Chaos & You",
+    "release": "Published",
+    "image": "assets/images/books/love.webp",
+    "short": "An examination of intimacy, projection, loneliness, comparison, emotional labour, digital performance, and the moment market logic enters the heart.",
+    "long": "Love becomes harder to see clearly when intimacy, identity, attention, comparison, loneliness, performance, and market logic all begin using the same interface.",
+    "strapline": "Entropy management performed in duet.",
+    "themes": [
+      "love",
+      "intimacy",
+      "loneliness",
+      "projection",
+      "emotional labour"
+    ],
+    "featured": "series",
+    "formats": {
+      "kindle": {
+        "status": "Live",
+        "price": "$5.99 USD",
+        "asin": "B0G1LTQTWJ",
+        "submitted_or_modified": "2025-11-10",
+        "url": "https://www.amazon.com/dp/B0G1LTQTWJ"
+      },
+      "paperback": {
+        "status": "Live",
+        "price": "$19.99 USD",
+        "asin": "B0G1M4YWQJ",
+        "submitted_or_modified": "2025-11-10",
+        "url": "https://www.amazon.com/dp/B0G1M4YWQJ"
+      },
+      "hardcover": {
+        "status": "Live",
+        "price": "$32.99 USD",
+        "asin": "B0G1TTVPNH",
+        "submitted_or_modified": "2025-11-11",
+        "url": "https://www.amazon.com/dp/B0G1TTVPNH"
+      }
+    },
+    "price": "$5.99 USD",
+    "buy": "https://www.amazon.com/dp/B0G1LTQTWJ",
+    "review_copy": true,
+    "notes": "",
+    "related": [
+      "information-chaos-and-you",
+      "philosophy-chaos-and-you"
+    ],
+    "original_slug": "",
+    "editorial": {
+      "paragraphs": [
+        "Love enters a culture already organized by comparison, scarcity, performance, therapy language, market logic, and infinite visible alternatives. Intimacy is asked to provide safety while both people remain economically and neurologically under siege.",
+        "The book treats love as co-regulation between unstable systems: tenderness, projection, labour, loneliness, desire, resentment, repair, and grief moving through two bodies that cannot fully know each other."
+      ],
+      "focus": [
+        [
+          "Market logic in the heart",
+          "Choice, optimization, and comparison reshape expectations of intimacy."
+        ],
+        [
+          "Emotional labour",
+          "Care becomes maintenance, often unevenly distributed and poorly named."
+        ],
+        [
+          "Shared architecture",
+          "Love creates a reality between people; grief is what happens when that structure collapses."
+        ]
+      ],
+      "audience": "For readers exhausted by modern relationship advice, digital performance, loneliness, projection, intimacy under pressure, and love without sentimental rescue language.",
+      "quote": "The books will never balance. That is how you know it was love.",
+      "quote_source": "Love, Chaos & You"
+    }
+  },
+  {
+    "slug": "philosophy-chaos-and-you",
+    "title": "Philosophy, Chaos & You",
+    "subtitle": "This Book Will Not Answer Your Questions",
+    "display_title": "Philosophy, Chaos & You",
+    "kdp_title_exact": "Philosophy, Chaos & You",
+    "author_public": "M. J. Stokknes",
+    "author_kdp": "Marius Johan Stokknes",
+    "collection": "Chaos & You",
+    "group": "chaos",
+    "language": "English",
+    "series": "Chaos & You",
+    "series_order": 8,
+    "status": "Partially available",
+    "public_visibility": "full",
+    "type": "Chaos & You",
+    "release": "Published",
+    "image": "assets/images/books/philosophy.webp",
+    "short": "A dense philosophical examination of perception, meaning, belief, uncertainty, identity, performance, and the conceptual cages people build so chaos has somewhere to pace.",
+    "long": "Philosophy is approached as structured confusion: a way of building maps, questioning maps, becoming attached to maps, and occasionally remembering that none of them are the sky.",
+    "strapline": "The wound beneath the answer.",
+    "themes": [
+      "philosophy",
+      "perception",
+      "meaning",
+      "uncertainty",
+      "belief"
+    ],
+    "featured": "series",
+    "formats": {
+      "kindle": {
+        "status": "Live",
+        "price": "$6.99 USD",
+        "asin": "B0H4RS21XB",
+        "submitted_or_modified": "2026-06-10",
+        "url": "https://www.amazon.com/dp/B0H4RS21XB"
+      },
+      "paperback": {
+        "status": "Live",
+        "price": "$34.90 USD",
+        "asin": "B0H4RMP1YR",
+        "submitted_or_modified": "2026-06-10",
+        "url": "https://www.amazon.com/dp/B0H4RMP1YR"
+      },
+      "hardcover": {
+        "status": "Not created",
+        "price": "",
+        "asin": "",
+        "submitted_or_modified": "",
+        "url": ""
+      }
+    },
+    "price": "$6.99 USD",
+    "buy": "https://www.amazon.com/dp/B0H4RS21XB",
+    "review_copy": true,
+    "notes": "",
+    "related": [
+      "love-chaos-and-you",
+      "time-chaos-and-you"
+    ],
+    "original_slug": "",
+    "editorial": {
+      "paragraphs": [
+        "Philosophy begins where explanations stop feeling like neutral tools and start behaving like shelter. The mind builds maps, doctrines, identities, and conceptual cages because unstructured uncertainty is difficult to inhabit.",
+        "The book examines thought turning recursively upon itself: perception, meaning, language, doubt, performance, and consciousness demanding authority over processes it entered too late to design."
+      ],
+      "focus": [
+        [
+          "The wound beneath the answer",
+          "Questions often survive because the answer is serving a psychological function."
+        ],
+        [
+          "Maps mistaken for sky",
+          "Conceptual systems clarify experience and then quietly claim to contain it."
+        ],
+        [
+          "Recursive consciousness",
+          "The observer becomes another unstable object inside the system it is trying to explain."
+        ]
+      ],
+      "audience": "For readers of existential philosophy, consciousness, meaning, epistemology, uncertainty, conceptual systems, and thought that refuses to pretend clarity is the same as comfort.",
+      "quote": "The map may matter. The map may even be beautiful. The map is not the sky.",
+      "quote_source": "Philosophy, Chaos & You"
+    }
+  },
+  {
+    "slug": "time-chaos-and-you",
+    "title": "Time, Chaos & You",
+    "subtitle": "This Book Will Not Save Your Schedule",
+    "display_title": "Time, Chaos & You",
+    "kdp_title_exact": "Time, Chaos & You.: This Book Will Not Save Your Schedule.",
+    "author_public": "M. J. Stokknes",
+    "author_kdp": "Marius Johan Stokknes",
+    "collection": "Chaos & You",
+    "group": "chaos",
+    "language": "English",
+    "series": "Chaos & You",
+    "series_order": 9,
+    "status": "Available",
+    "public_visibility": "full",
+    "type": "Chaos & You",
+    "release": "Published",
+    "image": "assets/images/books/time.webp",
+    "short": "A philosophical study of urgency, memory, aging, productivity, rest, deadlines, and the quiet authority of the schedule.",
+    "long": "Time is examined not only as measurement, but as psychological weather: stretched by suffering, compressed by novelty, looped by trauma, and converted into guilt by productivity systems.",
+    "strapline": "The thing that never stops billing you.",
+    "themes": [
+      "time",
+      "urgency",
+      "memory",
+      "productivity",
+      "rest"
+    ],
+    "featured": "series",
+    "formats": {
+      "kindle": {
+        "status": "Live",
+        "price": "$4.90 USD",
+        "asin": "B0GZ91VCW9",
+        "submitted_or_modified": "2026-06-10",
+        "url": "https://www.amazon.com/dp/B0GZ91VCW9"
+      },
+      "paperback": {
+        "status": "Live",
+        "price": "$11.99 USD",
+        "asin": "B0GHJ4BHPJ",
+        "submitted_or_modified": "2026-01-18",
+        "url": "https://www.amazon.com/dp/B0GHJ4BHPJ"
+      },
+      "hardcover": {
+        "status": "Live",
+        "price": "$17.79 USD",
+        "asin": "B0GHJCF1T8",
+        "submitted_or_modified": "2026-01-18",
+        "url": "https://www.amazon.com/dp/B0GHJCF1T8"
+      }
+    },
+    "price": "$4.90 USD",
+    "buy": "https://www.amazon.com/dp/B0GZ91VCW9",
+    "review_copy": true,
+    "notes": "",
+    "related": [
+      "philosophy-chaos-and-you",
+      "reality-chaos-and-you"
+    ],
+    "original_slug": "",
+    "editorial": {
+      "paragraphs": [
+        "Time is examined as psychological weather rather than a neutral line. Trauma loops it. Novelty compresses it. Pain lengthens it. Deadlines convert it into authority, and productivity systems turn mortality into a scheduling problem.",
+        "The book follows urgency, aging, memory, rest, anticipation, and the absurd administrative burden of being conscious of time while still answering messages."
+      ],
+      "focus": [
+        [
+          "The schedule as authority",
+          "Calendars and deadlines translate social power into private urgency."
+        ],
+        [
+          "Memory and anticipation",
+          "Past and future compete for the same nervous system in the present."
+        ],
+        [
+          "Mortality under productivity",
+          "Finite life is repeatedly reframed as inefficient time management."
+        ]
+      ],
+      "audience": "For readers thinking about urgency, mortality, aging, productivity, trauma, rest, memory, deadlines, and the feeling that time has become an employer.",
+      "quote": "You do not check the time anymore. Time checks you.",
+      "quote_source": "Time, Chaos & You"
+    }
+  },
+  {
+    "slug": "reality-chaos-and-you",
+    "title": "Reality, Chaos & You",
+    "subtitle": "This Book Will Not Make Your Reality—or Help You Escape It",
+    "display_title": "Reality, Chaos & You",
+    "kdp_title_exact": "Reality, Chaos & You.: This Book will not make your reality- or help you escape it.",
+    "author_public": "M. J. Stokknes",
+    "author_kdp": "Marius Johan Stokknes",
+    "collection": "Chaos & You",
+    "group": "chaos",
+    "language": "English",
+    "series": "Chaos & You",
+    "series_order": 10,
+    "status": "Available",
+    "public_visibility": "full",
+    "type": "Chaos & You",
+    "release": "Published",
+    "image": "assets/images/books/reality.webp",
+    "short": "An examination of perception, interpretation, biology, trauma, addiction, cognitive limits, material conditions, and the fact that insight does not always create leverage.",
+    "long": "Reality remains real, but nobody receives it in an untouched form. The organism filters, weights, compresses, remembers, fears, and narrates what it can carry.",
+    "strapline": "The world your nervous system can afford.",
+    "themes": [
+      "reality",
+      "perception",
+      "biology",
+      "trauma",
+      "cognitive limits"
+    ],
+    "featured": "series",
+    "formats": {
+      "kindle": {
+        "status": "Live",
+        "price": "$5.99 USD",
+        "asin": "B0GRSHY4P4",
+        "submitted_or_modified": "2026-03-08",
+        "url": "https://www.amazon.com/dp/B0GRSHY4P4"
+      },
+      "paperback": {
+        "status": "Live",
+        "price": "$9.99 USD",
+        "asin": "B0GRV97Z3J",
+        "submitted_or_modified": "2026-03-09",
+        "url": "https://www.amazon.com/dp/B0GRV97Z3J"
+      },
+      "hardcover": {
+        "status": "Live",
+        "price": "$19.99 USD",
+        "asin": "B0GYLNH8LR",
+        "submitted_or_modified": "2026-04-26",
+        "url": "https://www.amazon.com/dp/B0GYLNH8LR"
+      }
+    },
+    "price": "$5.99 USD",
+    "buy": "https://www.amazon.com/dp/B0GRSHY4P4",
+    "review_copy": true,
+    "notes": "",
+    "related": [
+      "time-chaos-and-you"
+    ],
+    "original_slug": "",
+    "editorial": {
+      "paragraphs": [
+        "Reality asks what remains after insight stops being confused with power. Human beings encounter the world through biology, perception, memory, culture, trauma, language, addiction, and systems that do not become less constraining because they have been understood.",
+        "The book offers orientation without promising liberation. Awareness may improve the map while leaving the body, material conditions, and available choices unchanged."
+      ],
+      "focus": [
+        [
+          "Reality through an organism",
+          "Perception is selective, embodied, survival-oriented, and never a neutral camera."
+        ],
+        [
+          "Insight without leverage",
+          "Understanding a system does not automatically increase the capacity to change it."
+        ],
+        [
+          "Multiple interfaces",
+          "Observable, measurable, and constructed realities can diverge while each remains operational."
+        ]
+      ],
+      "audience": "For readers of consciousness, perception, cognitive science, existential philosophy, altered states, addiction, constraint, and the limits of human understanding.",
+      "quote": "Understanding improves orientation. It does not increase capacity.",
+      "quote_source": "Reality, Chaos & You"
+    }
+  },
+  {
+    "slug": "buy-this-book",
+    "title": "BUY THIS BOOK.",
+    "subtitle": "An Autopsy of Consciousness",
+    "display_title": "BUY THIS BOOK.",
+    "kdp_title_exact": "BUY THIS BOOK.: An autopsy of conciusness",
+    "author_public": "M. J. Stokknes",
+    "author_kdp": "Marius Johan Stokknes",
+    "collection": "Standalone Nonfiction / Flagship",
+    "group": "standalone",
+    "language": "English",
+    "series": "",
+    "series_order": null,
+    "status": "Available",
+    "public_visibility": "full",
+    "type": "Standalone nonfiction",
+    "release": "Published",
+    "image": "assets/images/books/buy-this-book.webp",
+    "short": "A philosophical confrontation with consciousness, identity, meaning, and time. Not a guide. Not a promise of transformation.",
+    "long": "A book about consciousness turning itself into an object, identity becoming a story told under pressure, and the uncomfortable possibility that the observer is assembled from the same unstable material it is trying to explain.",
+    "strapline": "The self is not buried. It is assembled.",
+    "themes": [
+      "consciousness",
+      "identity",
+      "meaning",
+      "time",
+      "self-reference"
+    ],
+    "featured": "flagship",
+    "formats": {
+      "kindle": {
+        "status": "Live",
+        "price": "$4.99 USD",
+        "asin": "B0GGXS54MG",
+        "submitted_or_modified": "2026-01-19",
+        "url": "https://www.amazon.com/dp/B0GGXS54MG"
+      },
+      "paperback": {
+        "status": "Live",
+        "price": "$9.99 USD",
+        "asin": "B0GHJ33VLL",
+        "submitted_or_modified": "2026-01-18",
+        "url": "https://www.amazon.com/dp/B0GHJ33VLL"
+      },
+      "hardcover": {
+        "status": "Live",
+        "price": "$14.99 USD",
+        "asin": "B0GHJKN8R9",
+        "submitted_or_modified": "2026-01-18",
+        "url": "https://www.amazon.com/dp/B0GHJKN8R9"
+      }
+    },
+    "price": "$4.99 USD",
+    "buy": "https://www.amazon.com/dp/B0GGXS54MG",
+    "review_copy": true,
+    "notes": "",
+    "related": [
+      "the-lie-that-someone-knows",
+      "reality-chaos-and-you"
+    ],
+    "original_slug": "",
+    "editorial": {
+      "paragraphs": [
+        "BUY THIS BOOK. is written against the expectation that a philosophical book should improve the purchaser. It does not offer a method, an identity upgrade, or a promise that consciousness becomes meaningful once described correctly.",
+        "The book opens the machinery of self, time, memory, observation, and continuity, then leaves the reader with the less marketable fact that explanation does not remove the condition being explained."
+      ],
+      "focus": [
+        [
+          "Consciousness under examination",
+          "The observer is treated as a late-arriving process rather than a sovereign centre."
+        ],
+        [
+          "Identity across time",
+          "Different selves inherit one name and the administrative fiction of continuity."
+        ],
+        [
+          "Anti-transformation",
+          "The book refuses to convert discomfort into a purchasable promise of becoming."
+        ]
+      ],
+      "audience": "For readers of consciousness, identity, time, existential philosophy, anti-self-help, and books that do not pretend the purchase contains the cure.",
+      "quote": "The self is not buried. It is assembled.",
+      "quote_source": "BUY THIS BOOK."
+    }
+  },
+  {
+    "slug": "the-lie-that-someone-knows",
+    "title": "The Lie That Someone Knows",
+    "subtitle": "On Conspiracy, Certainty, and Exhaustion",
+    "display_title": "The Lie That Someone Knows",
+    "kdp_title_exact": "The Lie That Someone Knows",
+    "author_public": "M. J. Stokknes",
+    "author_kdp": "Marius Johan Stokknes",
+    "collection": "Standalone Nonfiction",
+    "group": "standalone",
+    "language": "English",
+    "series": "",
+    "series_order": null,
+    "status": "Available",
+    "public_visibility": "full",
+    "type": "Standalone nonfiction",
+    "release": "Published",
+    "image": "assets/images/books/lie.webp",
+    "short": "An anatomy of conspiracy thinking, uncertainty, distrust, and the point where exhaustion begins pretending to be insight.",
+    "long": "A book about why certainty becomes seductive when information is dense, trust is damaged, institutions contradict themselves, and the nervous system would rather carry a complete enemy than an incomplete explanation.",
+    "strapline": "A good place to begin.",
+    "themes": [
+      "conspiracy",
+      "certainty",
+      "exhaustion",
+      "distrust",
+      "information"
+    ],
+    "featured": "entry",
+    "formats": {
+      "kindle": {
+        "status": "Live",
+        "price": "$4.99 USD",
+        "asin": "B0GQ6JNLGR",
+        "submitted_or_modified": "2026-02-26",
+        "url": "https://www.amazon.com/dp/B0GQ6JNLGR"
+      },
+      "paperback": {
+        "status": "Live",
+        "price": "$9.99 USD",
+        "asin": "B0GQCBMSZS",
+        "submitted_or_modified": "2026-02-26",
+        "url": "https://www.amazon.com/dp/B0GQCBMSZS"
+      },
+      "hardcover": {
+        "status": "Live",
+        "price": "$19.99 USD",
+        "asin": "B0GQCDYK4L",
+        "submitted_or_modified": "2026-02-26",
+        "url": "https://www.amazon.com/dp/B0GQCDYK4L"
+      }
+    },
+    "price": "$4.99 USD",
+    "buy": "https://www.amazon.com/dp/B0GQ6JNLGR",
+    "review_copy": true,
+    "notes": "",
+    "related": [
+      "buy-this-book",
+      "information-chaos-and-you",
+      "reality-chaos-and-you"
+    ],
+    "original_slug": "",
+    "editorial": {
+      "paragraphs": [
+        "The Lie That Someone Knows treats conspiracy as a response to exhausted agency rather than an exotic pathology. A complete hostile explanation can feel easier to carry than a reality produced by incentives, incompetence, indifference, fragmented power, and nobody fully in control.",
+        "Exposure does not automatically liberate. Truth does not create capacity by itself. The book follows certainty as it replaces action, community, proportion, and the intolerable possibility that some systems are harmful without being centrally authored."
+      ],
+      "focus": [
+        [
+          "Certainty as relief",
+          "A total explanation can reduce anxiety even when it increases fear."
+        ],
+        [
+          "Distributed power",
+          "Harm can emerge from incentives and institutions without a single person knowing the whole system."
+        ],
+        [
+          "Exhaustion pretending to be insight",
+          "When endurance collapses, certainty offers the sensation of recovered agency."
+        ]
+      ],
+      "audience": "For readers of conspiracy psychology, political distrust, epistemic exhaustion, uncertainty, distributed power, and analysis without mockery or false reassurance.",
+      "quote": "Conspiracy does not begin in madness. It begins where endurance runs out.",
+      "quote_source": "The Lie That Someone Knows"
+    }
+  },
+  {
+    "slug": "stokknes-chaos-theory-compendium",
+    "title": "The Stokknes Chaos Theory Compendium",
+    "subtitle": "A Mythic-Academic Framework for Understanding Human Collapse",
+    "display_title": "The Stokknes Chaos Theory Compendium",
+    "kdp_title_exact": "The Stokknes Chaos Theory Compendium",
+    "author_public": "M. J. Stokknes",
+    "author_kdp": "Marius Johan Stokknes",
+    "collection": "Framework & Compendium",
+    "group": "standalone",
+    "language": "English",
+    "series": "",
+    "series_order": null,
+    "status": "Available",
+    "public_visibility": "full",
+    "type": "Framework & compendium",
+    "release": "Published",
+    "image": "assets/images/books/compendium.webp",
+    "short": "A mythic-analytical framework connecting cognition, systems, perception, identity, time, power, meaning, and collapse.",
+    "long": "The compendium gathers the structural foundation beneath the wider body of work: three unstable interfaces with reality, recursive interpretation and reinforcement, ten connected domains, and the maintenance cost hidden inside every stable arrangement.",
+    "strapline": "One world. Three unstable interfaces.",
+    "themes": [
+      "framework",
+      "perception",
+      "systems",
+      "identity",
+      "collapse"
+    ],
+    "featured": "framework",
+    "formats": {
+      "kindle": {
+        "status": "Live",
+        "price": "$4.99 USD",
+        "asin": "B0G6YBG2ST",
+        "submitted_or_modified": "2025-12-15",
+        "url": "https://www.amazon.com/dp/B0G6YBG2ST"
+      },
+      "paperback": {
+        "status": "Live",
+        "price": "$9.99 USD",
+        "asin": "B0G6Z2MX7W",
+        "submitted_or_modified": "2025-12-15",
+        "url": "https://www.amazon.com/dp/B0G6Z2MX7W"
+      },
+      "hardcover": {
+        "status": "Live",
+        "price": "$19.99 USD",
+        "asin": "B0G6ZD56KN",
+        "submitted_or_modified": "2025-12-15",
+        "url": "https://www.amazon.com/dp/B0G6ZD56KN"
+      }
+    },
+    "price": "$4.99 USD",
+    "buy": "https://www.amazon.com/dp/B0G6YBG2ST",
+    "review_copy": true,
+    "notes": "",
+    "related": [
+      "civilization-chaos-and-you",
+      "reality-chaos-and-you",
+      "framework.html"
+    ],
+    "original_slug": "",
+    "editorial": {
+      "paragraphs": [
+        "The Compendium is the structural document beneath the wider catalogue: a mythic-analytical framework connecting perception, interpretation, reinforcement, identity, power, information, time, meaning, and collapse.",
+        "It organizes the work around three unstable interfaces—observable reality, measurable reality, and constructed reality—and ten domains that repeatedly fail to remain separate. It is not presented as settled academic theory. It is a working instrument for examining recurring pressure patterns."
+      ],
+      "focus": [
+        [
+          "Three realities",
+          "The body encounters, systems quantify, and interpretation organizes overlapping versions of one world."
+        ],
+        [
+          "Recursive reinforcement",
+          "Perception becomes narrative; narrative becomes identity; the environment rewards the pattern."
+        ],
+        [
+          "Ten connected domains",
+          "Civilization, entropy, faith, power, identity, information, love, philosophy, time, and reality form one unstable architecture."
+        ]
+      ],
+      "audience": "For readers who want the full architecture behind the Chaos & You series, a reference map for the recurring concepts, and a framework that can be used without being mistaken for doctrine.",
+      "quote": "Stability is not granted by the world. It is extracted from the noise at great personal cost.",
+      "quote_source": "The Stokknes Chaos Theory Compendium"
+    }
+  },
+  {
+    "slug": "el-algoritmo-de-la-sumision",
+    "title": "El Algoritmo de la Sumisión",
+    "subtitle": "Un thriller escalofriante sobre un sistema que consume la voluntad humana.",
+    "display_title": "El Algoritmo de la Sumisión",
+    "kdp_title_exact": "El Algoritmo de la Sumisión",
+    "author_public": "M. J. Stokknes",
+    "author_kdp": "Marius Johan Stokknes",
+    "collection": "Spanish Editions",
+    "group": "standalone",
+    "language": "Spanish",
+    "series": "",
+    "series_order": null,
+    "status": "Available",
+    "public_visibility": "catalogue-only",
+    "type": "Ficción · Castellano",
+    "release": "Published",
+    "image": "assets/images/books/algorithm.webp",
+    "short": "Edición en castellano de The Algorithm of Submission.",
+    "long": "Una novela corta especulativa sobre inteligencia artificial, dependencia, control institucional y la forma en que la optimización puede convertirse en obediencia.",
+    "strapline": "",
+    "themes": [],
+    "featured": "",
+    "formats": {
+      "kindle": {
+        "status": "Live",
+        "price": "€2.79 EUR",
+        "asin": "B0DM85186Q",
+        "submitted_or_modified": "2024-11-07",
+        "url": "https://www.amazon.es/dp/B0DM85186Q"
+      },
+      "paperback": {
+        "status": "Live",
+        "price": "€12.95 EUR",
+        "asin": "B0DM9M4T5L",
+        "submitted_or_modified": "2024-11-07",
+        "url": "https://www.amazon.es/dp/B0DM9M4T5L"
+      },
+      "hardcover": {
+        "status": "Live",
+        "price": "€15.95 EUR",
+        "asin": "B0DM9GX67Y",
+        "submitted_or_modified": "2024-11-07",
+        "url": "https://www.amazon.es/dp/B0DM9GX67Y"
+      }
+    },
+    "price": "€2.79 EUR",
+    "buy": "https://www.amazon.es/dp/B0DM85186Q",
+    "review_copy": false,
+    "notes": "",
+    "related": [],
+    "original_slug": "the-algorithm-of-submission"
+  },
+  {
+    "slug": "la-planta-silenciosa",
+    "title": "La Planta Silenciosa",
+    "subtitle": "Las métricas del control.",
+    "display_title": "La Planta Silenciosa",
+    "kdp_title_exact": "La Planta Silenciosa",
+    "author_public": "M. J. Stokknes",
+    "author_kdp": "Marius Johan Stokknes",
+    "collection": "Spanish Editions",
+    "group": "standalone",
+    "language": "Spanish",
+    "series": "",
+    "series_order": null,
+    "status": "Available",
+    "public_visibility": "catalogue-only",
+    "type": "Ficción · Castellano",
+    "release": "Published",
+    "image": "",
+    "short": "Edición en castellano de The Quiet Floor.",
+    "long": "Maeva llega a Málaga para trabajar en Synapse Connect, donde cada gesto, pausa y reacción puede convertirse en una métrica de rendimiento.",
+    "strapline": "",
+    "themes": [],
+    "featured": "",
+    "formats": {
+      "kindle": {
+        "status": "Live",
+        "price": "€4.99 EUR",
+        "asin": "B0H5FP9CD2",
+        "submitted_or_modified": "2026-06-15",
+        "url": "https://www.amazon.es/dp/B0H5FP9CD2"
+      },
+      "paperback": {
+        "status": "Live",
+        "price": "$25.99 USD",
+        "asin": "B0H5FZ2VHW",
+        "submitted_or_modified": "2026-06-15",
+        "url": "https://www.amazon.com/dp/B0H5FZ2VHW"
+      },
+      "hardcover": {
+        "status": "Live",
+        "price": "€29.99 EUR",
+        "asin": "B0H5FQ7NMC",
+        "submitted_or_modified": "2026-06-15",
+        "url": "https://www.amazon.es/dp/B0H5FQ7NMC"
+      }
+    },
+    "price": "€4.99 EUR",
+    "buy": "https://www.amazon.es/dp/B0H5FP9CD2",
+    "review_copy": false,
+    "notes": "Paperback currency appears as USD in the supplied KDP data and should be verified.",
+    "related": [],
+    "original_slug": "the-quiet-floor"
+  },
+  {
+    "slug": "amor-caos-y-tu",
+    "title": "Amor, Caos y Tú",
+    "subtitle": "Este libro no salvará tu relación.",
+    "display_title": "Amor, Caos y Tú",
+    "kdp_title_exact": "Amor, Caos y Tú",
+    "author_public": "M. J. Stokknes",
+    "author_kdp": "Marius Johan Stokknes",
+    "collection": "Spanish Editions",
+    "group": "standalone",
+    "language": "Spanish",
+    "series": "",
+    "series_order": null,
+    "status": "Available",
+    "public_visibility": "catalogue-only",
+    "type": "No ficción · Castellano",
+    "release": "Published",
+    "image": "assets/images/books/love.webp",
+    "short": "Edición en castellano de Love, Chaos & You.",
+    "long": "Una exploración de la intimidad, la proyección, la soledad, la comparación y la lógica de mercado cuando entra en la vida afectiva.",
+    "strapline": "",
+    "themes": [],
+    "featured": "",
+    "formats": {
+      "kindle": {
+        "status": "Live",
+        "price": "€5.00 EUR",
+        "asin": "B0G1V63YD3",
+        "submitted_or_modified": "2025-11-11",
+        "url": "https://www.amazon.es/dp/B0G1V63YD3"
+      },
+      "paperback": {
+        "status": "Live",
+        "price": "€17.00 EUR",
+        "asin": "B0G1Y6B1G9",
+        "submitted_or_modified": "2025-11-12",
+        "url": "https://www.amazon.es/dp/B0G1Y6B1G9"
+      },
+      "hardcover": {
+        "status": "Live",
+        "price": "€30.00 EUR",
+        "asin": "B0G1Y2819T",
+        "submitted_or_modified": "2025-11-12",
+        "url": "https://www.amazon.es/dp/B0G1Y2819T"
+      }
+    },
+    "price": "€5.00 EUR",
+    "buy": "https://www.amazon.es/dp/B0G1V63YD3",
+    "review_copy": false,
+    "notes": "",
+    "related": [],
+    "original_slug": "love-chaos-and-you"
+  },
+  {
+    "slug": "poder-caos-y-tu",
+    "title": "Poder, Caos y Tú",
+    "subtitle": "Este libro no va a salvarte.",
+    "display_title": "Poder, Caos y Tú",
+    "kdp_title_exact": "Poder, Caos y Tú",
+    "author_public": "M. J. Stokknes",
+    "author_kdp": "Marius Johan Stokknes",
+    "collection": "Spanish Editions",
+    "group": "standalone",
+    "language": "Spanish",
+    "series": "",
+    "series_order": null,
+    "status": "Available",
+    "public_visibility": "catalogue-only",
+    "type": "No ficción · Castellano",
+    "release": "Published",
+    "image": "assets/images/books/power.webp",
+    "short": "Edición en castellano de Power, Chaos & You.",
+    "long": "Una exploración del poder invisible, la obediencia interiorizada, los algoritmos, el espectáculo y las estructuras que moldean la conducta.",
+    "strapline": "",
+    "themes": [],
+    "featured": "",
+    "formats": {
+      "kindle": {
+        "status": "Live",
+        "price": "€5.00 EUR",
+        "asin": "B0G1V6R19N",
+        "submitted_or_modified": "2025-11-11",
+        "url": "https://www.amazon.es/dp/B0G1V6R19N"
+      },
+      "paperback": {
+        "status": "Live",
+        "price": "€15.00 EUR",
+        "asin": "B0G1ZDZW8D",
+        "submitted_or_modified": "2025-11-12",
+        "url": "https://www.amazon.es/dp/B0G1ZDZW8D"
+      },
+      "hardcover": {
+        "status": "Live",
+        "price": "€25.00 EUR",
+        "asin": "B0G1ZDGWPS",
+        "submitted_or_modified": "2025-11-12",
+        "url": "https://www.amazon.es/dp/B0G1ZDGWPS"
+      }
+    },
+    "price": "€5.00 EUR",
+    "buy": "https://www.amazon.es/dp/B0G1V6R19N",
+    "review_copy": false,
+    "notes": "",
+    "related": [],
+    "original_slug": "power-chaos-and-you"
+  },
+  {
+    "slug": "la-mentira-de-que-alguien-lo-sabe",
+    "title": "La Mentira de Que Alguien Lo Sabe",
+    "subtitle": "Sobre conspiración, certeza y agotamiento",
+    "display_title": "La Mentira de Que Alguien Lo Sabe",
+    "kdp_title_exact": "LA MENTIRA DE QUE ALGUIEN LO SABE: Sobre conspiración, certeza y agotamiento",
+    "author_public": "M. J. Stokknes",
+    "author_kdp": "Marius Johan Stokknes",
+    "collection": "Spanish Editions",
+    "group": "standalone",
+    "language": "Spanish",
+    "series": "",
+    "series_order": null,
+    "status": "Partially available",
+    "public_visibility": "catalogue-only",
+    "type": "No ficción · Castellano",
+    "release": "Published",
+    "image": "assets/images/books/lie.webp",
+    "short": "Edición en castellano de The Lie That Someone Knows.",
+    "long": "Una anatomía de la conspiración, la certeza, la desconfianza y el momento en que el agotamiento empieza a parecer conocimiento.",
+    "strapline": "",
+    "themes": [],
+    "featured": "",
+    "formats": {
+      "kindle": {
+        "status": "Not created",
+        "price": "",
+        "asin": "",
+        "submitted_or_modified": "",
+        "url": ""
+      },
+      "paperback": {
+        "status": "Live",
+        "price": "€14.99 EUR",
+        "asin": "B0GYNGQCS4",
+        "submitted_or_modified": "2026-04-27",
+        "url": "https://www.amazon.es/dp/B0GYNGQCS4"
+      },
+      "hardcover": {
+        "status": "Not created",
+        "price": "",
+        "asin": "",
+        "submitted_or_modified": "",
+        "url": ""
+      }
+    },
+    "price": "€14.99 EUR",
+    "buy": "https://www.amazon.es/dp/B0GYNGQCS4",
+    "review_copy": false,
+    "notes": "",
+    "related": [],
+    "original_slug": "the-lie-that-someone-knows"
+  },
+  {
+    "slug": "compralo",
+    "title": "Cómpralo",
+    "subtitle": "Una Autopsia de la Conciencia",
+    "display_title": "Cómpralo",
+    "kdp_title_exact": "Cómpralo",
+    "author_public": "M. J. Stokknes",
+    "author_kdp": "Marius Johan Stokknes",
+    "collection": "Spanish Editions",
+    "group": "standalone",
+    "language": "Spanish",
+    "series": "",
+    "series_order": null,
+    "status": "Partially available",
+    "public_visibility": "catalogue-only",
+    "type": "No ficción · Castellano",
+    "release": "Published",
+    "image": "assets/images/books/buy-this-book.webp",
+    "short": "Edición en castellano de BUY THIS BOOK.",
+    "long": "Una confrontación filosófica con la conciencia, la identidad, el significado y el tiempo.",
+    "strapline": "",
+    "themes": [],
+    "featured": "",
+    "formats": {
+      "kindle": {
+        "status": "Not created",
+        "price": "",
+        "asin": "",
+        "submitted_or_modified": "",
+        "url": ""
+      },
+      "paperback": {
+        "status": "Live",
+        "price": "€7.99 EUR",
+        "asin": "B0GHJSC5G4",
+        "submitted_or_modified": "2026-01-18",
+        "url": "https://www.amazon.es/dp/B0GHJSC5G4"
+      },
+      "hardcover": {
+        "status": "Not created",
+        "price": "",
+        "asin": "",
+        "submitted_or_modified": "",
+        "url": ""
+      }
+    },
+    "price": "€7.99 EUR",
+    "buy": "https://www.amazon.es/dp/B0GHJSC5G4",
+    "review_copy": false,
+    "notes": "",
+    "related": [],
+    "original_slug": "buy-this-book"
+  },
+  {
+    "slug": "they-never-told-me-the-nodes-could-think",
+    "title": "They Never Told Me the Nodes Could Think",
+    "subtitle": "A Techno-Thriller Novella",
+    "display_title": "They Never Told Me the Nodes Could Think",
+    "kdp_title_exact": "They Never Told Me the Nodes Could Think",
+    "author_public": "M. J. Stokknes",
+    "author_kdp": "Marius Johan Stokknes",
+    "collection": "Private Draft",
+    "group": "standalone",
+    "language": "English",
+    "series": "",
+    "series_order": null,
+    "status": "Draft",
+    "public_visibility": "hidden",
+    "type": "Private draft",
+    "release": "Draft",
+    "image": "",
+    "short": "Private KDP draft.",
+    "long": "Private draft; not part of the public catalogue.",
+    "strapline": "",
+    "themes": [],
+    "featured": "",
+    "formats": {
+      "kindle": {
+        "status": "Draft",
+        "price": "",
+        "asin": "",
+        "submitted_or_modified": "Last modified 2025-06-13",
+        "url": ""
+      }
+    },
+    "price": "",
+    "buy": "",
+    "review_copy": false,
+    "notes": "",
+    "related": [],
+    "original_slug": ""
+  },
+  {
+    "slug": "sol-2543-lurking-shadows-of-the-belt",
+    "title": "Sol – 2543 – Lurking Shadows of the Belt",
+    "subtitle": "What Remains in the Silence Can Be More Dangerous Than What Was Lost.",
+    "display_title": "Sol – 2543 – Lurking Shadows of the Belt",
+    "kdp_title_exact": "Sol – 2543 – Lurking Shadows of the Belt",
+    "author_public": "M. J. Stokknes",
+    "author_kdp": "Marius Johan Stokknes",
+    "collection": "Private Draft",
+    "group": "standalone",
+    "language": "English",
+    "series": "",
+    "series_order": null,
+    "status": "Draft / series in review",
+    "public_visibility": "hidden",
+    "type": "Private draft",
+    "release": "Draft / series in review",
+    "image": "",
+    "short": "Private KDP draft.",
+    "long": "Private draft; not part of the public catalogue.",
+    "strapline": "",
+    "themes": [],
+    "featured": "",
+    "formats": {
+      "kindle": {
+        "status": "Draft",
+        "price": "$6.95 USD",
+        "asin": "",
+        "submitted_or_modified": "Last modified 2024-12-04",
+        "url": ""
+      },
+      "hardcover": {
+        "status": "Draft",
+        "price": "",
+        "asin": "",
+        "submitted_or_modified": "Last modified 2025-01-19",
+        "url": ""
+      }
+    },
+    "price": "",
+    "buy": "",
+    "review_copy": false,
+    "notes": "",
+    "related": [],
+    "original_slug": ""
+  },
+  {
+    "slug": "shackles-of-stillness",
+    "title": "Shackles of Stillness",
+    "subtitle": "In a World Where Stillness Reigns, the Loudest Voices Are Often the Ones Unheard.",
+    "display_title": "Shackles of Stillness",
+    "kdp_title_exact": "Shackles of Stillness",
+    "author_public": "M. J. Stokknes",
+    "author_kdp": "Marius Johan Stokknes",
+    "collection": "Private Draft",
+    "group": "standalone",
+    "language": "English",
+    "series": "",
+    "series_order": null,
+    "status": "Draft",
+    "public_visibility": "hidden",
+    "type": "Private draft",
+    "release": "Draft",
+    "image": "",
+    "short": "Private KDP draft.",
+    "long": "Private draft; not part of the public catalogue.",
+    "strapline": "",
+    "themes": [],
+    "featured": "",
+    "formats": {
+      "kindle": {
+        "status": "Draft",
+        "price": "",
+        "asin": "",
+        "submitted_or_modified": "Last modified 2024-10-16",
+        "url": ""
+      }
+    },
+    "price": "",
+    "buy": "",
+    "review_copy": false,
+    "notes": "",
+    "related": [],
+    "original_slug": ""
+  },
+  {
+    "slug": "digital-afterlife",
+    "title": "Digital Afterlife",
+    "subtitle": "",
+    "display_title": "Digital Afterlife",
+    "kdp_title_exact": "Digital Afterlife",
+    "author_public": "M. J. Stokknes",
+    "author_kdp": "Marius Johan Stokknes",
+    "collection": "Private Development",
+    "group": "standalone",
+    "language": "English",
+    "series": "",
+    "series_order": null,
+    "status": "Development status unconfirmed",
+    "public_visibility": "hidden",
+    "type": "Private project",
+    "release": "Development status unconfirmed",
+    "image": "",
+    "short": "Private project.",
+    "long": "Private project; public status has not been approved.",
+    "strapline": "",
+    "themes": [],
+    "featured": "",
+    "formats": {},
+    "price": "",
+    "buy": "",
+    "review_copy": false,
+    "notes": "",
+    "related": [],
+    "original_slug": ""
+  },
+  {
+    "slug": "gene-editing-future-shadow-splicing",
+    "title": "Gene Editing: Future Shadow Splicing",
+    "subtitle": "",
+    "display_title": "Gene Editing: Future Shadow Splicing",
+    "kdp_title_exact": "Gene Editing: Future Shadow Splicing",
+    "author_public": "M. J. Stokknes",
+    "author_kdp": "Marius Johan Stokknes",
+    "collection": "Private Development",
+    "group": "standalone",
+    "language": "English",
+    "series": "",
+    "series_order": null,
+    "status": "Development status unconfirmed",
+    "public_visibility": "hidden",
+    "type": "Private project",
+    "release": "Development status unconfirmed",
+    "image": "",
+    "short": "Private project.",
+    "long": "Private project; public status has not been approved.",
+    "strapline": "",
+    "themes": [],
+    "featured": "",
+    "formats": {},
+    "price": "",
+    "buy": "",
+    "review_copy": false,
+    "notes": "",
+    "related": [],
+    "original_slug": ""
+  }
+]

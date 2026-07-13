@@ -1,0 +1,23 @@
+{
+  "name": "M. J. Stokknes \u2014 Stokknes Publishing House",
+  "short_name": "Stokknes",
+  "description": "Independent books, noir fiction, essays, and notes from the edge.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#070806",
+  "theme_color": "#070806",
+  "icons": [
+    {
+      "src": "android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

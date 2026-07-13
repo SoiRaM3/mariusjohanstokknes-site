@@ -1,0 +1,37 @@
+{
+  "about": {
+    "title": "About Stokknes",
+    "kicker": "AUTHOR",
+    "intro": "M. J. Stokknes is a Norwegian author based in Andalucía, writing philosophy, speculative fiction, dystopia, and bureaucratic noir.",
+    "sections": [
+      [
+        "The work",
+        "The books examine power, information, identity, time, belief, intimacy, collapse, and the systems people learn to mistake for reality. The fiction places the same machinery inside rooms, workplaces, roads, buildings, debts, relationships, and people who still have to wake up the next morning."
+      ],
+      [
+        "The useful biography",
+        "The relevant biography is scattered throughout the work. Some of it has been disguised better than the rest."
+      ],
+      [
+        "The publishing house",
+        "The books are produced through Stokknes Publishing House, a private independent publishing operation built to manage the catalogue, editions, proofing, review copies, and public release work without turning the author into a lifestyle product."
+      ],
+      [
+        "Public identity",
+        "Professional references should use M. J. Stokknes or Stokknes. The legal name remains Marius Johan Stokknes where required."
+      ]
+    ],
+    "zorro": "Zorro is the dog in the homepage strip. He is not a mascot, a metaphor, or part of the sales funnel. He was simply there, which is more than can be said for several deadlines."
+  },
+  "notes": {
+    "title": "Notes from the Road",
+    "kicker": "IRREGULAR DISPATCHES",
+    "intro": "New books, unfinished work, field notes, and publication updates. No posting schedule worth pretending to maintain.",
+    "sections": []
+  },
+  "publishing_house": {
+    "title": "Stokknes Publishing House",
+    "kicker": "INDEPENDENT IMPRINT",
+    "intro": "The independent publishing operation behind the books, editions, review copies, press information, and public release work of M. J. Stokknes."
+  }
+}

@@ -1,0 +1,3 @@
+Author: M. J. Stokknes
+Site: Independent static publishing website
+Repository: https://github.com/SoiRaM3/mariusjohanstokknes-site

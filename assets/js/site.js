@@ -1,0 +1,28 @@
+(function(){
+  "use strict";
+  var navButton=document.querySelector('[data-menu-button]'),nav=document.querySelector('[data-primary-nav]');
+  if(navButton&&nav){navButton.addEventListener('click',function(){var open=nav.classList.toggle('open');navButton.setAttribute('aria-expanded',String(open));});}
+  var searchButton=document.querySelector('[data-search-button]'),searchPanel=document.querySelector('[data-search-panel]'),searchInput=document.querySelector('[data-search-input]'),searchResults=document.querySelector('[data-search-results]'),searchData=Array.isArray(window.STOKKNES_SEARCH)?window.STOKKNES_SEARCH:[];
+  function esc(v){return String(v||'').replace(/[&<>"']/g,function(c){return({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'})[c];});}
+  function renderSearch(query){if(!searchResults)return;var q=query.trim().toLowerCase();if(!q){searchResults.innerHTML='';return;}var matches=searchData.filter(function(item){return [item.title,item.text,item.type].join(' ').toLowerCase().indexOf(q)>-1;}).slice(0,10);searchResults.innerHTML=matches.length?matches.map(function(item){return '<a class="search-result" href="'+esc(item.url)+'"><strong>'+esc(item.title)+'</strong><span>'+esc(item.type)+' · '+esc(item.text)+'</span></a>';}).join(''):'<div class="notice">No matching page or book.</div>';}
+  if(searchButton&&searchPanel){searchButton.addEventListener('click',function(){var open=searchPanel.classList.toggle('open');searchButton.setAttribute('aria-expanded',String(open));if(open)setTimeout(function(){if(searchInput)searchInput.focus();},30);});}
+  if(searchInput)searchInput.addEventListener('input',function(e){renderSearch(e.target.value);});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'){if(searchPanel)searchPanel.classList.remove('open');if(searchButton)searchButton.setAttribute('aria-expanded','false');if(nav)nav.classList.remove('open');}});
+  function applyBookFilter(value){var button=document.querySelector('[data-filter="'+value+'"]');if(!button)value='all';document.querySelectorAll('[data-filter]').forEach(function(x){x.classList.toggle('active',x.getAttribute('data-filter')===value);});document.querySelectorAll('[data-book-card]').forEach(function(card){card.hidden=value!=='all'&&card.getAttribute('data-group')!==value;});}
+  document.querySelectorAll('[data-filter]').forEach(function(button){button.addEventListener('click',function(){var value=button.getAttribute('data-filter');applyBookFilter(value);if(history.replaceState)history.replaceState(null,'','#'+value);});});
+  if(document.querySelector('[data-book-card]')){var initial=(location.hash||'').replace('#','');applyBookFilter(['chaos','standalone','fiction'].indexOf(initial)>-1?initial:'all');}
+  function email(){var c=window.STOKKNES_CONTACT||{};return (c.user||'')+'@'+(c.domain||'');}
+  function copy(value,note){if(navigator.clipboard&&location.protocol!=='file:'){navigator.clipboard.writeText(value).then(function(){if(note)note.textContent='Copied.';});}else{var t=document.createElement('textarea');t.value=value;document.body.appendChild(t);t.select();document.execCommand('copy');t.remove();if(note)note.textContent='Copied.';}}
+
+  document.querySelectorAll('[data-email-link]').forEach(function(link){
+    link.addEventListener('click',function(event){
+      event.preventDefault();
+      var subject=link.getAttribute('data-email-subject')||'Website enquiry';
+      location.href='mailto:'+email()+'?subject='+encodeURIComponent(subject);
+    });
+  });
+  document.querySelectorAll('[data-copy-email]').forEach(function(button){button.addEventListener('click',function(){copy(email(),button.closest('form')&&button.closest('form').querySelector('[data-mail-note]'));});});
+  document.querySelectorAll('[data-mail-form]').forEach(function(form){form.addEventListener('submit',function(e){e.preventDefault();if(!form.reportValidity())return;var data=new FormData(form),kind=form.getAttribute('data-mail-kind')||'Website enquiry',name=data.get('name')||'',subject=kind+(name?' — '+name:'');var lines=[];data.forEach(function(value,key){if(key==='terms')value='Accepted';lines.push(key.replace(/(^|_)([a-z])/g,function(_,a,b){return (a?' ':'')+b.toUpperCase();})+': '+value);});lines.push('','Sent from '+location.href);location.href='mailto:'+email()+'?subject='+encodeURIComponent(subject)+'&body='+encodeURIComponent(lines.join('\n'));var note=form.querySelector('[data-mail-note]');if(note)note.textContent='Your email application should open with the message prepared. If it does not, use Copy email address.';});});
+  document.querySelectorAll('[data-copy-text]').forEach(function(button){button.addEventListener('click',function(){copy(button.getAttribute('data-copy-text'),button);var original=button.textContent;button.textContent='Copied';setTimeout(function(){button.textContent=original;},1400);});});
+  var header=document.querySelector('[data-site-header]');if(header){var last=0;window.addEventListener('scroll',function(){var y=window.scrollY||0;header.classList.toggle('scrolled',y>30);header.classList.toggle('hide',y>last&&y>180);last=y;},{passive:true});}
+})();
