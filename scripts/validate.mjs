@@ -45,8 +45,9 @@ async function exists(path) {
 
 function hasNamedMeta(text, name) {
   const tags = text.match(/<meta\b[^>]*>/gi) ?? [];
+  const escapedName = name.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
   const namePattern = new RegExp(
-    String.raw`\bname\s*=\s*["']${name.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}["']`,
+    String.raw`\bname\s*=\s*["']${escapedName}["']`,
     "i",
   );
   return tags.some((tag) => namePattern.test(tag));
@@ -70,6 +71,7 @@ try {
 }
 
 const slugs = new Set();
+
 for (const book of books) {
   if (!book?.slug) {
     errors.push("Book record missing slug");
@@ -81,9 +83,19 @@ for (const book of books) {
   }
   slugs.add(book.slug);
 
-  const page = resolve(root, `book-${book.slug}.html`);
-  if (!(await exists(page))) {
-    errors.push(`Missing book-${book.slug}.html`);
+  // Only public English records are supposed to have individual pages.
+  // Spanish catalogue entries, hidden drafts, and internal records may remain
+  // in books.json without a standalone public HTML page.
+  const language = String(book.language ?? "");
+  const visibility = String(book.public_visibility ?? "");
+  const requiresPage =
+    language === "English" && ["full", "teaser"].includes(visibility);
+
+  if (requiresPage) {
+    const page = resolve(root, `book-${book.slug}.html`);
+    if (!(await exists(page))) {
+      errors.push(`Missing public English page: book-${book.slug}.html`);
+    }
   }
 }
 
@@ -101,11 +113,6 @@ for (const file of html) {
     errors.push(`${file}: missing title`);
   }
 
-  // Attribute order is irrelevant in valid HTML. These checks deliberately
-  // accept both:
-  //   <meta name="description" content="...">
-  // and:
-  //   <meta content="..." name="description">
   if (!hasNamedMeta(text, "description")) {
     errors.push(`${file}: missing meta description`);
   }
@@ -188,5 +195,5 @@ if (errors.length) {
 }
 
 console.log(
-  `Validated ${html.length} HTML pages, ${books.length} books, brand assets, metadata, and local references.`,
+  `Validated ${html.length} HTML pages, ${books.length} catalogue records, metadata, assets, and local references.`,
 );
