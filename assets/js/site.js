@@ -3,6 +3,7 @@
   var navButton=document.querySelector('[data-menu-button]'),nav=document.querySelector('[data-primary-nav]');
   if(navButton&&nav){navButton.addEventListener('click',function(){var open=nav.classList.toggle('open');navButton.setAttribute('aria-expanded',String(open));});}
   var searchButton=document.querySelector('[data-search-button]'),searchPanel=document.querySelector('[data-search-panel]'),searchInput=document.querySelector('[data-search-input]'),searchResults=document.querySelector('[data-search-results]'),searchData=Array.isArray(window.STOKKNES_SEARCH)?window.STOKKNES_SEARCH:[];
+  if(!searchData.some(function(item){return item&&item.url==='rights.html';}))searchData.push({title:'Rights & Editions',url:'rights.html',text:'Translation, territory, audio, adaptation, extracts, bookstores, libraries, and professional licensing.',type:'Page'});
   function esc(v){return String(v||'').replace(/[&<>"']/g,function(c){return({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'})[c];});}
   function renderSearch(query){if(!searchResults)return;var q=query.trim().toLowerCase();if(!q){searchResults.innerHTML='';return;}var matches=searchData.filter(function(item){return [item.title,item.text,item.type].join(' ').toLowerCase().indexOf(q)>-1;}).slice(0,10);searchResults.innerHTML=matches.length?matches.map(function(item){return '<a class="search-result" href="'+esc(item.url)+'"><strong>'+esc(item.title)+'</strong><span>'+esc(item.type)+' · '+esc(item.text)+'</span></a>';}).join(''):'<div class="notice">No matching page or book.</div>';}
   if(searchButton&&searchPanel){searchButton.addEventListener('click',function(){var open=searchPanel.classList.toggle('open');searchButton.setAttribute('aria-expanded',String(open));if(open)setTimeout(function(){if(searchInput)searchInput.focus();},30);});}
@@ -18,11 +19,14 @@
     link.addEventListener('click',function(event){
       event.preventDefault();
       var subject=link.getAttribute('data-email-subject')||'Website enquiry';
-      location.href='mailto:'+email()+'?subject='+encodeURIComponent(subject);
+      var body=link.getAttribute('data-email-body')||'';
+      location.href='mailto:'+email()+'?subject='+encodeURIComponent(subject)+(body?'&body='+encodeURIComponent(body):'');
     });
   });
   document.querySelectorAll('[data-copy-email]').forEach(function(button){button.addEventListener('click',function(){copy(email(),button.closest('form')&&button.closest('form').querySelector('[data-mail-note]'));});});
   document.querySelectorAll('[data-mail-form]').forEach(function(form){form.addEventListener('submit',function(e){e.preventDefault();if(!form.reportValidity())return;var data=new FormData(form),kind=form.getAttribute('data-mail-kind')||'Website enquiry',name=data.get('name')||'',subject=kind+(name?' — '+name:'');var lines=[];data.forEach(function(value,key){if(key==='terms')value='Accepted';lines.push(key.replace(/(^|_)([a-z])/g,function(_,a,b){return (a?' ':'')+b.toUpperCase();})+': '+value);});lines.push('','Sent from '+location.href);location.href='mailto:'+email()+'?subject='+encodeURIComponent(subject)+'&body='+encodeURIComponent(lines.join('\n'));var note=form.querySelector('[data-mail-note]');if(note)note.textContent='Your email application should open with the message prepared. If it does not, use Copy email address.';});});
   document.querySelectorAll('[data-copy-text]').forEach(function(button){button.addEventListener('click',function(){copy(button.getAttribute('data-copy-text'),button);var original=button.textContent;button.textContent='Copied';setTimeout(function(){button.textContent=original;},1400);});});
+
+  document.querySelectorAll('.footer-links').forEach(function(footer){if(!footer.querySelector('a[href="rights.html"]')){var press=footer.querySelector('a[href="press.html"]'),a=document.createElement('a');a.href='rights.html';a.textContent='Rights';if(press&&press.nextSibling)footer.insertBefore(a,press.nextSibling);else footer.appendChild(a);}});
   var header=document.querySelector('[data-site-header]');if(header){var last=0;window.addEventListener('scroll',function(){var y=window.scrollY||0;header.classList.toggle('scrolled',y>30);header.classList.toggle('hide',y>last&&y>180);last=y;},{passive:true});}
 })();

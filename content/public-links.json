@@ -12,13 +12,13 @@
       "type": "website"
     },
     {
-      "name": "Amazon Author Page",
-      "url": "https://www.amazon.com/author/stokknes",
+      "name": "Amazon Author Store",
+      "url": "https://www.amazon.com/stores/Marius-Johan-Stokknes/author/B0DKDYJ7RF",
       "type": "author-profile"
     },
     {
       "name": "Goodreads Author Page",
-      "url": "https://www.goodreads.com/author/show/52486157.Marius_Johan_Stokknes",
+      "url": "https://www.goodreads.com/stokknes",
       "type": "author-profile"
     },
     {
@@ -39,24 +39,24 @@
   ],
   "retailers": [
     {
-      "name": "Chaos Series on Amazon",
-      "url": "https://www.amazon.com/dp/B0FT5139MZ",
-      "market": "international"
-    },
-    {
-      "name": "ThriftBooks",
-      "url": "https://www.thriftbooks.com/a/marius-johan-stokknes/12281744/",
-      "market": "international"
+      "name": "Amazon Author Store",
+      "url": "https://www.amazon.com/stores/Marius-Johan-Stokknes/author/B0DKDYJ7RF",
+      "market": "global"
     },
     {
       "name": "Bookshop.org",
-      "url": "https://bookshop.org/beta-search?keywords=Marius+Johan+Stokknes",
-      "market": "international"
+      "url": "https://bookshop.org/search?keywords=Marius+Johan+Stokknes",
+      "market": "US / independent"
     },
     {
-      "name": "AbeBooks",
-      "url": "https://www.abebooks.com/author/b0dkdyj7rf/marius-johan-stokknes?ref_=nav_crb_srp",
-      "market": "international"
+      "name": "ThriftBooks",
+      "url": "https://www.thriftbooks.com/browse/?b.search=Stokknes%2C+Marius+Johan",
+      "market": "US / international"
+    },
+    {
+      "name": "Books-A-Million",
+      "url": "https://www.booksamillion.com/search2?filters%5Bauthors%5D=Marius+Johan+Stokknes&query=Marius+Johan+Stokknes",
+      "market": "US"
     },
     {
       "name": "Waterstones",
@@ -64,14 +64,34 @@
       "market": "UK"
     },
     {
-      "name": "Books-A-Million",
-      "url": "https://www.booksamillion.com/search?query=Marius+Johan+Stokknes&filters[authors]=Marius+Johan+Stokknes",
-      "market": "US"
+      "name": "Hatchards",
+      "url": "https://www.hatchards.co.uk/author/8970936/marius-johan-stokknes",
+      "market": "UK"
     },
     {
       "name": "Akademika",
       "url": "https://www.akademika.no/en/product/person/Stokknes%2C%20Marius%20Johan",
       "market": "Nordic"
+    },
+    {
+      "name": "bol.com",
+      "url": "https://www.bol.com/nl/nl/s/?searchtext=Marius+Johan+Stokknes",
+      "market": "Benelux"
+    },
+    {
+      "name": "AbeBooks",
+      "url": "https://www.abebooks.com/servlet/SearchResults?an=Marius+Johan+Stokknes",
+      "market": "international"
+    },
+    {
+      "name": "IberLibro",
+      "url": "https://www.iberlibro.com/servlet/SearchResults?an=Marius+Johan+Stokknes",
+      "market": "Spanish-language"
+    },
+    {
+      "name": "Google Books",
+      "url": "https://books.google.com/books?q=inauthor:%22Marius+Johan+Stokknes%22",
+      "market": "bibliographic"
     }
   ]
 }

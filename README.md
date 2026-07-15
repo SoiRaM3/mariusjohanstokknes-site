@@ -1,4 +1,4 @@
-# M. J. Stokknes Website Platform v4.3
+# M. J. Stokknes Website Platform v5.0
 
 Public source for **mariusjohanstokknes.com**.
 
@@ -31,3 +31,9 @@ The Author Machine controls the local Git repository under:
 ```text
 06_WEBSITE_PLATFORM\mj-stokknes-platform-v3
 ```
+
+
+Current editorial patch: **v5.0 Final Public Polish**.
+
+
+Version: v5.0 Final Public Polish
