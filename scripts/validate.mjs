@@ -6,7 +6,7 @@ const root = resolve(import.meta.dirname, "..");
 const required = [
   "index.html","books.html","publishing-house.html","fiction.html","framework.html",
   "fragments.html","notes.html","about.html","contact.html","review-copies.html",
-  "press.html","privacy.html","404.html","CNAME","sitemap.xml","robots.txt",
+  "press.html","privacy.html","ai-editorial-policy.html","legal.html","cookies.html","corrections.html","404.html","CNAME","sitemap.xml","robots.txt",
   "assets/css/site.css","assets/js/site.js",
   "assets/brand/publishing-house-banner.webp",
   "assets/brand/publishing-house-banner-mobile.webp",
@@ -71,8 +71,18 @@ if (!(await readFile(resolve(root, "sitemap.xml"), "utf8")).includes("publishing
   errors.push("sitemap.xml: publishing-house.html missing");
 }
 
+for (const file of html) {
+  const text = await readFile(resolve(root, file), "utf8");
+  for (const policy of ["ai-editorial-policy.html","legal.html","privacy.html","cookies.html","corrections.html"]) {
+    if (!text.includes(policy)) errors.push(`${file}: policy footer missing ${policy}`);
+  }
+  if (file.startsWith("book-") && (!text.includes("publication-record-section") || !text.includes("mariusjohanstokknes.com"))) {
+    errors.push(`${file}: official publication record missing`);
+  }
+}
+
 if (errors.length) {
   console.error([...new Set(errors)].join("\n"));
   process.exit(1);
 }
-console.log(`Validated ${html.length} HTML pages, ${books.length} books, brand assets, metadata, and local references.`);
+console.log(`Validated ${html.length} HTML pages, ${books.length} books, brand assets, metadata, policy pages, publication records, and local references.`);

@@ -1,4 +1,4 @@
-# M. J. Stokknes Website Platform v5.0
+# M. J. Stokknes Website Platform v5.1
 
 Public source for **mariusjohanstokknes.com**.
 
@@ -33,7 +33,12 @@ The Author Machine controls the local Git repository under:
 ```
 
 
-Current editorial patch: **v5.0 Final Public Polish**.
+Current editorial patch: **v5.1 Policy & Publishing Standards**.
 
 
-Version: v5.0 Final Public Polish
+Version: v5.1 Policy & Publishing Standards
+
+
+## Policy and publishing standards
+
+The public site now includes canonical AI/editorial, legal, privacy, cookie, and corrections pages. Every book page contains an official publication record and homepage route. The old v4 HTML generator is preserved as `scripts/build_legacy_v4.py`. The normal `scripts/build.py` is now a compatibility guard so an old validation launcher cannot silently rebuild the finished v5 site from an obsolete generator.

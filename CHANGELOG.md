@@ -1,5 +1,16 @@
 # Changelog
 
+## v5.1 — Policy & Publishing Standards
+
+- Added a full AI & Editorial Policy built around critical use and human responsibility.
+- Added Legal Notice & Terms of Use, expanded Privacy, a current-state Cookie Policy, and Corrections & Errata.
+- Added policy links to every public footer and site search.
+- Added a homepage editorial-standard block.
+- Added an official website, policy, and corrections record to every book page.
+- Added machine-readable validation requirements for policy pages and book records.
+- Added a canonical local publishing-standards library and reusable book templates through the installer package.
+- Preserved the v5.0 Final Public Polish design, press, retailer, rights, imagery, and catalogue work.
+
 ## v5.0 — Final Public Polish
 
 - Reordered the homepage so published books, catalogue routes, and the imprint appear before works in development.

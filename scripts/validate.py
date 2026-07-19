@@ -8,7 +8,8 @@ ROOT = Path(__file__).resolve().parents[1]
 required = [
     "index.html","books.html","fiction.html","fragments.html","framework.html",
     "notes.html","about.html","contact.html","start-here.html","privacy.html",
-    "favicon.ico","site.webmanifest","CNAME","assets/css/site.css","assets/js/site.js"
+    "favicon.ico","site.webmanifest","CNAME","assets/css/site.css","assets/js/site.js",
+    "ai-editorial-policy.html","legal.html","cookies.html","corrections.html"
 ]
 
 errors = []
@@ -50,8 +51,20 @@ try:
 except Exception as exc:
     errors.append(f"Invalid books.json: {exc}")
 
+# v5.1 policy-layer checks
+for page in ROOT.glob("*.html"):
+    text = page.read_text(encoding="utf-8", errors="replace")
+    for required_link in ("ai-editorial-policy.html", "legal.html", "privacy.html", "cookies.html", "corrections.html"):
+        if required_link not in text:
+            errors.append(f"{page.name}: Policy footer missing {required_link}")
+for page in ROOT.glob("book-*.html"):
+    text = page.read_text(encoding="utf-8", errors="replace")
+    if "publication-record-section" not in text or "mariusjohanstokknes.com" not in text:
+        errors.append(f"{page.name}: official publication record missing")
+
+
 if errors:
-    print("\n".join(f"ERROR: {item}" for item in errors))
+    print("\n".join(f"ERROR: {item}" for item in sorted(set(errors))))
     sys.exit(1)
 
-print("Site validation passed.")
+print("Site validation passed, including v5.1 policy and publication records.")
